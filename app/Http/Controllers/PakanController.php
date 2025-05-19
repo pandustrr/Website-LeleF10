@@ -20,9 +20,8 @@ class PakanController extends Controller
         $request->validate([
             'tanggal' => 'required|date',
             'kuantitas' => 'required|integer|min:1',
-            'tipe' => 'required|string|max:255',
+            'tipe' => 'required|string|in:' . implode(',', array_keys(Pakan::HARGA_PAKAN)),
             'siklus_id' => 'required|exists:siklus,id'
-
         ]);
 
         Pakan::create($request->all());
@@ -30,6 +29,7 @@ class PakanController extends Controller
         return redirect()->route('produksi', ['siklus_id' => $request->siklus_id])
             ->with('success', 'Data pakan berhasil disimpan!');
     }
+
 
     // Hapus data
     public function destroy($id)
@@ -54,7 +54,8 @@ class PakanController extends Controller
         $request->validate([
             'tanggal' => 'required|date',
             'kuantitas' => 'required|integer|min:1',
-            'tipe' => 'required|string|in:premium,standar',
+            'tipe' => 'required|string|in:' . implode(',', array_keys(Pakan::HARGA_PAKAN)),
+            'siklus_id' => 'required|exists:siklus,id'
         ]);
 
         $pakan = Pakan::findOrFail($id);
@@ -64,11 +65,11 @@ class PakanController extends Controller
             return response()->json([
                 'success' => true,
                 'message' => 'Data pakan berhasil diperbarui',
-                'redirect' => route('produksi')
+                'redirect' => route('produksi', ['siklus_id' => $request->siklus_id])
             ]);
         }
 
-        return redirect()->route('produksi')
+        return redirect()->route('produksi', ['siklus_id' => $request->siklus_id])
             ->with('success', 'Data pakan berhasil diperbarui!');
     }
 }

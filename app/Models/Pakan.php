@@ -11,4 +11,28 @@ class Pakan extends Model
 
     protected $fillable = ['tanggal', 'kuantitas', 'tipe', 'siklus_id'];
     protected $dates = ['tanggal'];
+
+    // Daftar harga tetap per tipe pakan (dalam rupiah per kg)
+    public const HARGA_PAKAN = [
+        'Pakan Standar' => 15000,
+        'Pakan Premium' => 18000,
+    ];
+
+    // Relasi ke siklus
+    public function siklus()
+    {
+        return $this->belongsTo(Siklus::class);
+    }
+
+    // Accessor untuk menghitung total harga
+    public function getTotalHargaAttribute()
+    {
+        return $this->kuantitas * self::HARGA_PAKAN[$this->tipe];
+    }
+
+    // Accessor untuk mendapatkan harga satuan
+    public function getHargaSatuanAttribute()
+    {
+        return self::HARGA_PAKAN[$this->tipe];
+    }
 }

@@ -20,7 +20,7 @@ class BibitController extends Controller
         $request->validate([
             'tanggal' => 'required|date',
             'kuantitas' => 'required|integer|min:1',
-            'type' => 'required|string|max:255',
+            'type' => 'required|string|in:' . implode(',', array_keys(Bibit::HARGA_BIBIT)),
             'siklus_id' => 'required|exists:siklus,id'
         ]);
 
@@ -29,6 +29,7 @@ class BibitController extends Controller
         return redirect()->route('produksi', ['siklus_id' => $request->siklus_id])
             ->with('success', 'Data bibit berhasil disimpan!');
     }
+
 
     // Hapus data
     public function destroy($id)
@@ -54,7 +55,8 @@ class BibitController extends Controller
         $request->validate([
             'tanggal' => 'required|date',
             'kuantitas' => 'required|integer|min:1',
-            'type' => 'required|string|in:Bibit Premium,Bibit Standar',
+            'type' => 'required|string|in:' . implode(',', array_keys(Bibit::HARGA_BIBIT)),
+            'siklus_id' => 'required|exists:siklus,id'
         ]);
 
         $bibit = Bibit::findOrFail($id);
@@ -64,11 +66,11 @@ class BibitController extends Controller
             return response()->json([
                 'success' => true,
                 'message' => 'Data bibit berhasil diperbarui',
-                'redirect' => route('produksi')
+                'redirect' => route('produksi', ['siklus_id' => $request->siklus_id])
             ]);
         }
 
-        return redirect()->route('produksi')
+        return redirect()->route('produksi', ['siklus_id' => $request->siklus_id])
             ->with('success', 'Data bibit berhasil diperbarui!');
     }
 }

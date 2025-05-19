@@ -9,13 +9,30 @@ class Bibit extends Model
 {
     use HasFactory;
 
-    // Tambahkan kolom harga dan total ke fillable
-    protected $fillable = [
-        'tanggal',
-        'kuantitas',
-        'type',
-        'siklus_id'
+    protected $fillable = ['tanggal', 'kuantitas', 'type', 'siklus_id'];
+    protected $dates = ['tanggal'];
+
+    // Daftar harga tetap per tipe bibit (dalam rupiah per kg)
+    public const HARGA_BIBIT = [
+        'Bibit Standar' => 43000,
+        'Bibit Premium' => 65000,
     ];
 
-    protected $dates = ['tanggal'];
+    // Relasi ke siklus
+    public function siklus()
+    {
+        return $this->belongsTo(Siklus::class);
+    }
+
+    // Accessor untuk menghitung total harga
+    public function getTotalHargaAttribute()
+    {
+        return $this->kuantitas * self::HARGA_BIBIT[$this->type];
+    }
+
+    // Accessor untuk mendapatkan harga satuan
+    public function getHargaSatuanAttribute()
+    {
+        return self::HARGA_BIBIT[$this->type];
+    }
 }
