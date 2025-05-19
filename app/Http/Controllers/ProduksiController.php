@@ -13,30 +13,65 @@ class ProduksiController extends Controller
     public function index(Request $request)
     {
         // Ambil semua siklus untuk dropdown
-        $siklusList = Siklus::orderBy('created_at', 'desc')->get();
+        $semuaSiklus = Siklus::orderBy('created_at', 'desc')->get();
 
-        // Ambil siklus aktif dari request atau default ke yang terbaru
-        $siklusAktif = $request->siklus_id
-            ? Siklus::find($request->siklus_id)
-            : $siklusList->first();
+        // Tentukan siklus aktif
+        $siklusAktif = $this->tentukanSiklusAktif($request, $semuaSiklus);
 
-        // Jika tidak ada siklus sama sekali, buat default
-        if (!$siklusAktif && $siklusList->isEmpty()) {
-            $siklusAktif = Siklus::create(['nama_siklus' => 'Siklus 1']);
-            $siklusList = Siklus::all();
+        // Ambil data produksi berdasarkan siklus aktif
+        $dataProduksi = $this->ambilDataProduksi($siklusAktif);
+
+        return view('produksi', array_merge([
+            'semuaSiklus' => $semuaSiklus,
+            'siklusAktif' => $siklusAktif
+        ], $dataProduksi));
+    }
+
+    protected function tentukanSiklusAktif(Request $request, $semuaSiklus)
+    {
+        // Prioritas 1: Parameter request siklus_id
+        if ($request->has('siklus_id')) {
+            $siklus = Siklus::find($request->siklus_id);
+            if ($siklus) {
+                $request->session()->put('siklus_aktif', $siklus->id);
+                return $siklus;
+            }
         }
 
-        // Ambil data berdasarkan siklus aktif
-        $dataBibit = $siklusAktif ? $siklusAktif->bibits()->latest()->get() : collect();
-        $dataPakan = $siklusAktif ? $siklusAktif->pakans()->latest()->get() : collect();
-        $dataPanen = $siklusAktif ? $siklusAktif->panens()->latest()->get() : collect();
+        // Prioritas 2: Session siklus_aktif
+        if ($request->session()->has('siklus_aktif')) {
+            $siklus = Siklus::find($request->session()->get('siklus_aktif'));
+            if ($siklus) {
+                return $siklus;
+            }
+        }
 
-        return view('produksi', [
-            'dataBibit' => $dataBibit,
-            'dataPakan' => $dataPakan,
-            'dataPanen' => $dataPanen,
-            'siklusList' => $siklusList,
-            'siklusAktif' => $siklusAktif
-        ]);
+        // Prioritas 3: Siklus terbaru
+        $siklusTerbaru = $semuaSiklus->first();
+
+        // Jika tidak ada siklus sama sekali, buat default
+        if (!$siklusTerbaru) {
+            $siklusTerbaru = Siklus::create(['nama_siklus' => 'Siklus 1']);
+            $request->session()->put('siklus_aktif', $siklusTerbaru->id);
+        }
+
+        return $siklusTerbaru;
+    }
+
+    protected function ambilDataProduksi($siklusAktif)
+    {
+        if (!$siklusAktif) {
+            return [
+                'dataBibit' => collect(),
+                'dataPakan' => collect(),
+                'dataPanen' => collect()
+            ];
+        }
+
+        return [
+            'dataBibit' => $siklusAktif->bibits()->latest()->get(),
+            'dataPakan' => $siklusAktif->pakans()->latest()->get(),
+            'dataPanen' => $siklusAktif->panens()->latest()->get()
+        ];
     }
 }

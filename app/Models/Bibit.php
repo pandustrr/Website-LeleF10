@@ -9,6 +9,13 @@ class Bibit extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['tanggal', 'kuantitas', 'type', 'siklus_id'];
+    // Tambahkan kolom harga dan total ke fillable
+    protected $fillable = [
+        'tanggal',
+        'kuantitas',
+        'type',
+        'siklus_id'
+    ];
+
     protected $dates = ['tanggal'];
 }

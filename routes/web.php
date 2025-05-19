@@ -13,6 +13,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
 // Rute Produksi
 Route::get('/produksi', [ProduksiController::class, 'index'])->name('produksi');
 
@@ -31,10 +32,10 @@ Route::delete('/pakan/{id}', [PakanController::class, 'destroy'])->name('pakan.d
 // Rute Panen
 Route::post('/panen/store', [PanenController::class, 'store'])->name('panen.store');
 Route::get('/panen/{id}/edit', [PanenController::class, 'edit'])->name('panen.edit');
-    Route::put('/panen/{id}', [PanenController::class, 'update'])->name('panen.update');
+Route::put('/panen/{id}', [PanenController::class, 'update'])->name('panen.update');
 Route::delete('/panen/{id}', [PanenController::class, 'destroy'])->name('panen.destroy');
 
 // Rute Siklus
 Route::post('/siklus', [SiklusController::class, 'store'])->name('siklus.store');
-Route::delete('/siklus/{id}', [SiklusController::class, 'destroy'])->name('siklus.destroy');
-
+Route::put('/siklus/{siklus}', [SiklusController::class, 'update'])->name('siklus.update');
+Route::delete('/siklus/{siklus}', [SiklusController::class, 'destroy'])->name('siklus.destroy');
