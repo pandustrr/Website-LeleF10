@@ -39,7 +39,7 @@
                             class="flex items-center w-full p-2 ps-11 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 {{ request()->is('produksi*') ? 'bg-gray-100 font-medium' : '' }}">Produksi</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="{{ route('keuangan') }}"
                             class="flex items-center w-full p-2 ps-11 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 {{ request()->is('keuangan') ? 'bg-gray-100 font-medium' : '' }}">Keuangan</a>
                     </li>
                 </ul>

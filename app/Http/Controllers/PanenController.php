@@ -68,4 +68,18 @@ class PanenController extends Controller
         return redirect()->route('produksi')
             ->with('success', 'Data panen berhasil diperbarui');
     }
+
+public function simulasi(Request $request)
+{
+    $request->validate([
+        'harga_jual' => 'required|numeric|min:1000',
+        'siklus_id' => 'required|exists:siklus,id'
+    ]);
+
+    $panen = Panen::where('siklus_id', $request->siklus_id)->firstOrFail();
+    $panen->update(['harga_jual' => $request->harga_jual]);
+
+    return redirect()->route('keuangan', ['siklus_id' => $request->siklus_id])
+        ->with('success', 'Harga jual panen berhasil disimpan!');
+}
 }

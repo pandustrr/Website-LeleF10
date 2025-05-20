@@ -7,6 +7,7 @@ use App\Http\Controllers\BibitController;
 use App\Http\Controllers\PakanController;
 use App\Http\Controllers\PanenController;
 use App\Http\Controllers\SiklusController;
+use App\Http\Controllers\KeuanganController;
 
 Route::get('/', function () {
     return view('dashboard');
@@ -14,28 +15,47 @@ Route::get('/', function () {
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
-// Rute Produksi
+// Production Routes
 Route::get('/produksi', [ProduksiController::class, 'index'])->name('produksi');
 
-// Rute Bibit
-Route::post('/bibit/store', [BibitController::class, 'store'])->name('bibit.store');
-Route::get('/bibit/{id}/edit', [BibitController::class, 'edit'])->name('bibit.edit');
-Route::put('/bibit/{id}', [BibitController::class, 'update'])->name('bibit.update');
-Route::delete('/bibit/{id}', [BibitController::class, 'destroy'])->name('bibit.destroy');
+// Bibit Routes
+Route::prefix('bibit')->group(function () {
+    Route::post('/store', [BibitController::class, 'store'])->name('bibit.store');
+    Route::get('/{id}/edit', [BibitController::class, 'edit'])->name('bibit.edit');
+    Route::put('/{id}', [BibitController::class, 'update'])->name('bibit.update');
+    Route::delete('/{id}', [BibitController::class, 'destroy'])->name('bibit.destroy');
+});
 
-// Rute Pakan
-Route::post('/pakan/store', [PakanController::class, 'store'])->name('pakan.store');
-Route::get('/pakan/{id}/edit', [PakanController::class, 'edit'])->name('pakan.edit');
-Route::put('/pakan/{id}', [PakanController::class, 'update'])->name('pakan.update');
-Route::delete('/pakan/{id}', [PakanController::class, 'destroy'])->name('pakan.destroy');
+// Pakan Routes
+Route::prefix('pakan')->group(function () {
+    Route::post('/store', [PakanController::class, 'store'])->name('pakan.store');
+    Route::get('/{id}/edit', [PakanController::class, 'edit'])->name('pakan.edit');
+    Route::put('/{id}', [PakanController::class, 'update'])->name('pakan.update');
+    Route::delete('/{id}', [PakanController::class, 'destroy'])->name('pakan.destroy');
+});
 
-// Rute Panen
-Route::post('/panen/store', [PanenController::class, 'store'])->name('panen.store');
-Route::get('/panen/{id}/edit', [PanenController::class, 'edit'])->name('panen.edit');
-Route::put('/panen/{id}', [PanenController::class, 'update'])->name('panen.update');
-Route::delete('/panen/{id}', [PanenController::class, 'destroy'])->name('panen.destroy');
+// Panen Routes
+Route::prefix('panen')->group(function () {
+    Route::post('/store', [PanenController::class, 'store'])->name('panen.store');
+    Route::get('/{id}/edit', [PanenController::class, 'edit'])->name('panen.edit');
+    Route::put('/{id}', [PanenController::class, 'update'])->name('panen.update');
+    Route::delete('/{id}', [PanenController::class, 'destroy'])->name('panen.destroy');
 
-// Rute Siklus
-Route::post('/siklus', [SiklusController::class, 'store'])->name('siklus.store');
-Route::put('/siklus/{siklus}', [SiklusController::class, 'update'])->name('siklus.update');
-Route::delete('/siklus/{siklus}', [SiklusController::class, 'destroy'])->name('siklus.destroy');
+    // Simulation Routes
+    Route::post('/simulasi', [PanenController::class, 'simulasi'])->name('panen.simulasi');
+    Route::put('/simulasi-harga', [PanenController::class, 'simulasiHarga'])->name('panen.simulasi-harga');
+});
+
+// Siklus Routes
+Route::prefix('siklus')->group(function () {
+    Route::post('/', [SiklusController::class, 'store'])->name('siklus.store');
+    Route::put('/{siklus}', [SiklusController::class, 'update'])->name('siklus.update');
+    Route::delete('/{siklus}', [SiklusController::class, 'destroy'])->name('siklus.destroy');
+});
+
+// Keuangan Routes
+Route::prefix('keuangan')->group(function () {
+    Route::get('/', [KeuanganController::class, 'index'])->name('keuangan');
+
+    // Additional financial routes can be added here
+});
