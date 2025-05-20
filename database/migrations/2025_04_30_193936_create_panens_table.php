@@ -12,10 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('panens', function (Blueprint $table) {
-            $table->id(); // Kolom nomer (auto-increment)
-            $table->date('tanggal'); // Kolom tanggal
-            $table->integer('kuantitas'); // Kolom kuantitas
-            $table->timestamps(); // Kolom created_at dan updated_at
+            $table->id();
+            $table->date('tanggal');
+            $table->integer('kuantitas');
+            $table->decimal('harga_jual', 12, 2)->nullable();
+            $table->foreignId('siklus_id')->constrained()->onDelete('cascade'); 
+            $table->timestamps();
         });
     }
 

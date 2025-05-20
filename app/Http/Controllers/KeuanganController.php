@@ -15,17 +15,20 @@ class KeuanganController extends Controller
             ? Siklus::with(['bibits', 'pakans', 'panens'])->find($request->siklus_id)
             : $siklusList->first();
 
-        // Get or create panen data for the active siklus
-        $panen = $siklusAktif && $siklusAktif->panens->isNotEmpty()
-            ? $siklusAktif->panens->first()
-            : new Panen(['siklus_id' => $siklusAktif->id ?? null]);
+        // Get all panen data for the active siklus
+        $panens = $siklusAktif ? $siklusAktif->panens : collect();
+
+        // Get selected panen or the first one
+        $selectedPanen = $request->panen_id
+            ? $panens->firstWhere('id', $request->panen_id)
+            : $panens->first();
 
         // Prepare transactions data
         $transaksi = collect();
 
         if ($siklusAktif) {
             $transaksi = $transaksi->merge(
-                $siklusAktif->bibits->map(function($item) {
+                $siklusAktif->bibits->map(function ($item) {
                     return [
                         'tanggal' => $item->tanggal,
                         'kategori' => 'Bibit',
@@ -36,7 +39,7 @@ class KeuanganController extends Controller
                     ];
                 })
             )->merge(
-                $siklusAktif->pakans->map(function($item) {
+                $siklusAktif->pakans->map(function ($item) {
                     return [
                         'tanggal' => $item->tanggal,
                         'kategori' => 'Pakan',
@@ -47,7 +50,7 @@ class KeuanganController extends Controller
                     ];
                 })
             )->merge(
-                $siklusAktif->panens->map(function($item) {
+                $siklusAktif->panens->map(function ($item) {
                     return [
                         'tanggal' => $item->tanggal,
                         'kategori' => 'Panen',
@@ -64,9 +67,10 @@ class KeuanganController extends Controller
             'siklusList' => $siklusList,
             'siklusAktif' => $siklusAktif,
             'transaksi' => $transaksi,
-            'panen' => $panen,
+            'panens' => $panens,
+            'selectedPanen' => $selectedPanen,
             'totalPengeluaran' => $siklusAktif ? ($siklusAktif->bibits->sum('total_harga') + $siklusAktif->pakans->sum('total_harga')) : 0,
-            'totalPemasukan' => $panen->total_harga ?? 0
+            'totalPemasukan' => $selectedPanen ? $selectedPanen->total_harga : 0
         ]);
     }
 }

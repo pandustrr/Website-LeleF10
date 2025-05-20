@@ -73,13 +73,18 @@ public function simulasi(Request $request)
 {
     $request->validate([
         'harga_jual' => 'required|numeric|min:1000',
-        'siklus_id' => 'required|exists:siklus,id'
+        'siklus_id' => 'required|exists:siklus,id',
+        'panen_id' => 'required|exists:panens,id'
     ]);
 
-    $panen = Panen::where('siklus_id', $request->siklus_id)->firstOrFail();
+    $panen = Panen::findOrFail($request->panen_id);
     $panen->update(['harga_jual' => $request->harga_jual]);
 
-    return redirect()->route('keuangan', ['siklus_id' => $request->siklus_id])
-        ->with('success', 'Harga jual panen berhasil disimpan!');
+    return redirect()
+        ->route('keuangan', [
+            'siklus_id' => $request->siklus_id,
+            'panen_id' => $request->panen_id
+        ])
+        ->with('success', 'Harga jual panen berhasil diperbarui!');
 }
 }

@@ -22,8 +22,8 @@
                 <label class="block text-xs font-medium text-gray-600 mb-1">Tipe Pakan</label>
                 <select name="tipe" required class="w-full p-2 text-sm border border-gray-200 rounded-md">
                     <option value="">Pilih tipe</option>
-                    <option value="Standar">Standar</option>
-                    <option value="Premium">Premium</option>
+                    <option value="Pakan Standar">Standar</option>
+                    <option value="Pakan Premium">Premium</option>
                 </select>
             </div>
             <div>

@@ -10,9 +10,10 @@ class Panen extends Model
     use HasFactory;
 
     protected $table = 'panens';
-    protected $fillable = ['tanggal', 'kuantitas', 'siklus_id', 'harga_jual'];
+    protected $fillable = ['tanggal', 'kuantitas', 'harga_jual', 'siklus_id'];
     protected $dates = ['tanggal'];
 
+    // Accessor untuk total_harga
     public function getTotalHargaAttribute()
     {
         return $this->harga_jual ? $this->kuantitas * $this->harga_jual : 0;

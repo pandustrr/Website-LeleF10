@@ -14,8 +14,8 @@ class Pakan extends Model
 
     // Daftar harga tetap per tipe pakan (dalam rupiah per kg)
     public const HARGA_PAKAN = [
-        'standar' => 15000,
-        'premium' => 18000,
+        'Pakan Standar' => 15000,
+        'Pakan Premium' => 18000,
     ];
 
     // Relasi ke siklus
