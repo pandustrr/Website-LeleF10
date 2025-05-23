@@ -16,7 +16,7 @@
                     <tr class="hover:bg-gray-50">
                         <td class="px-6 py-4 text-base">{{ $index + 1 }}</td>
                         <td class="px-6 py-4 text-base whitespace-nowrap">
-                            {{ \Carbon\Carbon::parse($pakan->tanggal)->format('d M Y') }}
+                            {{ \Carbon\Carbon::parse($pakan->tanggal)->format('Y M d') }}
                         </td>
 
                         <td class="px-6 py-4 text-base whitespace-nowrap">
@@ -26,9 +26,9 @@
                         <td class="px-6 py-4 whitespace-nowrap">
                             <span
                                 class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium
-                                {{ $pakan->tipe == 'premium' ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800' }}">
+                                {{ $pakan->tipe == 'Pakan Premium' ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800' }}">
                                 {{ ucfirst($pakan->tipe) }}
-                                @if ($pakan->tipe == 'premium')
+                                @if ($pakan->tipe == 'Pakan Premium')
                                     <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
                                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"

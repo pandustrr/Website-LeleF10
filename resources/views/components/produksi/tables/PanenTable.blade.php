@@ -15,7 +15,7 @@
                     <tr class="hover:bg-gray-50">
                         <td class="px-6 py-4 text-base">{{ $index + 1 }}</td>
                         <td class="px-6 py-4 text-base whitespace-nowrap">
-                            {{ \Carbon\Carbon::parse($panen->tanggal)->format('d M Y') }}
+                            {{ \Carbon\Carbon::parse($panen->tanggal)->format('Y M d') }}
                         </td>
 
                         <td class="px-6 py-4 text-base whitespace-nowrap">

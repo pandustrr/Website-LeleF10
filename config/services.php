@@ -2,6 +2,10 @@
 
 return [
 
+    'arima' => [
+    'python_path' => env('PYTHON_PATH', 'python3'),
+],
+
     /*
     |--------------------------------------------------------------------------
     | Third Party Services
@@ -30,5 +34,7 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+
+
 
 ];

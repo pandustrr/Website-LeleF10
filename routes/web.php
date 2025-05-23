@@ -53,9 +53,7 @@ Route::prefix('siklus')->group(function () {
     Route::delete('/{siklus}', [SiklusController::class, 'destroy'])->name('siklus.destroy');
 });
 
-// Keuangan Routes
 Route::prefix('keuangan')->group(function () {
     Route::get('/', [KeuanganController::class, 'index'])->name('keuangan');
-
-    // Additional financial routes can be added here
+    Route::get('/refresh-predictions', [KeuanganController::class, 'refreshPredictions']);
 });

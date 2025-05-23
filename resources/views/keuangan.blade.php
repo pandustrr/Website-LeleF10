@@ -21,57 +21,12 @@
             </form>
         </div>
 
-
+        <!-- Chart Prediksi -->
+        @include('components.keuangan.chart-keuangan')
 
         <!-- Card Simulasi Panen -->
         @include('components.keuangan.simulasi-panen')
 
-        <!-- Card Informasi Keuangan -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <!-- Card Pengeluaran -->
-            <div class="bg-white rounded-lg shadow p-6 border-l-4 border-red-500">
-                <h2 class="text-lg font-semibold mb-2">Total Pengeluaran</h2>
-                <div class="text-2xl font-bold text-red-600">
-                    Rp {{ $siklusAktif ? number_format($siklusAktif->total_pengeluaran, 0, ',', '.') : 0 }}
-                </div>
-                <div class="mt-4 text-sm text-gray-600">
-                    <div class="flex justify-between">
-                        <span>Bibit:</span>
-                        <span>Rp
-                            {{ $siklusAktif ? number_format($siklusAktif->bibits->sum('total_harga'), 0, ',', '.') : 0 }}</span>
-                    </div>
-                    <div class="flex justify-between">
-                        <span>Pakan:</span>
-                        <span>Rp
-                            {{ $siklusAktif ? number_format($siklusAktif->pakans->sum('total_harga'), 0, ',', '.') : 0 }}</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card Pemasukan -->
-            <div class="bg-white rounded-lg shadow p-6 border-l-4 border-green-500">
-                <h2 class="text-lg font-semibold mb-2">Total Pemasukan</h2>
-                <div class="text-2xl font-bold text-green-600">
-                    Rp {{ $siklusAktif ? number_format($siklusAktif->total_pemasukan, 0, ',', '.') : 0 }}
-                </div>
-                <div class="mt-4 text-sm text-gray-600">
-                    <div class="flex justify-between">
-                        <span>Panen:</span>
-                        <span>Rp
-                            {{ $siklusAktif ? number_format($siklusAktif->panens->sum('total_harga'), 0, ',', '.') : 0 }}</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card Laba/Rugi -->
-            <div
-                class="bg-white rounded-lg shadow p-6 border-l-4 border-{{ $siklusAktif && $siklusAktif->laba >= 0 ? 'green' : 'red' }}-500">
-                <h2 class="text-lg font-semibold mb-2">Profit/Rugi</h2>
-                <div class="text-2xl font-bold text-{{ $siklusAktif && $siklusAktif->laba >= 0 ? 'green' : 'red' }}-600">
-                    Rp {{ $siklusAktif ? number_format($siklusAktif->laba, 0, ',', '.') : 0 }}
-                </div>
-            </div>
-        </div>
 
         <!-- Tabel Transaksi -->
         <div class="bg-white rounded-lg shadow overflow-hidden">
@@ -94,7 +49,7 @@
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap">{{ $index + 1 }}</td>
                                 <td class="px-6 py-4 whitespace-nowrap">
-                                    {{ $trx['tanggal'] ? \Carbon\Carbon::parse($trx['tanggal'])->format('d/m/Y') : '-' }}
+                                    {{ $trx['tanggal'] ? \Carbon\Carbon::parse($trx['tanggal'])->format('Y/m/d') : '-' }}
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap">{{ $trx['kategori'] }}</td>
                                 <td class="px-6 py-4 whitespace-nowrap">{{ $trx['tipe'] }}</td>

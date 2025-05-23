@@ -80,7 +80,7 @@
                 <div>
                     @if($selectedPanen->harga_jual && $selectedPanen->updated_at)
                         <p class="text-sm text-gray-600">Terakhir diperbarui:
-                            {{ \Carbon\Carbon::parse($selectedPanen->updated_at)->format('d/m/Y H:i') }}
+                            {{ \Carbon\Carbon::parse($selectedPanen->updated_at)->format('d/m/Y') }}
                         </p>
                     @endif
                 </div>

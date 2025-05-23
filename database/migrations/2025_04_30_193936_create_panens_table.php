@@ -16,7 +16,7 @@ return new class extends Migration
             $table->date('tanggal');
             $table->integer('kuantitas');
             $table->decimal('harga_jual', 12, 2)->nullable();
-            $table->foreignId('siklus_id')->constrained()->onDelete('cascade'); 
+            $table->foreignId('siklus_id')->constrained('siklus')->onDelete('cascade');
             $table->timestamps();
         });
     }

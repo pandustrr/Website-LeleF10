@@ -18,9 +18,8 @@ class Panen extends Model
     {
         return $this->harga_jual ? $this->kuantitas * $this->harga_jual : 0;
     }
-
     public function siklus()
     {
-        return $this->belongsTo(Siklus::class);
+        return $this->belongsTo(Siklus::class, 'siklus_id', 'id');
     }
 }
