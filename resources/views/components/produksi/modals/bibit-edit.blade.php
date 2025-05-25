@@ -1,7 +1,9 @@
-    <div class="relative">
+<div class="relative">
     <!-- Header Modal -->
     <div class="flex justify-between items-center mb-4">
-        <h3 class="text-lg font-semibold text-gray-800">Edit Data Bibit</h3>
+        <h3 class="text-lg font-semibold text-gray-800">
+            @isset($bibit) Edit Data Bibit @else Tambah Data Bibit @endisset
+        </h3>
         <button onclick="closeEditModal()" class="text-gray-500 hover:text-gray-700">
             <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -10,35 +12,55 @@
     </div>
 
     <!-- Form Edit -->
-    <form action="{{ route('bibit.update', $bibit->id) }}" method="POST">
+    <form action="{{ isset($bibit) ? route('bibit.update', $bibit->id) : route('bibit.store') }}" method="POST">
         @csrf
-        @method('PUT')
+        @isset($bibit)
+            @method('PUT')
+        @endisset
+
+        <!-- Hidden siklus_id field -->
+        <input type="hidden" name="siklus_id" value="{{ $bibit->siklus_id ?? request('siklus_id') }}">
 
         <div class="space-y-4">
             <!-- Field Tanggal -->
             <div>
                 <label for="edit-tanggal" class="block text-sm font-medium text-gray-700 mb-1">Tanggal</label>
-                <input type="date" name="tanggal" id="edit-tanggal" value="{{ $bibit->tanggal }}"
-                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                <input type="date" name="tanggal" id="edit-tanggal" value="{{ $bibit->tanggal ?? old('tanggal') }}"
+                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                    required>
+                @error('tanggal')
+                    <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
+                @enderror
             </div>
 
             <!-- Field Kuantitas -->
             <div>
                 <label for="edit-kuantitas" class="block text-sm font-medium text-gray-700 mb-1">Kuantitas (kg)</label>
-                <input type="number" name="kuantitas" id="edit-kuantitas" value="{{ $bibit->kuantitas }}"
-                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                <input type="number" name="kuantitas" id="edit-kuantitas"
+                    value="{{ $bibit->kuantitas ?? old('kuantitas') }}"
+                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                    min="1" required>
+                @error('kuantitas')
+                    <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
+                @enderror
             </div>
 
             <!-- Field Tipe -->
             <div>
                 <label for="edit-type" class="block text-sm font-medium text-gray-700 mb-1">Tipe Bibit</label>
                 <select name="type" id="edit-type"
-                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
-                    <option value="Bibit Premium" {{ $bibit->type == 'Bibit Premium' ? 'selected' : '' }}>Bibit Premium
-                    </option>
-                    <option value="Bibit Standar" {{ $bibit->type == 'Bibit Standar' ? 'selected' : '' }}>Bibit Standar
-                    </option>
+                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" required>
+                    @foreach(array_keys(App\Models\Bibit::HARGA_BIBIT) as $tipe)
+                        <option value="{{ $tipe }}"
+                            @if(isset($bibit) && $bibit->type == $tipe) selected
+                            @elseif(old('type') == $tipe) selected @endif>
+                            {{ $tipe }}
+                        </option>
+                    @endforeach
                 </select>
+                @error('type')
+                    <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
+                @enderror
             </div>
         </div>
 
@@ -55,3 +77,4 @@
         </div>
     </form>
 </div>
+

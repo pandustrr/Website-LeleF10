@@ -11,13 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('bibits', function (Blueprint $table) {
-            $table->id();
-            $table->date('tanggal');
-            $table->integer('kuantitas');
-            $table->string('type');
-            $table->timestamps();
-        });
+Schema::create('bibits', function (Blueprint $table) {
+    $table->id();
+    $table->date('tanggal');
+    $table->integer('kuantitas');
+    $table->string('type');
+    $table->foreignId('siklus_id')->constrained()->onDelete('cascade');
+    $table->timestamps();
+});
     }
 
     /**

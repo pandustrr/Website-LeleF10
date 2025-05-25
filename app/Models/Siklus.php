@@ -10,8 +10,7 @@ class Siklus extends Model
     use HasFactory;
 
     protected $table = 'siklus';
-    protected $fillable = ['nama_siklus', 'tanggal_mulai', 'tanggal_selesai'];
-    protected $dates = ['tanggal_mulai', 'tanggal_selesai'];
+    protected $fillable = ['nama_siklus'];
 
     public function bibits()
     {

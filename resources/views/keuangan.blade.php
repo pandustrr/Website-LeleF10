@@ -30,7 +30,7 @@
 
         <!-- Tabel Transaksi -->
         <div class="bg-white rounded-lg shadow overflow-hidden">
-            <h2 class="text-lg font-semibold p-4 bg-gray-50">Detail Transaksi</h2>
+            <h2 class="text-lg font-semibold p-4 bg-gray-50">Detail Keuangan</h2>
             <div class="overflow-x-auto">
                 <table class="min-w-full divide-y divide-gray-200">
                     <thead class="bg-gray-50">

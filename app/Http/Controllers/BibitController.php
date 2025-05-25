@@ -50,27 +50,24 @@ class BibitController extends Controller
     }
 
     // Update
-    public function update(Request $request, $id)
-    {
-        $request->validate([
-            'tanggal' => 'required|date',
-            'kuantitas' => 'required|integer|min:1',
-            'type' => 'required|string|in:' . implode(',', array_keys(Bibit::HARGA_BIBIT)),
-            'siklus_id' => 'required|exists:siklus,id'
-        ]);
+public function update(Request $request, $id)
+{
+    $request->validate([
+        'tanggal' => 'required|date',
+        'kuantitas' => 'required|integer|min:1',
+        'type' => 'required|string|in:' . implode(',', array_keys(Bibit::HARGA_BIBIT)),
+        'siklus_id' => 'required|exists:siklus,id'
+    ]);
 
-        $bibit = Bibit::findOrFail($id);
-        $bibit->update($request->all());
+    $bibit = Bibit::findOrFail($id);
+    $updated = $bibit->update($request->all());
 
-        if ($request->ajax()) {
-            return response()->json([
-                'success' => true,
-                'message' => 'Data bibit berhasil diperbarui',
-                'redirect' => route('produksi', ['siklus_id' => $request->siklus_id])
-            ]);
-        }
-
-        return redirect()->route('produksi', ['siklus_id' => $request->siklus_id])
-            ->with('success', 'Data bibit berhasil diperbarui!');
+    if (!$updated) {
+        return back()->with('error', 'Gagal memperbarui data bibit');
     }
+
+    return redirect()->route('produksi', ['siklus_id' => $request->siklus_id])
+        ->with('success', 'Data bibit berhasil diperbarui!');
+}
+
 }

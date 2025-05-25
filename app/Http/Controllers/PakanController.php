@@ -49,27 +49,23 @@ class PakanController extends Controller
     }
 
     // Update data
-    public function update(Request $request, $id)
-    {
-        $request->validate([
-            'tanggal' => 'required|date',
-            'kuantitas' => 'required|integer|min:1',
-            'tipe' => 'required|string|in:' . implode(',', array_keys(Pakan::HARGA_PAKAN)),
-            'siklus_id' => 'required|exists:siklus,id'
-        ]);
+public function update(Request $request, $id)
+{
+    $request->validate([
+        'tanggal' => 'required|date',
+        'kuantitas' => 'required|integer|min:1',
+        'tipe' => 'required|string|in:' . implode(',', array_keys(Pakan::HARGA_PAKAN)),
+        'siklus_id' => 'required|exists:siklus,id'
+    ]);
 
-        $pakan = Pakan::findOrFail($id);
-        $pakan->update($request->all());
+    $pakan = Pakan::findOrFail($id);
+    $updated = $pakan->update($request->all());
 
-        if ($request->ajax()) {
-            return response()->json([
-                'success' => true,
-                'message' => 'Data pakan berhasil diperbarui',
-                'redirect' => route('produksi', ['siklus_id' => $request->siklus_id])
-            ]);
-        }
-
-        return redirect()->route('produksi', ['siklus_id' => $request->siklus_id])
-            ->with('success', 'Data pakan berhasil diperbarui!');
+    if (!$updated) {
+        return back()->with('error', 'Gagal memperbarui data pakan');
     }
+
+    return redirect()->route('produksi', ['siklus_id' => $request->siklus_id])
+        ->with('success', 'Data pakan berhasil diperbarui!');
+}
 }

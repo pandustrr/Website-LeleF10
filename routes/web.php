@@ -57,3 +57,4 @@ Route::prefix('keuangan')->group(function () {
     Route::get('/', [KeuanganController::class, 'index'])->name('keuangan');
     Route::get('/refresh-predictions', [KeuanganController::class, 'refreshPredictions']);
 });
+

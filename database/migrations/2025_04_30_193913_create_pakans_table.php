@@ -8,13 +8,14 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('pakans', function (Blueprint $table) {
-            $table->id();
-            $table->date('tanggal');
-            $table->integer('kuantitas');
-            $table->string('tipe');
-            $table->timestamps();
-        });
+Schema::create('pakans', function (Blueprint $table) {
+    $table->id();
+    $table->date('tanggal');
+    $table->integer('kuantitas');
+    $table->string('tipe');
+    $table->foreignId('siklus_id')->constrained()->onDelete('cascade');
+    $table->timestamps();
+});
     }
 
     public function down(): void
