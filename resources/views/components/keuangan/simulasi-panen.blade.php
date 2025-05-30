@@ -7,30 +7,25 @@
             <input type="hidden" name="siklus_id" value="{{ $siklusAktif->id ?? '' }}">
 
             <label class="block text-gray-700 mb-2">Pilih Data Panen</label>
-            <div class="flex gap-2">
-                <select name="panen_id" class="form-select w-full rounded-md border-gray-300">
-                    @if($panens && count($panens) > 0)
-                        @foreach($panens as $panen)
-                            <option value="{{ $panen->id }}"
-                                {{ $selectedPanen && $selectedPanen->id == $panen->id ? 'selected' : '' }}>
-                                @if($panen->tanggal && $panen->kuantitas)
-                                    {{ \Carbon\Carbon::parse($panen->tanggal)->format('d/m/Y') }} - {{ $panen->kuantitas }} kg
-                                    @if($panen->harga_jual)
-                                        (Rp {{ number_format($panen->harga_jual, 0, ',', '.') }}/kg)
-                                    @endif
-                                @else
-                                    Data Panen Tidak Lengkap
+            <select name="panen_id" onchange="this.form.submit()" class="form-select w-full rounded-md border-gray-300">
+                @if($panens && count($panens) > 0)
+                    @foreach($panens as $panen)
+                        <option value="{{ $panen->id }}"
+                            {{ $selectedPanen && $selectedPanen->id == $panen->id ? 'selected' : '' }}>
+                            @if($panen->tanggal && $panen->kuantitas)
+                                {{ \Carbon\Carbon::parse($panen->tanggal)->format('d/m/Y') }} - {{ $panen->kuantitas }} kg
+                                @if($panen->harga_jual)
+                                    (Rp {{ number_format($panen->harga_jual, 0, ',', '.') }}/kg)
                                 @endif
-                            </option>
-                        @endforeach
-                    @else
-                        <option value="">Tidak ada data panen</option>
-                    @endif
-                </select>
-                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                    Pilih
-                </button>
-            </div>
+                            @else
+                                Data Panen Tidak Lengkap
+                            @endif
+                        </option>
+                    @endforeach
+                @else
+                    <option value="">Tidak ada data panen</option>
+                @endif
+            </select>
         </form>
     </div>
 
@@ -148,17 +143,3 @@
         }, 5000);
     </script>
 @endif
-
-@push('scripts')
-<script>
-    // Validasi form sebelum submit
-    document.getElementById('simulasiForm')?.addEventListener('submit', function(e) {
-        const hargaInput = this.querySelector('input[name="harga_jual"]');
-        if (hargaInput && parseFloat(hargaInput.value) < 1000) {
-            e.preventDefault();
-            alert('Harga jual minimal Rp 1.000 per kg');
-            hargaInput.focus();
-        }
-    });
-</script>
-@endpush

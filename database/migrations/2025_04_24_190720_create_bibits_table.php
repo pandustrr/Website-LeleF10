@@ -11,14 +11,23 @@ return new class extends Migration
      */
     public function up(): void
     {
-Schema::create('bibits', function (Blueprint $table) {
-    $table->id();
-    $table->date('tanggal');
-    $table->integer('kuantitas');
-    $table->string('type');
-    $table->foreignId('siklus_id')->constrained()->onDelete('cascade');
-    $table->timestamps();
-});
+        Schema::create('bibits', function (Blueprint $table) {
+            $table->id();
+            $table->date('tanggal');
+            $table->integer('kuantitas');
+            $table->string('type');
+
+            // Tambahkan definisi kolom foreign key dulu
+            $table->unsignedBigInteger('siklus_id');
+
+            // Lalu definisikan relasinya
+            $table->foreign('siklus_id')
+                  ->references('id')
+                  ->on('siklus')
+                  ->onDelete('cascade');
+
+            $table->timestamps();
+        });
     }
 
     /**
@@ -28,6 +37,4 @@ Schema::create('bibits', function (Blueprint $table) {
     {
         Schema::dropIfExists('bibits');
     }
-
-
 };

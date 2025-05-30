@@ -56,7 +56,7 @@
                     <div class="ml-3">
                         <h3 class="text-sm font-medium text-red-800">Gagal memuat analisis</h3>
                         <div class="mt-2 text-sm text-red-700">
-                            <p>{{ $analysis['error'] }}</p>
+                            <p>Belum ada data yang di input, tidak bisa melihat analisis</p>
                         </div>
                     </div>
                 </div>

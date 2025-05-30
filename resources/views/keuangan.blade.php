@@ -17,6 +17,7 @@
                             </option>
                         @endforeach
                     </select>
+                    <input type="hidden" name="panen_id" value="{{ request('panen_id') }}">
                 </div>
             </form>
         </div>
@@ -25,8 +26,12 @@
         @include('components.keuangan.chart-keuangan')
 
         <!-- Card Simulasi Panen -->
-        @include('components.keuangan.simulasi-panen')
-
+        @include('components.keuangan.simulasi-panen', [
+            'siklusAktif' => $siklusAktif,
+            'panens' => $panens,
+            'selectedPanen' => $selectedPanen,
+            'selectedPanenId' => request('panen_id')
+        ])
 
         <!-- Tabel Transaksi -->
         <div class="bg-white rounded-lg shadow overflow-hidden">
@@ -58,7 +63,7 @@
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap">
                                     <span
-                                        class="px-2 py-1 text-xs rounded-full bg-{{ $trx['jenis'] == 'pemasukan' ? 'green' : 'red' }}-100 text-{{ $trx['jenis'] == 'pemasukan' ? 'green' : 'red' }}-800">
+                                        class="px-2 py-1 text-xs rounded-full {{ $trx['jenis'] == 'pemasukan' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800' }}">
                                         {{ $trx['jenis'] == 'pemasukan' ? 'Pemasukan' : 'Pengeluaran' }}
                                     </span>
                                 </td>

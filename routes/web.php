@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\ProduksiController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
@@ -9,11 +10,29 @@ use App\Http\Controllers\PanenController;
 use App\Http\Controllers\SiklusController;
 use App\Http\Controllers\KeuanganController;
 use App\Http\Controllers\AnalisisPrediksiController;
+use App\Http\Controllers\ProfileController;
 
 
-Route::get('/', function () {
-    return view('dashboard');
+// Auth Routes
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [AuthController::class, 'login']);
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
+// Authenticated Routes
+Route::middleware(['auth'])->group(function () {
+    Route::get('/', function () {
+        return view('dashboard');
+    })->name('home');
+
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+    Route::prefix('profile')->group(function () {
+        Route::get('/', [ProfileController::class, 'show'])->name('profile.show');
+        Route::get('/edit/{field}', [ProfileController::class, 'edit'])->name('profile.edit');
+        Route::put('/update', [ProfileController::class, 'update'])->name('profile.update');
+    });
 });
+
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('/produksi', [ProduksiController::class, 'index'])->name('produksi');
@@ -53,12 +72,8 @@ Route::prefix('siklus')->group(function () {
     Route::delete('/{siklus}', [SiklusController::class, 'destroy'])->name('siklus.destroy');
 });
 
-Route::prefix('keuangan')->group(function () {
-    Route::get('/', [KeuanganController::class, 'index'])->name('keuangan');
-    Route::get('/refresh-predictions', [KeuanganController::class, 'refreshPredictions']);
-});
-
-Route::prefix('keuangan')->group(function () {
+// Keuangan Routes - hanya untuk admin
+Route::middleware(['can:admin'])->prefix('keuangan')->group(function () {
     Route::get('/', [KeuanganController::class, 'index'])->name('keuangan');
     Route::get('/refresh-predictions', [KeuanganController::class, 'refreshPredictions']);
 });

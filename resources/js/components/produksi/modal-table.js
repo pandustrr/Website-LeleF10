@@ -162,3 +162,54 @@ function submitEditForm(form, type) {
 window.openEditModal = openEditModal;
 window.closeEditModal = closeEditModal;
 window.submitEditForm = submitEditForm;
+
+/**
+ * Fungsi khusus untuk membuka modal profile
+ */
+function openProfileModal() {
+    // Buat modal overlay
+    const modalOverlay = document.createElement("div");
+    modalOverlay.className = "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50";
+    modalOverlay.id = "profileModalOverlay";
+
+    // Konten modal (gunakan form yang sudah ada di halaman)
+    const modalContent = document.createElement("div");
+    modalContent.className = "bg-white rounded-lg p-6 w-full max-w-md mx-4 shadow-2xl";
+
+    // Clone form edit yang sudah ada
+    const editForm = document.getElementById("profileEditForm").cloneNode(true);
+    modalContent.appendChild(editForm);
+    modalOverlay.appendChild(modalContent);
+
+    // Tambahkan ke body
+    document.body.appendChild(modalOverlay);
+    document.body.style.overflow = "hidden";
+
+    // Event listeners
+    modalOverlay.addEventListener("click", function(e) {
+        if (e.target === this) closeProfileModal();
+    });
+
+    document.addEventListener("keydown", function(e) {
+        if (e.key === "Escape") closeProfileModal();
+    });
+
+    // Fokus ke input pertama
+    const firstInput = modalContent.querySelector("input, select, textarea");
+    if (firstInput) firstInput.focus();
+}
+
+/**
+ * Fungsi untuk menutup modal profile
+ */
+function closeProfileModal() {
+    const modal = document.getElementById("profileModalOverlay");
+    if (modal) {
+        document.body.style.overflow = "";
+        modal.remove();
+    }
+}
+
+// Export fungsi profile
+window.openProfileModal = openProfileModal;
+window.closeProfileModal = closeProfileModal;
