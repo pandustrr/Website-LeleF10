@@ -1,15 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mx-auto px-4 py-6">
-        <h1 class="text-2xl font-bold mb-6">Laporan Keuangan</h1>
+    <div class="container mx-auto px-3 py-4 sm:px-4 sm:py-5">
+        <h1 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-5">Laporan Keuangan</h1>
 
         <!-- Dropdown Siklus -->
-        <div class="mb-6">
+        <div class="mb-4 sm:mb-5">
             <form method="GET" action="{{ route('keuangan') }}">
                 <div class="flex items-center">
-                    <label for="siklus_id" class="mr-2">Pilih Siklus:</label>
-                    <select name="siklus_id" id="siklus_id" class="form-select rounded-md" onchange="this.form.submit()">
+                    <label for="siklus_id" class="mr-2 text-sm sm:text-base">Pilih Siklus:</label>
+                    <select name="siklus_id" id="siklus_id"
+                            class="form-select rounded-md text-sm sm:text-base py-1 sm:py-2"
+                            onchange="this.form.submit()">
                         @foreach ($siklusList as $siklus)
                             <option value="{{ $siklus->id }}"
                                 {{ $siklusAktif && $siklus->id == $siklusAktif->id ? 'selected' : '' }}>
@@ -25,56 +27,21 @@
         <!-- Chart Prediksi -->
         @include('components.keuangan.chart-keuangan')
 
-        <!-- Card Simulasi Panen -->
-        @include('components.keuangan.simulasi-panen', [
-            'siklusAktif' => $siklusAktif,
-            'panens' => $panens,
-            'selectedPanen' => $selectedPanen,
-            'selectedPanenId' => request('panen_id')
-        ])
+        <!-- Grid Layout Responsif -->
+        <div class="flex flex-col lg:flex-row gap-4 sm:gap-5">
+            <!-- Tabel Keuangan (Lebih besar) -->
+            <div class="flex-1 min-w-0 overflow-hidden">
+                @include('components.keuangan.tabel-keuangan')
+            </div>
 
-        <!-- Tabel Transaksi -->
-        <div class="bg-white rounded-lg shadow overflow-hidden">
-            <h2 class="text-lg font-semibold p-4 bg-gray-50">Detail Keuangan</h2>
-            <div class="overflow-x-auto">
-                <table class="min-w-full divide-y divide-gray-200">
-                    <thead class="bg-gray-50">
-                        <tr>
-                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">No</th>
-                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Tanggal</th>
-                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Kategori</th>
-                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Tipe</th>
-                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Kuantitas</th>
-                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Harga</th>
-                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Jenis</th>
-                        </tr>
-                    </thead>
-                    <tbody class="bg-white divide-y divide-gray-200">
-                        @forelse($transaksi as $index => $trx)
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap">{{ $index + 1 }}</td>
-                                <td class="px-6 py-4 whitespace-nowrap">
-                                    {{ $trx['tanggal'] ? \Carbon\Carbon::parse($trx['tanggal'])->format('Y/m/d') : '-' }}
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap">{{ $trx['kategori'] }}</td>
-                                <td class="px-6 py-4 whitespace-nowrap">{{ $trx['tipe'] }}</td>
-                                <td class="px-6 py-4 whitespace-nowrap">{{ $trx['kuantitas'] }} kg</td>
-                                <td class="px-6 py-4 whitespace-nowrap">Rp {{ number_format($trx['harga'], 0, ',', '.') }}
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap">
-                                    <span
-                                        class="px-2 py-1 text-xs rounded-full {{ $trx['jenis'] == 'pemasukan' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800' }}">
-                                        {{ $trx['jenis'] == 'pemasukan' ? 'Pemasukan' : 'Pengeluaran' }}
-                                    </span>
-                                </td>
-                            </tr>
-                        @empty
-                            <tr>
-                                <td colspan="7" class="px-6 py-4 text-center text-gray-500">Tidak ada data transaksi</td>
-                            </tr>
-                        @endforelse
-                    </tbody>
-                </table>
+            <!-- Card Simulasi -->
+            <div class="w-full lg:w-80 xl:w-96">
+                @include('components.keuangan.simulasi-panen', [
+                    'siklusAktif' => $siklusAktif,
+                    'panens' => $panens,
+                    'selectedPanen' => $selectedPanen,
+                    'selectedPanenId' => request('panen_id')
+                ])
             </div>
         </div>
     </div>
