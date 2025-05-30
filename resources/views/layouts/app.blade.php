@@ -29,7 +29,7 @@
 
 <body class="bg-[#F5F6FA] flex">
     <!-- Sidebar -->
-    @include('layouts.sidebar')
+    @include('components.sidebar')
 
     <!-- Main Content -->
     <main id="mainContent" class="flex-1 transition-all duration-300 ml-0 md:ml-64">
@@ -41,5 +41,7 @@
 
     <!-- Stack for additional scripts -->
     @stack('scripts')
+
+    
 </body>
 </html>

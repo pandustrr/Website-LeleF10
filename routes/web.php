@@ -8,14 +8,14 @@ use App\Http\Controllers\PakanController;
 use App\Http\Controllers\PanenController;
 use App\Http\Controllers\SiklusController;
 use App\Http\Controllers\KeuanganController;
+use App\Http\Controllers\AnalisisPrediksiController;
+
 
 Route::get('/', function () {
     return view('dashboard');
 });
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
-// Production Routes
 Route::get('/produksi', [ProduksiController::class, 'index'])->name('produksi');
 
 // Bibit Routes
@@ -58,3 +58,11 @@ Route::prefix('keuangan')->group(function () {
     Route::get('/refresh-predictions', [KeuanganController::class, 'refreshPredictions']);
 });
 
+Route::prefix('keuangan')->group(function () {
+    Route::get('/', [KeuanganController::class, 'index'])->name('keuangan');
+    Route::get('/refresh-predictions', [KeuanganController::class, 'refreshPredictions']);
+});
+
+Route::prefix('analisisPrediksi')->group(function () {
+    Route::get('/', [AnalisisPrediksiController::class, 'index'])->name('analisisPrediksi');
+});

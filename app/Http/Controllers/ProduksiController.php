@@ -3,9 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Bibit;
-use App\Models\Pakan;
-use App\Models\Panen;
 use App\Models\Siklus;
 
 class ProduksiController extends Controller

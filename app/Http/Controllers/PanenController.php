@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Panen;
-use App\Models\Siklus;
 
 class PanenController extends Controller
 {

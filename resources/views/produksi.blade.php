@@ -8,7 +8,7 @@
 
             <!-- Dropdown di kanan -->
             <div class="w-full md:w-auto flex justify-end">
-                @include('components.produksi.dropdownSiklus')
+                @include('components.dropdownSiklus')
             </div>
         </div>
 

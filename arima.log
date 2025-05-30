@@ -1,0 +1,2023 @@
+2025-05-25 23:42:11,928 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:42:12,030 - INFO - Using mysql-connector-python
+2025-05-25 23:42:12,030 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:42:12,030 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:42:12,030 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:42:12,030 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:42:12,097 - INFO - Database connection established successfully
+2025-05-25 23:42:12,131 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:42:12,131 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:42:12,131 - INFO - Training model with 4 data points
+2025-05-25 23:42:12,249 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:42:12,249 - INFO - Training model with 4 data points
+2025-05-25 23:42:12,257 - INFO - Model trained successfully. RMSE: 9000000.00, MAPE: 25.00%
+2025-05-25 23:42:12,263 - INFO - Training model with 4 data points
+2025-05-25 23:42:12,300 - INFO - Model trained successfully. RMSE: 8057385.38, MAPE: 100.34%
+2025-05-25 23:42:12,300 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:42:12,305 - INFO - Script execution completed
+2025-05-25 23:42:42,538 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:42:42,578 - INFO - Using mysql-connector-python
+2025-05-25 23:42:42,578 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:42:42,578 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:42:42,578 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:42:42,578 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:42:42,596 - INFO - Database connection established successfully
+2025-05-25 23:42:42,610 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:42:42,610 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:42:42,610 - INFO - Training model with 4 data points
+2025-05-25 23:42:42,682 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:42:42,682 - INFO - Training model with 4 data points
+2025-05-25 23:42:42,693 - INFO - Model trained successfully. RMSE: 6750000.00, MAPE: 25.00%
+2025-05-25 23:42:42,693 - INFO - Training model with 4 data points
+2025-05-25 23:42:42,735 - INFO - Model trained successfully. RMSE: 5818575.06, MAPE: 99.97%
+2025-05-25 23:42:42,735 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:42:42,735 - INFO - Script execution completed
+2025-05-25 23:51:05,404 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:51:05,462 - INFO - Using mysql-connector-python
+2025-05-25 23:51:05,462 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:51:05,462 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:51:05,462 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:51:05,462 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:51:05,522 - INFO - Database connection established successfully
+2025-05-25 23:51:05,551 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:51:05,557 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:51:05,557 - INFO - Training model with 4 data points
+2025-05-25 23:51:05,661 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:51:05,661 - INFO - Training model with 4 data points
+2025-05-25 23:51:05,671 - INFO - Model trained successfully. RMSE: 6750000.00, MAPE: 25.00%
+2025-05-25 23:51:05,671 - INFO - Training model with 4 data points
+2025-05-25 23:51:05,716 - INFO - Model trained successfully. RMSE: 5818575.06, MAPE: 99.97%
+2025-05-25 23:51:05,716 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:51:05,716 - INFO - Script execution completed
+2025-05-25 23:53:12,314 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:53:12,373 - INFO - Using mysql-connector-python
+2025-05-25 23:53:12,373 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:53:12,373 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:53:12,373 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:53:12,373 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:53:12,419 - INFO - Database connection established successfully
+2025-05-25 23:53:12,445 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:53:12,445 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:53:12,453 - INFO - Training model with 4 data points
+2025-05-25 23:53:12,557 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:53:12,557 - INFO - Training model with 4 data points
+2025-05-25 23:53:12,576 - INFO - Model trained successfully. RMSE: 6750000.00, MAPE: 25.00%
+2025-05-25 23:53:12,576 - INFO - Training model with 4 data points
+2025-05-25 23:53:12,616 - INFO - Model trained successfully. RMSE: 5818575.06, MAPE: 99.97%
+2025-05-25 23:53:12,616 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:53:12,616 - INFO - Script execution completed
+2025-05-25 23:53:20,185 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:53:20,241 - INFO - Using mysql-connector-python
+2025-05-25 23:53:20,241 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:53:20,241 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:53:20,241 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:53:20,241 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:53:20,265 - INFO - Database connection established successfully
+2025-05-25 23:53:20,278 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:53:20,278 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:53:20,278 - INFO - Training model with 4 data points
+2025-05-25 23:53:20,353 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:53:20,353 - INFO - Training model with 4 data points
+2025-05-25 23:53:20,359 - INFO - Model trained successfully. RMSE: 6750000.00, MAPE: 25.00%
+2025-05-25 23:53:20,359 - INFO - Training model with 4 data points
+2025-05-25 23:53:20,401 - INFO - Model trained successfully. RMSE: 5818575.06, MAPE: 99.97%
+2025-05-25 23:53:20,401 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:53:20,401 - INFO - Script execution completed
+2025-05-25 23:53:28,138 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:53:28,185 - INFO - Using mysql-connector-python
+2025-05-25 23:53:28,185 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:53:28,185 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:53:28,185 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:53:28,185 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:53:28,205 - INFO - Database connection established successfully
+2025-05-25 23:53:28,213 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:53:28,213 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:53:28,213 - INFO - Training model with 4 data points
+2025-05-25 23:53:28,298 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:53:28,298 - INFO - Training model with 4 data points
+2025-05-25 23:53:28,305 - INFO - Model trained successfully. RMSE: 6823672.03, MAPE: 46.77%
+2025-05-25 23:53:28,305 - INFO - Training model with 4 data points
+2025-05-25 23:53:28,366 - INFO - Model trained successfully. RMSE: 6283280.39, MAPE: 100.45%
+2025-05-25 23:53:28,366 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:53:28,366 - INFO - Script execution completed
+2025-05-25 23:53:50,567 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:53:50,612 - INFO - Using mysql-connector-python
+2025-05-25 23:53:50,612 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:53:50,612 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:53:50,612 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:53:50,612 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:53:50,636 - INFO - Database connection established successfully
+2025-05-25 23:53:50,657 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:53:50,657 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:53:50,657 - INFO - Training model with 4 data points
+2025-05-25 23:53:50,734 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:53:50,734 - INFO - Training model with 4 data points
+2025-05-25 23:53:50,740 - INFO - Model trained successfully. RMSE: 6823672.03, MAPE: 46.77%
+2025-05-25 23:53:50,750 - INFO - Training model with 4 data points
+2025-05-25 23:53:50,804 - INFO - Model trained successfully. RMSE: 6283280.39, MAPE: 100.45%
+2025-05-25 23:53:50,804 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:53:50,804 - INFO - Script execution completed
+2025-05-25 23:53:58,914 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:53:58,962 - INFO - Using mysql-connector-python
+2025-05-25 23:53:58,962 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:53:58,962 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:53:58,962 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:53:58,962 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:53:58,991 - INFO - Database connection established successfully
+2025-05-25 23:53:59,007 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:53:59,007 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:53:59,007 - INFO - Training model with 4 data points
+2025-05-25 23:53:59,087 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:53:59,087 - INFO - Training model with 4 data points
+2025-05-25 23:53:59,101 - INFO - Model trained successfully. RMSE: 6823672.03, MAPE: 46.77%
+2025-05-25 23:53:59,101 - INFO - Training model with 4 data points
+2025-05-25 23:53:59,164 - INFO - Model trained successfully. RMSE: 6283280.39, MAPE: 100.45%
+2025-05-25 23:53:59,164 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:53:59,164 - INFO - Script execution completed
+2025-05-25 23:54:06,421 - WARNING - win32api module not available, continuing without it
+2025-05-25 23:54:06,469 - INFO - Using mysql-connector-python
+2025-05-25 23:54:06,469 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-25 23:54:06,469 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-25 23:54:06,469 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-25 23:54:06,469 - INFO - Fetching data for siklus_id: 4
+2025-05-25 23:54:06,481 - INFO - Database connection established successfully
+2025-05-25 23:54:06,497 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-25 23:54:06,497 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-25 23:54:06,497 - INFO - Training model with 4 data points
+2025-05-25 23:54:06,575 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-25 23:54:06,575 - INFO - Training model with 4 data points
+2025-05-25 23:54:06,589 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-25 23:54:06,589 - INFO - Training model with 4 data points
+2025-05-25 23:54:06,639 - INFO - Model trained successfully. RMSE: 4967881.50, MAPE: 98.13%
+2025-05-25 23:54:06,639 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-25 23:54:06,639 - INFO - Script execution completed
+2025-05-26 20:57:41,061 - WARNING - win32api module not available, continuing without it
+2025-05-26 20:57:41,304 - INFO - Using mysql-connector-python
+2025-05-26 20:57:41,304 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 20:57:41,304 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 20:57:41,304 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 20:57:41,304 - INFO - Fetching data for siklus_id: 4
+2025-05-26 20:57:41,383 - INFO - Database connection established successfully
+2025-05-26 20:57:41,423 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 20:57:41,443 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 20:57:41,443 - INFO - Training model with 4 data points
+2025-05-26 20:57:41,544 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-26 20:57:41,544 - INFO - Training model with 4 data points
+2025-05-26 20:57:41,560 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 20:57:41,560 - INFO - Training model with 4 data points
+2025-05-26 20:57:41,609 - INFO - Model trained successfully. RMSE: 4967881.50, MAPE: 98.13%
+2025-05-26 20:57:41,616 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 20:57:41,616 - INFO - Script execution completed
+2025-05-26 20:58:36,159 - WARNING - win32api module not available, continuing without it
+2025-05-26 20:58:36,224 - INFO - Using mysql-connector-python
+2025-05-26 20:58:36,224 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 20:58:36,224 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 20:58:36,224 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 20:58:36,224 - INFO - Fetching data for siklus_id: 4
+2025-05-26 20:58:36,273 - INFO - Database connection established successfully
+2025-05-26 20:58:36,296 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 20:58:36,305 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 20:58:36,305 - INFO - Training model with 4 data points
+2025-05-26 20:58:36,414 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-26 20:58:36,414 - INFO - Training model with 4 data points
+2025-05-26 20:58:36,428 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 20:58:36,428 - INFO - Training model with 4 data points
+2025-05-26 20:58:36,473 - INFO - Model trained successfully. RMSE: 4967881.50, MAPE: 98.13%
+2025-05-26 20:58:36,473 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 20:58:36,473 - INFO - Script execution completed
+2025-05-26 21:01:32,393 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:01:32,473 - INFO - Using mysql-connector-python
+2025-05-26 21:01:32,473 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:01:32,473 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:01:32,473 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:01:32,473 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:01:32,529 - INFO - Database connection established successfully
+2025-05-26 21:01:32,553 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:01:32,561 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:01:32,561 - INFO - Training model with 4 data points
+2025-05-26 21:01:32,678 - INFO - Model trained successfully. RMSE: 519748.79, MAPE: 67.76%
+2025-05-26 21:01:32,678 - INFO - Training model with 4 data points
+2025-05-26 21:01:32,690 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:01:32,690 - INFO - Training model with 4 data points
+2025-05-26 21:01:32,738 - INFO - Model trained successfully. RMSE: 4967881.50, MAPE: 98.13%
+2025-05-26 21:01:32,738 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:01:32,738 - INFO - Script execution completed
+2025-05-26 21:20:48,486 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:20:48,568 - INFO - Using mysql-connector-python
+2025-05-26 21:20:48,568 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:20:48,568 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:20:48,568 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:20:48,568 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:20:48,637 - INFO - Database connection established successfully
+2025-05-26 21:20:48,666 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:20:48,672 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:20:48,672 - INFO - Training model with 4 data points
+2025-05-26 21:20:48,812 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:20:48,812 - INFO - Training model with 4 data points
+2025-05-26 21:20:48,828 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:20:48,828 - INFO - Training model with 4 data points
+2025-05-26 21:20:48,915 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:20:48,915 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:20:48,915 - INFO - Script execution completed
+2025-05-26 21:20:51,590 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:20:51,651 - INFO - Using mysql-connector-python
+2025-05-26 21:20:51,651 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:20:51,651 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:20:51,651 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:20:51,651 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:20:51,672 - INFO - Database connection established successfully
+2025-05-26 21:20:51,681 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:20:51,681 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:20:51,681 - INFO - Training model with 4 data points
+2025-05-26 21:20:51,775 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:20:51,779 - INFO - Training model with 4 data points
+2025-05-26 21:20:51,793 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:20:51,793 - INFO - Training model with 4 data points
+2025-05-26 21:20:51,861 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:20:51,861 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:20:51,861 - INFO - Script execution completed
+2025-05-26 21:21:40,879 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:21:40,930 - INFO - Using mysql-connector-python
+2025-05-26 21:21:40,930 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:21:40,930 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:21:40,930 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:21:40,930 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:21:40,953 - INFO - Database connection established successfully
+2025-05-26 21:21:40,953 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:21:40,969 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:21:40,969 - INFO - Training model with 4 data points
+2025-05-26 21:21:41,053 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:21:41,053 - INFO - Training model with 4 data points
+2025-05-26 21:21:41,065 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:21:41,065 - INFO - Training model with 4 data points
+2025-05-26 21:21:41,112 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:21:41,112 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:21:41,112 - INFO - Script execution completed
+2025-05-26 21:21:45,569 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:21:45,622 - INFO - Using mysql-connector-python
+2025-05-26 21:21:45,622 - INFO - Running ARIMA model with siklus_id: 5, steps: 7
+2025-05-26 21:21:45,622 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:21:45,622 - INFO - Starting prediction for siklus_id: 5, steps: 7
+2025-05-26 21:21:45,622 - INFO - Fetching data for siklus_id: 5
+2025-05-26 21:21:45,643 - INFO - Database connection established successfully
+2025-05-26 21:21:45,660 - INFO - Successfully fetched 2 records for siklus_id: 5
+2025-05-26 21:21:45,660 - INFO - Prepared 7 future dates starting from 2025-05-31 00:00:00
+2025-05-26 21:21:45,660 - INFO - Training model with 2 data points
+2025-05-26 21:21:45,660 - WARNING - Only 2 data points, using simple growth rate model
+2025-05-26 21:21:45,660 - INFO - Training model with 2 data points
+2025-05-26 21:21:45,660 - WARNING - Only 2 data points, using simple growth rate model
+2025-05-26 21:21:45,660 - INFO - Training model with 2 data points
+2025-05-26 21:21:45,660 - WARNING - Only 2 data points, using simple growth rate model
+2025-05-26 21:21:45,660 - INFO - Prediction completed successfully for siklus_id: 5
+2025-05-26 21:21:45,660 - INFO - Script execution completed
+2025-05-26 21:21:57,997 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:21:58,062 - INFO - Using mysql-connector-python
+2025-05-26 21:21:58,062 - INFO - Running ARIMA model with siklus_id: 5, steps: 7
+2025-05-26 21:21:58,062 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:21:58,062 - INFO - Starting prediction for siklus_id: 5, steps: 7
+2025-05-26 21:21:58,062 - INFO - Fetching data for siklus_id: 5
+2025-05-26 21:21:58,087 - INFO - Database connection established successfully
+2025-05-26 21:21:58,104 - INFO - Successfully fetched 2 records for siklus_id: 5
+2025-05-26 21:21:58,104 - INFO - Prepared 7 future dates starting from 2025-05-31 00:00:00
+2025-05-26 21:21:58,104 - INFO - Training model with 2 data points
+2025-05-26 21:21:58,104 - WARNING - Only 2 data points, using simple growth rate model
+2025-05-26 21:21:58,104 - INFO - Training model with 2 data points
+2025-05-26 21:21:58,104 - WARNING - Only 2 data points, using simple growth rate model
+2025-05-26 21:21:58,104 - INFO - Training model with 2 data points
+2025-05-26 21:21:58,104 - WARNING - Only 2 data points, using simple growth rate model
+2025-05-26 21:21:58,104 - INFO - Prediction completed successfully for siklus_id: 5
+2025-05-26 21:21:58,108 - INFO - Script execution completed
+2025-05-26 21:22:16,282 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:22:16,330 - INFO - Using mysql-connector-python
+2025-05-26 21:22:16,330 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:22:16,330 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:22:16,330 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:22:16,330 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:22:16,338 - INFO - Database connection established successfully
+2025-05-26 21:22:16,365 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:22:16,365 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:22:16,365 - INFO - Training model with 4 data points
+2025-05-26 21:22:16,450 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:22:16,450 - INFO - Training model with 4 data points
+2025-05-26 21:22:16,450 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:22:16,450 - INFO - Training model with 4 data points
+2025-05-26 21:22:16,517 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:22:16,517 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:22:16,523 - INFO - Script execution completed
+2025-05-26 21:23:38,309 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:23:38,365 - INFO - Using mysql-connector-python
+2025-05-26 21:23:38,365 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:23:38,365 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:23:38,365 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:23:38,365 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:23:38,390 - INFO - Database connection established successfully
+2025-05-26 21:23:38,406 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:23:38,406 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:23:38,406 - INFO - Training model with 4 data points
+2025-05-26 21:23:38,488 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:23:38,488 - INFO - Training model with 4 data points
+2025-05-26 21:23:38,511 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:23:38,511 - INFO - Training model with 4 data points
+2025-05-26 21:23:38,601 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:23:38,601 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:23:38,601 - INFO - Script execution completed
+2025-05-26 21:24:12,771 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:24:12,825 - INFO - Using mysql-connector-python
+2025-05-26 21:24:12,825 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:24:12,825 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:24:12,825 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:24:12,825 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:24:12,833 - INFO - Database connection established successfully
+2025-05-26 21:24:12,857 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:24:12,857 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:24:12,857 - INFO - Training model with 4 data points
+2025-05-26 21:24:12,939 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:24:12,939 - INFO - Training model with 4 data points
+2025-05-26 21:24:12,952 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:24:12,952 - INFO - Training model with 4 data points
+2025-05-26 21:24:13,016 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:24:13,016 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:24:13,016 - INFO - Script execution completed
+2025-05-26 21:25:15,985 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:25:16,037 - INFO - Using mysql-connector-python
+2025-05-26 21:25:16,037 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:25:16,037 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:25:16,037 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:25:16,037 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:25:16,053 - INFO - Database connection established successfully
+2025-05-26 21:25:16,069 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:25:16,069 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:25:16,069 - INFO - Training model with 4 data points
+2025-05-26 21:25:16,152 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:25:16,152 - INFO - Training model with 4 data points
+2025-05-26 21:25:16,164 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:25:16,164 - INFO - Training model with 4 data points
+2025-05-26 21:25:16,221 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:25:16,221 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:25:16,221 - INFO - Script execution completed
+2025-05-26 21:25:51,043 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:25:51,100 - INFO - Using mysql-connector-python
+2025-05-26 21:25:51,100 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:25:51,100 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:25:51,100 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:25:51,100 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:25:51,124 - INFO - Database connection established successfully
+2025-05-26 21:25:51,146 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:25:51,152 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:25:51,153 - INFO - Training model with 4 data points
+2025-05-26 21:25:51,297 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:25:51,297 - INFO - Training model with 4 data points
+2025-05-26 21:25:51,314 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:25:51,314 - INFO - Training model with 4 data points
+2025-05-26 21:25:51,387 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:25:51,387 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:25:51,387 - INFO - Script execution completed
+2025-05-26 21:26:01,803 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:26:01,863 - INFO - Using mysql-connector-python
+2025-05-26 21:26:01,863 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:26:01,863 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:26:01,863 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:26:01,863 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:26:01,894 - INFO - Database connection established successfully
+2025-05-26 21:26:01,911 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:26:01,911 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:26:01,911 - INFO - Training model with 4 data points
+2025-05-26 21:26:02,007 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:26:02,007 - INFO - Training model with 4 data points
+2025-05-26 21:26:02,021 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:26:02,021 - INFO - Training model with 4 data points
+2025-05-26 21:26:02,079 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:26:02,079 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:26:02,079 - INFO - Script execution completed
+2025-05-26 21:26:10,619 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:26:10,672 - INFO - Using mysql-connector-python
+2025-05-26 21:26:10,672 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:26:10,672 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:26:10,672 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:26:10,672 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:26:10,695 - INFO - Database connection established successfully
+2025-05-26 21:26:10,707 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:26:10,714 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:26:10,714 - INFO - Training model with 4 data points
+2025-05-26 21:26:10,831 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:26:10,832 - INFO - Training model with 4 data points
+2025-05-26 21:26:10,842 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:26:10,845 - INFO - Training model with 4 data points
+2025-05-26 21:26:10,909 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:26:10,909 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:26:10,909 - INFO - Script execution completed
+2025-05-26 21:26:19,345 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:26:19,392 - INFO - Using mysql-connector-python
+2025-05-26 21:26:19,392 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:26:19,392 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:26:19,392 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:26:19,392 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:26:19,410 - INFO - Database connection established successfully
+2025-05-26 21:26:19,424 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:26:19,424 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:26:19,424 - INFO - Training model with 4 data points
+2025-05-26 21:26:19,507 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:26:19,512 - INFO - Training model with 4 data points
+2025-05-26 21:26:19,526 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:26:19,526 - INFO - Training model with 4 data points
+2025-05-26 21:26:19,587 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:26:19,587 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:26:19,587 - INFO - Script execution completed
+2025-05-26 21:26:29,657 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:26:29,701 - INFO - Using mysql-connector-python
+2025-05-26 21:26:29,701 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:26:29,701 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:26:29,701 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:26:29,701 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:26:29,718 - INFO - Database connection established successfully
+2025-05-26 21:26:29,726 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:26:29,726 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:26:29,726 - INFO - Training model with 4 data points
+2025-05-26 21:26:29,806 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:26:29,806 - INFO - Training model with 4 data points
+2025-05-26 21:26:29,823 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:26:29,823 - INFO - Training model with 4 data points
+2025-05-26 21:26:29,871 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:26:29,871 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:26:29,871 - INFO - Script execution completed
+2025-05-26 21:26:54,025 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:26:54,072 - INFO - Using mysql-connector-python
+2025-05-26 21:26:54,072 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:26:54,072 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:26:54,072 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:26:54,072 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:26:54,098 - INFO - Database connection established successfully
+2025-05-26 21:26:54,104 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:26:54,112 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:26:54,112 - INFO - Training model with 4 data points
+2025-05-26 21:26:54,201 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:26:54,201 - INFO - Training model with 4 data points
+2025-05-26 21:26:54,219 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:26:54,219 - INFO - Training model with 4 data points
+2025-05-26 21:26:54,303 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:26:54,303 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:26:54,310 - INFO - Script execution completed
+2025-05-26 21:27:01,999 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:27:02,047 - INFO - Using mysql-connector-python
+2025-05-26 21:27:02,047 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:27:02,047 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:27:02,047 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:27:02,047 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:27:02,075 - INFO - Database connection established successfully
+2025-05-26 21:27:02,086 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:27:02,086 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:27:02,086 - INFO - Training model with 4 data points
+2025-05-26 21:27:02,200 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:27:02,200 - INFO - Training model with 4 data points
+2025-05-26 21:27:02,216 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:27:02,216 - INFO - Training model with 4 data points
+2025-05-26 21:27:02,282 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:27:02,282 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:27:02,282 - INFO - Script execution completed
+2025-05-26 21:27:09,985 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:27:10,039 - INFO - Using mysql-connector-python
+2025-05-26 21:27:10,039 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:27:10,039 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:27:10,039 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:27:10,039 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:27:10,055 - INFO - Database connection established successfully
+2025-05-26 21:27:10,067 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:27:10,067 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:27:10,067 - INFO - Training model with 4 data points
+2025-05-26 21:27:10,151 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:27:10,151 - INFO - Training model with 4 data points
+2025-05-26 21:27:10,167 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:27:10,167 - INFO - Training model with 4 data points
+2025-05-26 21:27:10,228 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:27:10,228 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:27:10,228 - INFO - Script execution completed
+2025-05-26 21:27:21,117 - WARNING - win32api module not available, continuing without it
+2025-05-26 21:27:21,170 - INFO - Using mysql-connector-python
+2025-05-26 21:27:21,170 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 21:27:21,170 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 21:27:21,170 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 21:27:21,170 - INFO - Fetching data for siklus_id: 4
+2025-05-26 21:27:21,188 - INFO - Database connection established successfully
+2025-05-26 21:27:21,200 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 21:27:21,200 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 21:27:21,200 - INFO - Training model with 4 data points
+2025-05-26 21:27:21,295 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 21:27:21,295 - INFO - Training model with 4 data points
+2025-05-26 21:27:21,317 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 21:27:21,317 - INFO - Training model with 4 data points
+2025-05-26 21:27:21,398 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 21:27:21,398 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 21:27:21,399 - INFO - Script execution completed
+2025-05-26 22:21:49,285 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:21:49,346 - INFO - Using mysql-connector-python
+2025-05-26 22:21:49,346 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:21:49,346 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:21:49,346 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:21:49,346 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:21:49,399 - INFO - Database connection established successfully
+2025-05-26 22:21:49,429 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:21:49,434 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:21:49,434 - INFO - Training model with 4 data points
+2025-05-26 22:21:49,504 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:21:49,504 - INFO - Training model with 4 data points
+2025-05-26 22:21:49,519 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:21:49,519 - INFO - Training model with 4 data points
+2025-05-26 22:21:49,562 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:21:49,562 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:21:49,563 - INFO - Script execution completed
+2025-05-26 22:22:02,040 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:22:02,093 - INFO - Using mysql-connector-python
+2025-05-26 22:22:02,094 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:22:02,094 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:22:02,094 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:22:02,094 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:22:02,129 - INFO - Database connection established successfully
+2025-05-26 22:22:02,157 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:22:02,159 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:22:02,159 - INFO - Training model with 4 data points
+2025-05-26 22:22:02,213 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:22:02,213 - INFO - Training model with 4 data points
+2025-05-26 22:22:02,226 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:22:02,227 - INFO - Training model with 4 data points
+2025-05-26 22:22:02,266 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:22:02,267 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:22:02,267 - INFO - Script execution completed
+2025-05-26 22:22:04,622 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:22:04,684 - INFO - Using mysql-connector-python
+2025-05-26 22:22:04,684 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:22:04,684 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:22:04,684 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:22:04,684 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:22:04,716 - INFO - Database connection established successfully
+2025-05-26 22:22:04,716 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:22:04,716 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:22:04,716 - INFO - Training model with 4 data points
+2025-05-26 22:22:04,778 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:22:04,778 - INFO - Training model with 4 data points
+2025-05-26 22:22:04,810 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:22:04,810 - INFO - Training model with 4 data points
+2025-05-26 22:22:04,856 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:22:04,856 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:22:04,856 - INFO - Script execution completed
+2025-05-26 22:22:07,665 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:22:07,717 - INFO - Using mysql-connector-python
+2025-05-26 22:22:07,717 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:22:07,717 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:22:07,717 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:22:07,717 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:22:07,732 - INFO - Database connection established successfully
+2025-05-26 22:22:07,748 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:22:07,748 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:22:07,748 - INFO - Training model with 4 data points
+2025-05-26 22:22:07,826 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:22:07,826 - INFO - Training model with 4 data points
+2025-05-26 22:22:07,842 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:22:07,842 - INFO - Training model with 4 data points
+2025-05-26 22:22:07,889 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:22:07,889 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:22:07,889 - INFO - Script execution completed
+2025-05-26 22:24:24,986 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:24:25,014 - INFO - Using mysql-connector-python
+2025-05-26 22:24:25,014 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:24:25,014 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:24:25,014 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:24:25,014 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:24:25,028 - INFO - Database connection established successfully
+2025-05-26 22:24:25,043 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:24:25,043 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:24:25,043 - INFO - Training model with 4 data points
+2025-05-26 22:24:25,097 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:24:25,098 - INFO - Training model with 4 data points
+2025-05-26 22:24:25,105 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:24:25,105 - INFO - Training model with 4 data points
+2025-05-26 22:24:25,139 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:24:25,139 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:24:25,146 - INFO - Script execution completed
+2025-05-26 22:27:08,385 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:27:08,455 - INFO - Using mysql-connector-python
+2025-05-26 22:27:08,455 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:27:08,455 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:27:08,455 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:27:08,455 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:27:08,480 - INFO - Database connection established successfully
+2025-05-26 22:27:08,489 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:27:08,489 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:27:08,489 - INFO - Training model with 4 data points
+2025-05-26 22:27:08,559 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:27:08,559 - INFO - Training model with 4 data points
+2025-05-26 22:27:08,587 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:27:08,588 - INFO - Training model with 4 data points
+2025-05-26 22:27:08,644 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:27:08,644 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:27:08,644 - INFO - Script execution completed
+2025-05-26 22:27:42,770 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:27:42,932 - INFO - Using mysql-connector-python
+2025-05-26 22:27:42,932 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:27:42,932 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:27:42,933 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:27:42,933 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:27:42,956 - INFO - Database connection established successfully
+2025-05-26 22:27:42,973 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:27:42,974 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:27:42,974 - INFO - Training model with 4 data points
+2025-05-26 22:27:43,033 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:27:43,033 - INFO - Training model with 4 data points
+2025-05-26 22:27:43,056 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:27:43,056 - INFO - Training model with 4 data points
+2025-05-26 22:27:43,112 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:27:43,112 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:27:43,112 - INFO - Script execution completed
+2025-05-26 22:27:45,254 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:27:45,288 - INFO - Using mysql-connector-python
+2025-05-26 22:27:45,288 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:27:45,288 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:27:45,288 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:27:45,288 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:27:45,301 - INFO - Database connection established successfully
+2025-05-26 22:27:45,312 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:27:45,313 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:27:45,313 - INFO - Training model with 4 data points
+2025-05-26 22:27:45,363 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:27:45,363 - INFO - Training model with 4 data points
+2025-05-26 22:27:45,370 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:27:45,370 - INFO - Training model with 4 data points
+2025-05-26 22:27:45,406 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:27:45,406 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:27:45,406 - INFO - Script execution completed
+2025-05-26 22:27:49,266 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:27:49,301 - INFO - Using mysql-connector-python
+2025-05-26 22:27:49,301 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:27:49,301 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:27:49,301 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:27:49,301 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:27:49,324 - INFO - Database connection established successfully
+2025-05-26 22:27:49,332 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:27:49,333 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:27:49,333 - INFO - Training model with 4 data points
+2025-05-26 22:27:49,370 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:27:49,370 - INFO - Training model with 4 data points
+2025-05-26 22:27:49,392 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:27:49,392 - INFO - Training model with 4 data points
+2025-05-26 22:27:49,429 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:27:49,429 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:27:49,430 - INFO - Script execution completed
+2025-05-26 22:28:07,136 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:28:07,173 - INFO - Using mysql-connector-python
+2025-05-26 22:28:07,173 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:28:07,173 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:28:07,174 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:28:07,174 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:28:07,189 - INFO - Database connection established successfully
+2025-05-26 22:28:07,189 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:28:07,189 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:28:07,189 - INFO - Training model with 4 data points
+2025-05-26 22:28:07,250 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:28:07,251 - INFO - Training model with 4 data points
+2025-05-26 22:28:07,259 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:28:07,259 - INFO - Training model with 4 data points
+2025-05-26 22:28:07,293 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:28:07,293 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:28:07,293 - INFO - Script execution completed
+2025-05-26 22:28:09,252 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:28:09,292 - INFO - Using mysql-connector-python
+2025-05-26 22:28:09,292 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:28:09,292 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:28:09,292 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:28:09,292 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:28:09,294 - INFO - Database connection established successfully
+2025-05-26 22:28:09,314 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:28:09,316 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:28:09,316 - INFO - Training model with 4 data points
+2025-05-26 22:28:09,369 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:28:09,370 - INFO - Training model with 4 data points
+2025-05-26 22:28:09,371 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:28:09,371 - INFO - Training model with 4 data points
+2025-05-26 22:28:09,404 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:28:09,404 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:28:09,404 - INFO - Script execution completed
+2025-05-26 22:28:11,876 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:28:11,905 - INFO - Using mysql-connector-python
+2025-05-26 22:28:11,905 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:28:11,905 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:28:11,905 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:28:11,905 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:28:11,924 - INFO - Database connection established successfully
+2025-05-26 22:28:11,933 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:28:11,933 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:28:11,933 - INFO - Training model with 4 data points
+2025-05-26 22:28:11,981 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:28:11,981 - INFO - Training model with 4 data points
+2025-05-26 22:28:11,994 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:28:11,995 - INFO - Training model with 4 data points
+2025-05-26 22:28:12,032 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:28:12,032 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:28:12,032 - INFO - Script execution completed
+2025-05-26 22:28:13,797 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:28:13,830 - INFO - Using mysql-connector-python
+2025-05-26 22:28:13,830 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:28:13,831 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:28:13,831 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:28:13,831 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:28:13,845 - INFO - Database connection established successfully
+2025-05-26 22:28:13,853 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:28:13,854 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:28:13,854 - INFO - Training model with 4 data points
+2025-05-26 22:28:13,925 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:28:13,926 - INFO - Training model with 4 data points
+2025-05-26 22:28:13,938 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:28:13,938 - INFO - Training model with 4 data points
+2025-05-26 22:28:14,055 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:28:14,055 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:28:14,057 - INFO - Script execution completed
+2025-05-26 22:29:10,345 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:29:10,390 - INFO - Using mysql-connector-python
+2025-05-26 22:29:10,390 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:29:10,390 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:29:10,390 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:29:10,390 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:29:10,408 - INFO - Database connection established successfully
+2025-05-26 22:29:10,419 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:29:10,421 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:29:10,421 - INFO - Training model with 4 data points
+2025-05-26 22:29:10,474 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:29:10,479 - INFO - Training model with 4 data points
+2025-05-26 22:29:10,489 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:29:10,490 - INFO - Training model with 4 data points
+2025-05-26 22:29:10,528 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:29:10,528 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:29:10,528 - INFO - Script execution completed
+2025-05-26 22:29:13,195 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:29:13,251 - INFO - Using mysql-connector-python
+2025-05-26 22:29:13,251 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:29:13,251 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:29:13,252 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:29:13,252 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:29:13,264 - INFO - Database connection established successfully
+2025-05-26 22:29:13,276 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:29:13,277 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:29:13,277 - INFO - Training model with 4 data points
+2025-05-26 22:29:13,327 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:29:13,327 - INFO - Training model with 4 data points
+2025-05-26 22:29:13,334 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:29:13,334 - INFO - Training model with 4 data points
+2025-05-26 22:29:13,369 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:29:13,369 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:29:13,369 - INFO - Script execution completed
+2025-05-26 22:29:15,160 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:29:15,195 - INFO - Using mysql-connector-python
+2025-05-26 22:29:15,195 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:29:15,195 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:29:15,195 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:29:15,195 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:29:15,210 - INFO - Database connection established successfully
+2025-05-26 22:29:15,216 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:29:15,216 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:29:15,216 - INFO - Training model with 4 data points
+2025-05-26 22:29:15,265 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:29:15,271 - INFO - Training model with 4 data points
+2025-05-26 22:29:15,281 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:29:15,281 - INFO - Training model with 4 data points
+2025-05-26 22:29:15,317 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:29:15,317 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:29:15,317 - INFO - Script execution completed
+2025-05-26 22:29:23,139 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:29:23,181 - INFO - Using mysql-connector-python
+2025-05-26 22:29:23,181 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:29:23,181 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:29:23,181 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:29:23,181 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:29:23,195 - INFO - Database connection established successfully
+2025-05-26 22:29:23,202 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:29:23,204 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:29:23,204 - INFO - Training model with 4 data points
+2025-05-26 22:29:23,250 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:29:23,250 - INFO - Training model with 4 data points
+2025-05-26 22:29:23,257 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:29:23,264 - INFO - Training model with 4 data points
+2025-05-26 22:29:23,292 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:29:23,299 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:29:23,300 - INFO - Script execution completed
+2025-05-26 22:29:32,404 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:29:32,437 - INFO - Using mysql-connector-python
+2025-05-26 22:29:32,437 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:29:32,437 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:29:32,437 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:29:32,437 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:29:32,451 - INFO - Database connection established successfully
+2025-05-26 22:29:32,451 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:29:32,451 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:29:32,451 - INFO - Training model with 4 data points
+2025-05-26 22:29:32,521 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:29:32,521 - INFO - Training model with 4 data points
+2025-05-26 22:29:32,521 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:29:32,521 - INFO - Training model with 4 data points
+2025-05-26 22:29:32,574 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:29:32,574 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:29:32,576 - INFO - Script execution completed
+2025-05-26 22:29:35,285 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:29:35,327 - INFO - Using mysql-connector-python
+2025-05-26 22:29:35,327 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:29:35,327 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:29:35,327 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:29:35,327 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:29:35,348 - INFO - Database connection established successfully
+2025-05-26 22:29:35,364 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:29:35,364 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:29:35,364 - INFO - Training model with 4 data points
+2025-05-26 22:29:35,433 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:29:35,434 - INFO - Training model with 4 data points
+2025-05-26 22:29:35,443 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:29:35,443 - INFO - Training model with 4 data points
+2025-05-26 22:29:35,488 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:29:35,488 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:29:35,489 - INFO - Script execution completed
+2025-05-26 22:29:52,738 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:29:52,783 - INFO - Using mysql-connector-python
+2025-05-26 22:29:52,783 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:29:52,783 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:29:52,783 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:29:52,783 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:29:52,800 - INFO - Database connection established successfully
+2025-05-26 22:29:52,808 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:29:52,814 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:29:52,814 - INFO - Training model with 4 data points
+2025-05-26 22:29:52,906 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:29:52,906 - INFO - Training model with 4 data points
+2025-05-26 22:29:52,926 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:29:52,926 - INFO - Training model with 4 data points
+2025-05-26 22:29:52,973 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:29:52,973 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:29:52,973 - INFO - Script execution completed
+2025-05-26 22:30:27,573 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:30:27,620 - INFO - Using mysql-connector-python
+2025-05-26 22:30:27,620 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:30:27,620 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:30:27,620 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:30:27,620 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:30:27,635 - INFO - Database connection established successfully
+2025-05-26 22:30:27,651 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:30:27,651 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:30:27,651 - INFO - Training model with 4 data points
+2025-05-26 22:30:27,713 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:30:27,713 - INFO - Training model with 4 data points
+2025-05-26 22:30:27,713 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:30:27,713 - INFO - Training model with 4 data points
+2025-05-26 22:30:27,760 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:30:27,760 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:30:27,760 - INFO - Script execution completed
+2025-05-26 22:30:36,587 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:30:36,703 - INFO - Using mysql-connector-python
+2025-05-26 22:30:36,703 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:30:36,704 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:30:36,704 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:30:36,704 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:30:36,728 - INFO - Database connection established successfully
+2025-05-26 22:30:36,743 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:30:36,744 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:30:36,744 - INFO - Training model with 4 data points
+2025-05-26 22:30:36,848 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:30:36,848 - INFO - Training model with 4 data points
+2025-05-26 22:30:36,873 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:30:36,874 - INFO - Training model with 4 data points
+2025-05-26 22:30:36,945 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:30:36,946 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:30:36,946 - INFO - Script execution completed
+2025-05-26 22:30:39,470 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:30:39,537 - INFO - Using mysql-connector-python
+2025-05-26 22:30:39,537 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:30:39,537 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:30:39,538 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:30:39,538 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:30:39,557 - INFO - Database connection established successfully
+2025-05-26 22:30:39,573 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:30:39,576 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:30:39,577 - INFO - Training model with 4 data points
+2025-05-26 22:30:39,634 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:30:39,634 - INFO - Training model with 4 data points
+2025-05-26 22:30:39,647 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:30:39,648 - INFO - Training model with 4 data points
+2025-05-26 22:30:39,686 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:30:39,686 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:30:39,686 - INFO - Script execution completed
+2025-05-26 22:31:44,865 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:31:44,919 - INFO - Using mysql-connector-python
+2025-05-26 22:31:44,920 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:31:44,920 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:31:44,920 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:31:44,920 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:31:44,960 - INFO - Database connection established successfully
+2025-05-26 22:31:44,976 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:31:44,988 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:31:44,988 - INFO - Training model with 4 data points
+2025-05-26 22:31:45,063 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:31:45,063 - INFO - Training model with 4 data points
+2025-05-26 22:31:45,073 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:31:45,074 - INFO - Training model with 4 data points
+2025-05-26 22:31:45,113 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:31:45,113 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:31:45,113 - INFO - Script execution completed
+2025-05-26 22:31:48,539 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:31:48,572 - INFO - Using mysql-connector-python
+2025-05-26 22:31:48,572 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:31:48,572 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:31:48,572 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:31:48,572 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:31:48,580 - INFO - Database connection established successfully
+2025-05-26 22:31:48,596 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:31:48,596 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:31:48,596 - INFO - Training model with 4 data points
+2025-05-26 22:31:48,649 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:31:48,649 - INFO - Training model with 4 data points
+2025-05-26 22:31:48,649 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:31:48,649 - INFO - Training model with 4 data points
+2025-05-26 22:31:48,685 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:31:48,700 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:31:48,700 - INFO - Script execution completed
+2025-05-26 22:31:50,491 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:31:50,526 - INFO - Using mysql-connector-python
+2025-05-26 22:31:50,526 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:31:50,526 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:31:50,526 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:31:50,526 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:31:50,551 - INFO - Database connection established successfully
+2025-05-26 22:31:50,559 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:31:50,559 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:31:50,559 - INFO - Training model with 4 data points
+2025-05-26 22:31:50,610 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:31:50,610 - INFO - Training model with 4 data points
+2025-05-26 22:31:50,623 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:31:50,623 - INFO - Training model with 4 data points
+2025-05-26 22:31:50,662 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:31:50,663 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:31:50,663 - INFO - Script execution completed
+2025-05-26 22:44:36,472 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:44:36,536 - INFO - Using mysql-connector-python
+2025-05-26 22:44:36,536 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:44:36,536 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:44:36,536 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:44:36,536 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:44:36,581 - INFO - Database connection established successfully
+2025-05-26 22:44:36,606 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:44:36,613 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:44:36,613 - INFO - Training model with 4 data points
+2025-05-26 22:44:36,688 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:44:36,688 - INFO - Training model with 4 data points
+2025-05-26 22:44:36,703 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:44:36,703 - INFO - Training model with 4 data points
+2025-05-26 22:44:36,746 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:44:36,746 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:44:36,747 - INFO - Script execution completed
+2025-05-26 22:45:22,403 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:45:22,436 - INFO - Using mysql-connector-python
+2025-05-26 22:45:22,436 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:45:22,436 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:45:22,436 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:45:22,436 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:45:22,452 - INFO - Database connection established successfully
+2025-05-26 22:45:22,462 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:45:22,463 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:45:22,463 - INFO - Training model with 4 data points
+2025-05-26 22:45:22,513 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:45:22,513 - INFO - Training model with 4 data points
+2025-05-26 22:45:22,530 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:45:22,530 - INFO - Training model with 4 data points
+2025-05-26 22:45:22,577 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:45:22,578 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:45:22,578 - INFO - Script execution completed
+2025-05-26 22:47:23,928 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:47:23,963 - INFO - Using mysql-connector-python
+2025-05-26 22:47:23,963 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:47:23,963 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:47:23,963 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:47:23,963 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:47:23,989 - INFO - Database connection established successfully
+2025-05-26 22:47:23,997 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:47:23,997 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:47:23,997 - INFO - Training model with 4 data points
+2025-05-26 22:47:24,052 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:47:24,053 - INFO - Training model with 4 data points
+2025-05-26 22:47:24,062 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:47:24,063 - INFO - Training model with 4 data points
+2025-05-26 22:47:24,099 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:47:24,099 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:47:24,099 - INFO - Script execution completed
+2025-05-26 22:47:25,989 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:47:26,024 - INFO - Using mysql-connector-python
+2025-05-26 22:47:26,024 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:47:26,024 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:47:26,025 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:47:26,025 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:47:26,031 - INFO - Database connection established successfully
+2025-05-26 22:47:26,047 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:47:26,047 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:47:26,047 - INFO - Training model with 4 data points
+2025-05-26 22:47:26,100 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:47:26,100 - INFO - Training model with 4 data points
+2025-05-26 22:47:26,100 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:47:26,100 - INFO - Training model with 4 data points
+2025-05-26 22:47:26,135 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:47:26,135 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:47:26,135 - INFO - Script execution completed
+2025-05-26 22:47:31,647 - WARNING - win32api module not available, continuing without it
+2025-05-26 22:47:31,680 - INFO - Using mysql-connector-python
+2025-05-26 22:47:31,680 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 22:47:31,680 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 22:47:31,680 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 22:47:31,680 - INFO - Fetching data for siklus_id: 4
+2025-05-26 22:47:31,691 - INFO - Database connection established successfully
+2025-05-26 22:47:31,691 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 22:47:31,691 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 22:47:31,691 - INFO - Training model with 4 data points
+2025-05-26 22:47:31,756 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 22:47:31,756 - INFO - Training model with 4 data points
+2025-05-26 22:47:31,760 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 22:47:31,760 - INFO - Training model with 4 data points
+2025-05-26 22:47:31,803 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 22:47:31,804 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 22:47:31,804 - INFO - Script execution completed
+2025-05-26 23:25:48,918 - WARNING - win32api module not available, continuing without it
+2025-05-26 23:25:49,023 - INFO - Using mysql-connector-python
+2025-05-26 23:25:49,023 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 23:25:49,023 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 23:25:49,023 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 23:25:49,023 - INFO - Fetching data for siklus_id: 4
+2025-05-26 23:25:49,106 - INFO - Database connection established successfully
+2025-05-26 23:25:49,161 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 23:25:49,177 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 23:25:49,177 - INFO - Training model with 4 data points
+2025-05-26 23:25:49,349 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 23:25:49,349 - INFO - Training model with 4 data points
+2025-05-26 23:25:49,364 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 23:25:49,364 - INFO - Training model with 4 data points
+2025-05-26 23:25:49,396 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 23:25:49,396 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 23:25:49,396 - INFO - Script execution completed
+2025-05-26 23:28:30,295 - WARNING - win32api module not available, continuing without it
+2025-05-26 23:28:30,325 - INFO - Using mysql-connector-python
+2025-05-26 23:28:30,325 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 23:28:30,325 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 23:28:30,325 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 23:28:30,325 - INFO - Fetching data for siklus_id: 4
+2025-05-26 23:28:30,343 - INFO - Database connection established successfully
+2025-05-26 23:28:30,353 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 23:28:30,354 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 23:28:30,355 - INFO - Training model with 4 data points
+2025-05-26 23:28:30,403 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 23:28:30,403 - INFO - Training model with 4 data points
+2025-05-26 23:28:30,412 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 23:28:30,412 - INFO - Training model with 4 data points
+2025-05-26 23:28:30,448 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 23:28:30,448 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 23:28:30,448 - INFO - Script execution completed
+2025-05-26 23:33:59,381 - WARNING - win32api module not available, continuing without it
+2025-05-26 23:33:59,425 - INFO - Using mysql-connector-python
+2025-05-26 23:33:59,425 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 23:33:59,425 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 23:33:59,425 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 23:33:59,425 - INFO - Fetching data for siklus_id: 4
+2025-05-26 23:33:59,463 - INFO - Database connection established successfully
+2025-05-26 23:33:59,489 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 23:33:59,494 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 23:33:59,495 - INFO - Training model with 4 data points
+2025-05-26 23:33:59,567 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 23:33:59,567 - INFO - Training model with 4 data points
+2025-05-26 23:33:59,567 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 23:33:59,567 - INFO - Training model with 4 data points
+2025-05-26 23:33:59,602 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 23:33:59,602 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 23:33:59,602 - INFO - Script execution completed
+2025-05-26 23:44:25,013 - WARNING - win32api module not available, continuing without it
+2025-05-26 23:44:25,109 - INFO - Using mysql-connector-python
+2025-05-26 23:44:25,109 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 23:44:25,109 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 23:44:25,109 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 23:44:25,109 - INFO - Fetching data for siklus_id: 4
+2025-05-26 23:44:25,183 - INFO - Database connection established successfully
+2025-05-26 23:44:25,220 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 23:44:25,229 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 23:44:25,229 - INFO - Training model with 4 data points
+2025-05-26 23:44:25,332 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 23:44:25,333 - INFO - Training model with 4 data points
+2025-05-26 23:44:25,347 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 23:44:25,348 - INFO - Training model with 4 data points
+2025-05-26 23:44:25,388 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 23:44:25,389 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 23:44:25,389 - INFO - Script execution completed
+2025-05-26 23:44:52,175 - WARNING - win32api module not available, continuing without it
+2025-05-26 23:44:52,198 - INFO - Using mysql-connector-python
+2025-05-26 23:44:52,198 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-26 23:44:52,198 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-26 23:44:52,198 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-26 23:44:52,198 - INFO - Fetching data for siklus_id: 4
+2025-05-26 23:44:52,222 - INFO - Database connection established successfully
+2025-05-26 23:44:52,234 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-26 23:44:52,234 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-26 23:44:52,234 - INFO - Training model with 4 data points
+2025-05-26 23:44:52,290 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-26 23:44:52,290 - INFO - Training model with 4 data points
+2025-05-26 23:44:52,303 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-26 23:44:52,304 - INFO - Training model with 4 data points
+2025-05-26 23:44:52,339 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-26 23:44:52,339 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-26 23:44:52,344 - INFO - Script execution completed
+2025-05-27 00:08:33,974 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:08:34,027 - INFO - Using mysql-connector-python
+2025-05-27 00:08:34,027 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:08:34,027 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:08:34,027 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:08:34,027 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:08:34,090 - INFO - Database connection established successfully
+2025-05-27 00:08:34,115 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:08:34,120 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:08:34,121 - INFO - Training model with 4 data points
+2025-05-27 00:08:34,193 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:08:34,193 - INFO - Training model with 4 data points
+2025-05-27 00:08:34,208 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:08:34,208 - INFO - Training model with 4 data points
+2025-05-27 00:08:34,249 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:08:34,249 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:08:34,249 - INFO - Script execution completed
+2025-05-27 00:08:37,682 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:08:37,721 - INFO - Using mysql-connector-python
+2025-05-27 00:08:37,721 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:08:37,721 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:08:37,721 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:08:37,721 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:08:37,745 - INFO - Database connection established successfully
+2025-05-27 00:08:37,756 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:08:37,756 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:08:37,756 - INFO - Training model with 4 data points
+2025-05-27 00:08:37,819 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:08:37,820 - INFO - Training model with 4 data points
+2025-05-27 00:08:37,825 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:08:37,825 - INFO - Training model with 4 data points
+2025-05-27 00:08:37,878 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:08:37,878 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:08:37,878 - INFO - Script execution completed
+2025-05-27 00:08:40,639 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:08:40,679 - INFO - Using mysql-connector-python
+2025-05-27 00:08:40,679 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:08:40,679 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:08:40,679 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:08:40,679 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:08:40,693 - INFO - Database connection established successfully
+2025-05-27 00:08:40,693 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:08:40,693 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:08:40,693 - INFO - Training model with 4 data points
+2025-05-27 00:08:40,762 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:08:40,762 - INFO - Training model with 4 data points
+2025-05-27 00:08:40,763 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:08:40,763 - INFO - Training model with 4 data points
+2025-05-27 00:08:40,828 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:08:40,828 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:08:40,829 - INFO - Script execution completed
+2025-05-27 00:08:43,205 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:08:43,237 - INFO - Using mysql-connector-python
+2025-05-27 00:08:43,237 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:08:43,237 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:08:43,237 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:08:43,241 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:08:43,249 - INFO - Database connection established successfully
+2025-05-27 00:08:43,265 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:08:43,265 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:08:43,265 - INFO - Training model with 4 data points
+2025-05-27 00:08:43,316 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:08:43,316 - INFO - Training model with 4 data points
+2025-05-27 00:08:43,318 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:08:43,318 - INFO - Training model with 4 data points
+2025-05-27 00:08:43,353 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:08:43,353 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:08:43,353 - INFO - Script execution completed
+2025-05-27 00:08:45,575 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:08:45,610 - INFO - Using mysql-connector-python
+2025-05-27 00:08:45,610 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:08:45,610 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:08:45,610 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:08:45,610 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:08:45,640 - INFO - Database connection established successfully
+2025-05-27 00:08:45,651 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:08:45,652 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:08:45,652 - INFO - Training model with 4 data points
+2025-05-27 00:08:45,702 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:08:45,702 - INFO - Training model with 4 data points
+2025-05-27 00:08:45,715 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:08:45,715 - INFO - Training model with 4 data points
+2025-05-27 00:08:45,753 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:08:45,753 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:08:45,754 - INFO - Script execution completed
+2025-05-27 00:09:10,596 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:09:10,630 - INFO - Using mysql-connector-python
+2025-05-27 00:09:10,630 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:09:10,630 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:09:10,630 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:09:10,630 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:09:10,653 - INFO - Database connection established successfully
+2025-05-27 00:09:10,663 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:09:10,664 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:09:10,664 - INFO - Training model with 4 data points
+2025-05-27 00:09:10,715 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:09:10,715 - INFO - Training model with 4 data points
+2025-05-27 00:09:10,729 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:09:10,730 - INFO - Training model with 4 data points
+2025-05-27 00:09:10,767 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:09:10,768 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:09:10,768 - INFO - Script execution completed
+2025-05-27 00:09:14,950 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:09:15,001 - INFO - Using mysql-connector-python
+2025-05-27 00:09:15,001 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:09:15,001 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:09:15,001 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:09:15,001 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:09:15,020 - INFO - Database connection established successfully
+2025-05-27 00:09:15,020 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:09:15,020 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:09:15,020 - INFO - Training model with 4 data points
+2025-05-27 00:09:15,081 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:09:15,081 - INFO - Training model with 4 data points
+2025-05-27 00:09:15,088 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:09:15,088 - INFO - Training model with 4 data points
+2025-05-27 00:09:15,123 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:09:15,123 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:09:15,123 - INFO - Script execution completed
+2025-05-27 00:10:20,694 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:10:20,814 - INFO - Using mysql-connector-python
+2025-05-27 00:10:20,814 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:10:20,814 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:10:20,814 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:10:20,814 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:10:20,911 - INFO - Database connection established successfully
+2025-05-27 00:10:20,954 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:10:20,982 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:10:20,983 - INFO - Training model with 4 data points
+2025-05-27 00:10:21,166 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:10:21,166 - INFO - Training model with 4 data points
+2025-05-27 00:10:21,206 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:10:21,207 - INFO - Training model with 4 data points
+2025-05-27 00:10:21,281 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:10:21,282 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:10:21,293 - INFO - Script execution completed
+2025-05-27 00:10:24,612 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:10:24,670 - INFO - Using mysql-connector-python
+2025-05-27 00:10:24,670 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:10:24,670 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:10:24,670 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:10:24,670 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:10:24,692 - INFO - Database connection established successfully
+2025-05-27 00:10:24,705 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:10:24,706 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:10:24,706 - INFO - Training model with 4 data points
+2025-05-27 00:10:24,786 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:10:24,786 - INFO - Training model with 4 data points
+2025-05-27 00:10:24,798 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:10:24,798 - INFO - Training model with 4 data points
+2025-05-27 00:10:24,843 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:10:24,843 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:10:24,843 - INFO - Script execution completed
+2025-05-27 00:10:27,160 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:10:27,195 - INFO - Using mysql-connector-python
+2025-05-27 00:10:27,195 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:10:27,195 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:10:27,195 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:10:27,195 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:10:27,219 - INFO - Database connection established successfully
+2025-05-27 00:10:27,227 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:10:27,229 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:10:27,229 - INFO - Training model with 4 data points
+2025-05-27 00:10:27,279 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:10:27,279 - INFO - Training model with 4 data points
+2025-05-27 00:10:27,289 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:10:27,289 - INFO - Training model with 4 data points
+2025-05-27 00:10:27,325 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:10:27,325 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:10:27,326 - INFO - Script execution completed
+2025-05-27 00:23:50,230 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:23:50,321 - INFO - Using mysql-connector-python
+2025-05-27 00:23:50,321 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:23:50,321 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:23:50,321 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:23:50,321 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:23:50,378 - INFO - Database connection established successfully
+2025-05-27 00:23:50,389 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:23:50,404 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:23:50,404 - INFO - Training model with 4 data points
+2025-05-27 00:23:50,486 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:23:50,486 - INFO - Training model with 4 data points
+2025-05-27 00:23:50,494 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:23:50,494 - INFO - Training model with 4 data points
+2025-05-27 00:23:50,533 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:23:50,533 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:23:50,534 - INFO - Script execution completed
+2025-05-27 00:24:02,408 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:24:02,451 - INFO - Using mysql-connector-python
+2025-05-27 00:24:02,451 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:24:02,451 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:24:02,451 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:24:02,451 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:24:02,501 - INFO - Database connection established successfully
+2025-05-27 00:24:02,521 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:24:02,521 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:24:02,527 - INFO - Training model with 4 data points
+2025-05-27 00:24:02,597 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:24:02,597 - INFO - Training model with 4 data points
+2025-05-27 00:24:02,604 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:24:02,604 - INFO - Training model with 4 data points
+2025-05-27 00:24:02,646 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:24:02,646 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:24:02,646 - INFO - Script execution completed
+2025-05-27 00:26:20,962 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:26:21,048 - INFO - Using mysql-connector-python
+2025-05-27 00:26:21,048 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:26:21,048 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:26:21,048 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:26:21,048 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:26:21,094 - INFO - Database connection established successfully
+2025-05-27 00:26:21,115 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:26:21,120 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:26:21,120 - INFO - Training model with 4 data points
+2025-05-27 00:26:21,192 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:26:21,192 - INFO - Training model with 4 data points
+2025-05-27 00:26:21,199 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:26:21,199 - INFO - Training model with 4 data points
+2025-05-27 00:26:21,240 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:26:21,240 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:26:21,240 - INFO - Script execution completed
+2025-05-27 00:28:40,015 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:28:40,051 - INFO - Using mysql-connector-python
+2025-05-27 00:28:40,051 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:28:40,051 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:28:40,051 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:28:40,051 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:28:40,069 - INFO - Database connection established successfully
+2025-05-27 00:28:40,077 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:28:40,077 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:28:40,077 - INFO - Training model with 4 data points
+2025-05-27 00:28:40,132 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:28:40,132 - INFO - Training model with 4 data points
+2025-05-27 00:28:40,145 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:28:40,145 - INFO - Training model with 4 data points
+2025-05-27 00:28:40,174 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:28:40,182 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:28:40,182 - INFO - Script execution completed
+2025-05-27 00:28:42,356 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:28:42,391 - INFO - Using mysql-connector-python
+2025-05-27 00:28:42,391 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:28:42,391 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:28:42,391 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:28:42,391 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:28:42,403 - INFO - Database connection established successfully
+2025-05-27 00:28:42,412 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:28:42,412 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:28:42,412 - INFO - Training model with 4 data points
+2025-05-27 00:28:42,467 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:28:42,467 - INFO - Training model with 4 data points
+2025-05-27 00:28:42,474 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:28:42,474 - INFO - Training model with 4 data points
+2025-05-27 00:28:42,520 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:28:42,520 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:28:42,521 - INFO - Script execution completed
+2025-05-27 00:29:25,812 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:29:25,864 - INFO - Using mysql-connector-python
+2025-05-27 00:29:25,864 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:29:25,864 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:29:25,864 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:29:25,864 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:29:25,884 - INFO - Database connection established successfully
+2025-05-27 00:29:25,900 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:29:25,902 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:29:25,902 - INFO - Training model with 4 data points
+2025-05-27 00:29:25,961 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:29:25,961 - INFO - Training model with 4 data points
+2025-05-27 00:29:25,973 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:29:25,974 - INFO - Training model with 4 data points
+2025-05-27 00:29:26,032 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:29:26,032 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:29:26,033 - INFO - Script execution completed
+2025-05-27 00:29:45,802 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:29:45,832 - INFO - Using mysql-connector-python
+2025-05-27 00:29:45,832 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:29:45,832 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:29:45,832 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:29:45,832 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:29:45,851 - INFO - Database connection established successfully
+2025-05-27 00:29:45,860 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:29:45,860 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:29:45,860 - INFO - Training model with 4 data points
+2025-05-27 00:29:45,910 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:29:45,910 - INFO - Training model with 4 data points
+2025-05-27 00:29:45,921 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:29:45,921 - INFO - Training model with 4 data points
+2025-05-27 00:29:45,957 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:29:45,957 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:29:45,958 - INFO - Script execution completed
+2025-05-27 00:29:59,505 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:29:59,536 - INFO - Using mysql-connector-python
+2025-05-27 00:29:59,536 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:29:59,536 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:29:59,536 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:29:59,536 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:29:59,554 - INFO - Database connection established successfully
+2025-05-27 00:29:59,554 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:29:59,554 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:29:59,554 - INFO - Training model with 4 data points
+2025-05-27 00:29:59,612 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:29:59,612 - INFO - Training model with 4 data points
+2025-05-27 00:29:59,625 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:29:59,625 - INFO - Training model with 4 data points
+2025-05-27 00:29:59,661 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:29:59,661 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:29:59,661 - INFO - Script execution completed
+2025-05-27 00:30:14,292 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:30:14,319 - INFO - Using mysql-connector-python
+2025-05-27 00:30:14,319 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:30:14,319 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:30:14,319 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:30:14,319 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:30:14,342 - INFO - Database connection established successfully
+2025-05-27 00:30:14,351 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:30:14,352 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:30:14,352 - INFO - Training model with 4 data points
+2025-05-27 00:30:14,401 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:30:14,401 - INFO - Training model with 4 data points
+2025-05-27 00:30:14,412 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:30:14,413 - INFO - Training model with 4 data points
+2025-05-27 00:30:14,450 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:30:14,450 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:30:14,451 - INFO - Script execution completed
+2025-05-27 00:30:53,470 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:30:53,497 - INFO - Using mysql-connector-python
+2025-05-27 00:30:53,497 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:30:53,497 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:30:53,497 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:30:53,497 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:30:53,521 - INFO - Database connection established successfully
+2025-05-27 00:30:53,529 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:30:53,531 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:30:53,531 - INFO - Training model with 4 data points
+2025-05-27 00:30:53,567 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:30:53,567 - INFO - Training model with 4 data points
+2025-05-27 00:30:53,593 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:30:53,594 - INFO - Training model with 4 data points
+2025-05-27 00:30:53,632 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:30:53,632 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:30:53,633 - INFO - Script execution completed
+2025-05-27 00:31:16,044 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:31:16,077 - INFO - Using mysql-connector-python
+2025-05-27 00:31:16,077 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:31:16,077 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:31:16,077 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:31:16,077 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:31:16,087 - INFO - Database connection established successfully
+2025-05-27 00:31:16,094 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:31:16,101 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:31:16,101 - INFO - Training model with 4 data points
+2025-05-27 00:31:16,150 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:31:16,151 - INFO - Training model with 4 data points
+2025-05-27 00:31:16,160 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:31:16,160 - INFO - Training model with 4 data points
+2025-05-27 00:31:16,197 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:31:16,197 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:31:16,198 - INFO - Script execution completed
+2025-05-27 00:31:26,189 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:31:26,256 - INFO - Using mysql-connector-python
+2025-05-27 00:31:26,256 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:31:26,256 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:31:26,256 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:31:26,256 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:31:26,276 - INFO - Database connection established successfully
+2025-05-27 00:31:26,285 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:31:26,290 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:31:26,290 - INFO - Training model with 4 data points
+2025-05-27 00:31:26,352 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:31:26,352 - INFO - Training model with 4 data points
+2025-05-27 00:31:26,366 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:31:26,366 - INFO - Training model with 4 data points
+2025-05-27 00:31:26,400 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:31:26,400 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:31:26,400 - INFO - Script execution completed
+2025-05-27 00:31:40,776 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:31:40,841 - INFO - Using mysql-connector-python
+2025-05-27 00:31:40,841 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:31:40,841 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:31:40,841 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:31:40,841 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:31:40,870 - INFO - Database connection established successfully
+2025-05-27 00:31:40,881 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:31:40,881 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:31:40,881 - INFO - Training model with 4 data points
+2025-05-27 00:31:40,940 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:31:40,940 - INFO - Training model with 4 data points
+2025-05-27 00:31:40,949 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:31:40,949 - INFO - Training model with 4 data points
+2025-05-27 00:31:40,991 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:31:40,991 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:31:40,991 - INFO - Script execution completed
+2025-05-27 00:31:49,768 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:31:49,802 - INFO - Using mysql-connector-python
+2025-05-27 00:31:49,802 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:31:49,802 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:31:49,802 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:31:49,802 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:31:49,818 - INFO - Database connection established successfully
+2025-05-27 00:31:49,830 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:31:49,830 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:31:49,830 - INFO - Training model with 4 data points
+2025-05-27 00:31:49,884 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:31:49,884 - INFO - Training model with 4 data points
+2025-05-27 00:31:49,894 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:31:49,894 - INFO - Training model with 4 data points
+2025-05-27 00:31:49,931 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:31:49,931 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:31:49,931 - INFO - Script execution completed
+2025-05-27 00:31:55,378 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:31:55,413 - INFO - Using mysql-connector-python
+2025-05-27 00:31:55,413 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:31:55,413 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:31:55,413 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:31:55,413 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:31:55,428 - INFO - Database connection established successfully
+2025-05-27 00:31:55,441 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:31:55,442 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:31:55,442 - INFO - Training model with 4 data points
+2025-05-27 00:31:55,482 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:31:55,482 - INFO - Training model with 4 data points
+2025-05-27 00:31:55,503 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:31:55,504 - INFO - Training model with 4 data points
+2025-05-27 00:31:55,541 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:31:55,541 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:31:55,541 - INFO - Script execution completed
+2025-05-27 00:32:02,371 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:32:02,402 - INFO - Using mysql-connector-python
+2025-05-27 00:32:02,402 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:32:02,402 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:32:02,402 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:32:02,402 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:32:02,417 - INFO - Database connection established successfully
+2025-05-27 00:32:02,420 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:32:02,420 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:32:02,420 - INFO - Training model with 4 data points
+2025-05-27 00:32:02,476 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:32:02,476 - INFO - Training model with 4 data points
+2025-05-27 00:32:02,485 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:32:02,485 - INFO - Training model with 4 data points
+2025-05-27 00:32:02,521 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:32:02,521 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:32:02,523 - INFO - Script execution completed
+2025-05-27 00:32:07,898 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:32:07,933 - INFO - Using mysql-connector-python
+2025-05-27 00:32:07,933 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:32:07,933 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:32:07,933 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:32:07,933 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:32:07,959 - INFO - Database connection established successfully
+2025-05-27 00:32:07,967 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:32:07,968 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:32:07,968 - INFO - Training model with 4 data points
+2025-05-27 00:32:08,003 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:32:08,003 - INFO - Training model with 4 data points
+2025-05-27 00:32:08,028 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:32:08,028 - INFO - Training model with 4 data points
+2025-05-27 00:32:08,064 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:32:08,064 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:32:08,065 - INFO - Script execution completed
+2025-05-27 00:32:19,473 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:32:19,514 - INFO - Using mysql-connector-python
+2025-05-27 00:32:19,514 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:32:19,514 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:32:19,514 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:32:19,514 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:32:19,530 - INFO - Database connection established successfully
+2025-05-27 00:32:19,538 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:32:19,540 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:32:19,540 - INFO - Training model with 4 data points
+2025-05-27 00:32:19,593 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:32:19,594 - INFO - Training model with 4 data points
+2025-05-27 00:32:19,604 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:32:19,604 - INFO - Training model with 4 data points
+2025-05-27 00:32:19,642 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:32:19,643 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:32:19,643 - INFO - Script execution completed
+2025-05-27 00:32:45,645 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:32:45,750 - INFO - Using mysql-connector-python
+2025-05-27 00:32:45,750 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:32:45,750 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:32:45,750 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:32:45,750 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:32:45,774 - INFO - Database connection established successfully
+2025-05-27 00:32:45,788 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:32:45,788 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:32:45,788 - INFO - Training model with 4 data points
+2025-05-27 00:32:45,845 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:32:45,845 - INFO - Training model with 4 data points
+2025-05-27 00:32:45,854 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:32:45,854 - INFO - Training model with 4 data points
+2025-05-27 00:32:45,891 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:32:45,891 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:32:45,891 - INFO - Script execution completed
+2025-05-27 00:32:57,877 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:32:57,919 - INFO - Using mysql-connector-python
+2025-05-27 00:32:57,919 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:32:57,919 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:32:57,919 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:32:57,919 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:32:57,982 - INFO - Database connection established successfully
+2025-05-27 00:32:57,994 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:32:58,011 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:32:58,011 - INFO - Training model with 4 data points
+2025-05-27 00:32:58,095 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:32:58,096 - INFO - Training model with 4 data points
+2025-05-27 00:32:58,099 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:32:58,099 - INFO - Training model with 4 data points
+2025-05-27 00:32:58,133 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:32:58,149 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:32:58,149 - INFO - Script execution completed
+2025-05-27 00:33:03,865 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:33:03,905 - INFO - Using mysql-connector-python
+2025-05-27 00:33:03,905 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:33:03,905 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:33:03,905 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:33:03,905 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:33:03,931 - INFO - Database connection established successfully
+2025-05-27 00:33:03,939 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:33:03,939 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:33:03,939 - INFO - Training model with 4 data points
+2025-05-27 00:33:04,009 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:33:04,010 - INFO - Training model with 4 data points
+2025-05-27 00:33:04,013 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:33:04,013 - INFO - Training model with 4 data points
+2025-05-27 00:33:04,068 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:33:04,068 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:33:04,069 - INFO - Script execution completed
+2025-05-27 00:33:16,139 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:33:16,176 - INFO - Using mysql-connector-python
+2025-05-27 00:33:16,176 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:33:16,176 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:33:16,176 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:33:16,176 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:33:16,189 - INFO - Database connection established successfully
+2025-05-27 00:33:16,201 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:33:16,202 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:33:16,202 - INFO - Training model with 4 data points
+2025-05-27 00:33:16,254 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:33:16,255 - INFO - Training model with 4 data points
+2025-05-27 00:33:16,263 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:33:16,265 - INFO - Training model with 4 data points
+2025-05-27 00:33:16,301 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:33:16,308 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:33:16,308 - INFO - Script execution completed
+2025-05-27 00:45:30,408 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:45:30,465 - INFO - Using mysql-connector-python
+2025-05-27 00:45:30,465 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:45:30,465 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:45:30,465 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:45:30,465 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:45:30,519 - INFO - Database connection established successfully
+2025-05-27 00:45:30,589 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:45:30,589 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:45:30,589 - INFO - Training model with 4 data points
+2025-05-27 00:45:30,685 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:45:30,686 - INFO - Training model with 4 data points
+2025-05-27 00:45:30,693 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:45:30,693 - INFO - Training model with 4 data points
+2025-05-27 00:45:30,727 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:45:30,727 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:45:30,727 - INFO - Script execution completed
+2025-05-27 00:47:02,403 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:47:02,442 - INFO - Using mysql-connector-python
+2025-05-27 00:47:02,442 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:47:02,442 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:47:02,442 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:47:02,442 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:47:02,458 - INFO - Database connection established successfully
+2025-05-27 00:47:02,469 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:47:02,469 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:47:02,469 - INFO - Training model with 4 data points
+2025-05-27 00:47:02,525 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:47:02,526 - INFO - Training model with 4 data points
+2025-05-27 00:47:02,534 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:47:02,535 - INFO - Training model with 4 data points
+2025-05-27 00:47:02,571 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:47:02,571 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:47:02,572 - INFO - Script execution completed
+2025-05-27 00:47:19,643 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:47:19,671 - INFO - Using mysql-connector-python
+2025-05-27 00:47:19,671 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:47:19,671 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:47:19,671 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:47:19,671 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:47:19,690 - INFO - Database connection established successfully
+2025-05-27 00:47:19,690 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:47:19,690 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:47:19,690 - INFO - Training model with 4 data points
+2025-05-27 00:47:19,753 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:47:19,753 - INFO - Training model with 4 data points
+2025-05-27 00:47:19,760 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:47:19,760 - INFO - Training model with 4 data points
+2025-05-27 00:47:19,798 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:47:19,799 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:47:19,799 - INFO - Script execution completed
+2025-05-27 00:48:40,462 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:48:40,495 - INFO - Using mysql-connector-python
+2025-05-27 00:48:40,496 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:48:40,496 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:48:40,496 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:48:40,496 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:48:40,531 - INFO - Database connection established successfully
+2025-05-27 00:48:40,535 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:48:40,535 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:48:40,535 - INFO - Training model with 4 data points
+2025-05-27 00:48:40,606 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:48:40,606 - INFO - Training model with 4 data points
+2025-05-27 00:48:40,606 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:48:40,606 - INFO - Training model with 4 data points
+2025-05-27 00:48:40,640 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:48:40,640 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:48:40,640 - INFO - Script execution completed
+2025-05-27 00:49:44,346 - WARNING - win32api module not available, continuing without it
+2025-05-27 00:49:44,382 - INFO - Using mysql-connector-python
+2025-05-27 00:49:44,382 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 00:49:44,382 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 00:49:44,382 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 00:49:44,382 - INFO - Fetching data for siklus_id: 4
+2025-05-27 00:49:44,397 - INFO - Database connection established successfully
+2025-05-27 00:49:44,412 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 00:49:44,412 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 00:49:44,412 - INFO - Training model with 4 data points
+2025-05-27 00:49:44,466 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 00:49:44,466 - INFO - Training model with 4 data points
+2025-05-27 00:49:44,481 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 00:49:44,482 - INFO - Training model with 4 data points
+2025-05-27 00:49:44,524 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 00:49:44,524 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 00:49:44,525 - INFO - Script execution completed
+2025-05-27 01:55:23,122 - WARNING - win32api module not available, continuing without it
+2025-05-27 01:55:23,354 - INFO - Using mysql-connector-python
+2025-05-27 01:55:23,354 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 01:55:23,354 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 01:55:23,354 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 01:55:23,354 - INFO - Fetching data for siklus_id: 4
+2025-05-27 01:55:23,437 - INFO - Database connection established successfully
+2025-05-27 01:55:23,472 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 01:55:23,488 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 01:55:23,488 - INFO - Training model with 4 data points
+2025-05-27 01:55:23,563 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 01:55:23,563 - INFO - Training model with 4 data points
+2025-05-27 01:55:23,571 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 01:55:23,572 - INFO - Training model with 4 data points
+2025-05-27 01:55:23,608 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 01:55:23,608 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 01:55:23,608 - INFO - Script execution completed
+2025-05-27 02:45:43,759 - WARNING - win32api module not available, continuing without it
+2025-05-27 02:45:43,814 - INFO - Using mysql-connector-python
+2025-05-27 02:45:43,814 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 02:45:43,814 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 02:45:43,814 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 02:45:43,814 - INFO - Fetching data for siklus_id: 4
+2025-05-27 02:45:43,862 - INFO - Database connection established successfully
+2025-05-27 02:45:43,887 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 02:45:43,889 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 02:45:43,889 - INFO - Training model with 4 data points
+2025-05-27 02:45:43,951 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 02:45:43,951 - INFO - Training model with 4 data points
+2025-05-27 02:45:43,976 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 02:45:43,976 - INFO - Training model with 4 data points
+2025-05-27 02:45:44,000 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 02:45:44,000 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 02:45:44,000 - INFO - Script execution completed
+2025-05-27 03:22:02,035 - WARNING - win32api module not available, continuing without it
+2025-05-27 03:22:02,235 - INFO - Using mysql-connector-python
+2025-05-27 03:22:02,235 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 03:22:02,235 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 03:22:02,235 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 03:22:02,235 - INFO - Fetching data for siklus_id: 4
+2025-05-27 03:22:02,321 - INFO - Database connection established successfully
+2025-05-27 03:22:02,346 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 03:22:02,346 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 03:22:02,346 - INFO - Training model with 4 data points
+2025-05-27 03:22:02,431 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 03:22:02,431 - INFO - Training model with 4 data points
+2025-05-27 03:22:02,443 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 03:22:02,443 - INFO - Training model with 4 data points
+2025-05-27 03:22:02,478 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 03:22:02,478 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 03:22:02,479 - INFO - Script execution completed
+2025-05-27 03:22:52,275 - WARNING - win32api module not available, continuing without it
+2025-05-27 03:22:52,308 - INFO - Using mysql-connector-python
+2025-05-27 03:22:52,308 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 03:22:52,308 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 03:22:52,308 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 03:22:52,308 - INFO - Fetching data for siklus_id: 4
+2025-05-27 03:22:52,310 - INFO - Database connection established successfully
+2025-05-27 03:22:52,335 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 03:22:52,336 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 03:22:52,336 - INFO - Training model with 4 data points
+2025-05-27 03:22:52,379 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 03:22:52,379 - INFO - Training model with 4 data points
+2025-05-27 03:22:52,379 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 03:22:52,379 - INFO - Training model with 4 data points
+2025-05-27 03:22:52,430 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 03:22:52,430 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 03:22:52,430 - INFO - Script execution completed
+2025-05-27 03:23:06,844 - WARNING - win32api module not available, continuing without it
+2025-05-27 03:23:06,866 - INFO - Using mysql-connector-python
+2025-05-27 03:23:06,866 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 03:23:06,866 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 03:23:06,866 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 03:23:06,866 - INFO - Fetching data for siklus_id: 4
+2025-05-27 03:23:06,895 - INFO - Database connection established successfully
+2025-05-27 03:23:06,901 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-27 03:23:06,901 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 03:23:06,901 - INFO - Training model with 4 data points
+2025-05-27 03:23:06,961 - INFO - Model trained successfully. RMSE: 502356.49, MAPE: 48.67%
+2025-05-27 03:23:06,961 - INFO - Training model with 4 data points
+2025-05-27 03:23:06,972 - INFO - Model trained successfully. RMSE: 5491812.09, MAPE: 46.09%
+2025-05-27 03:23:06,972 - INFO - Training model with 4 data points
+2025-05-27 03:23:07,011 - INFO - Model trained successfully. RMSE: 4929784.01, MAPE: 108.09%
+2025-05-27 03:23:07,011 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 03:23:07,011 - INFO - Script execution completed
+2025-05-27 18:19:42,451 - WARNING - win32api module not available, continuing without it
+2025-05-27 18:19:42,723 - INFO - Using mysql-connector-python
+2025-05-27 18:19:42,723 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 18:19:42,723 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 18:19:42,723 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 18:19:42,723 - INFO - Fetching data for siklus_id: 4
+2025-05-27 18:19:42,828 - INFO - Database connection established successfully
+2025-05-27 18:19:42,873 - INFO - Successfully fetched 3 records for siklus_id: 4
+2025-05-27 18:19:42,881 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 18:19:42,881 - INFO - Training model with 3 data points
+2025-05-27 18:19:42,929 - INFO - Model trained successfully. RMSE: 127705.12, MAPE: 40.02%
+2025-05-27 18:19:42,945 - INFO - Training model with 3 data points
+2025-05-27 18:19:42,957 - INFO - Model trained successfully. RMSE: 6341398.37, MAPE: 61.46%
+2025-05-27 18:19:42,957 - INFO - Training model with 3 data points
+2025-05-27 18:19:43,082 - INFO - Model trained successfully. RMSE: 5847591.63, MAPE: 92.60%
+2025-05-27 18:19:43,082 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 18:19:43,082 - INFO - Script execution completed
+2025-05-27 18:19:47,905 - WARNING - win32api module not available, continuing without it
+2025-05-27 18:19:47,946 - INFO - Using mysql-connector-python
+2025-05-27 18:19:47,946 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-27 18:19:47,946 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-27 18:19:47,946 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-27 18:19:47,946 - INFO - Fetching data for siklus_id: 4
+2025-05-27 18:19:47,977 - INFO - Database connection established successfully
+2025-05-27 18:19:47,985 - INFO - Successfully fetched 3 records for siklus_id: 4
+2025-05-27 18:19:47,985 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-27 18:19:47,985 - INFO - Training model with 3 data points
+2025-05-27 18:19:48,025 - INFO - Model trained successfully. RMSE: 127705.12, MAPE: 40.02%
+2025-05-27 18:19:48,025 - INFO - Training model with 3 data points
+2025-05-27 18:19:48,041 - INFO - Model trained successfully. RMSE: 6341398.37, MAPE: 61.46%
+2025-05-27 18:19:48,041 - INFO - Training model with 3 data points
+2025-05-27 18:19:48,169 - INFO - Model trained successfully. RMSE: 5847591.63, MAPE: 92.60%
+2025-05-27 18:19:48,169 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-27 18:19:48,169 - INFO - Script execution completed
+2025-05-28 01:04:31,419 - WARNING - win32api module not available, continuing without it
+2025-05-28 01:04:31,496 - INFO - Using mysql-connector-python
+2025-05-28 01:04:31,496 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-28 01:04:31,496 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-28 01:04:31,496 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-28 01:04:31,496 - INFO - Fetching data for siklus_id: 4
+2025-05-28 01:04:31,581 - INFO - Database connection established successfully
+2025-05-28 01:04:31,625 - INFO - Successfully fetched 3 records for siklus_id: 4
+2025-05-28 01:04:31,632 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-28 01:04:31,633 - INFO - Training model with 3 data points
+2025-05-28 01:04:31,687 - INFO - Model trained successfully. RMSE: 127705.12, MAPE: 40.02%
+2025-05-28 01:04:31,687 - INFO - Training model with 3 data points
+2025-05-28 01:04:31,699 - INFO - Model trained successfully. RMSE: 6341398.37, MAPE: 61.46%
+2025-05-28 01:04:31,699 - INFO - Training model with 3 data points
+2025-05-28 01:04:31,782 - INFO - Model trained successfully. RMSE: 5847591.63, MAPE: 92.60%
+2025-05-28 01:04:31,783 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-28 01:04:31,783 - INFO - Script execution completed
+2025-05-28 01:04:46,743 - WARNING - win32api module not available, continuing without it
+2025-05-28 01:04:46,777 - INFO - Using mysql-connector-python
+2025-05-28 01:04:46,777 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-28 01:04:46,777 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-28 01:04:46,777 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-28 01:04:46,777 - INFO - Fetching data for siklus_id: 4
+2025-05-28 01:04:46,792 - INFO - Database connection established successfully
+2025-05-28 01:04:46,801 - INFO - Successfully fetched 3 records for siklus_id: 4
+2025-05-28 01:04:46,802 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-28 01:04:46,803 - INFO - Training model with 3 data points
+2025-05-28 01:04:46,824 - INFO - Model trained successfully. RMSE: 127705.12, MAPE: 40.02%
+2025-05-28 01:04:46,825 - INFO - Training model with 3 data points
+2025-05-28 01:04:46,833 - INFO - Model trained successfully. RMSE: 6341398.37, MAPE: 61.46%
+2025-05-28 01:04:46,833 - INFO - Training model with 3 data points
+2025-05-28 01:04:46,907 - INFO - Model trained successfully. RMSE: 5847591.63, MAPE: 92.60%
+2025-05-28 01:04:46,907 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-28 01:04:46,907 - INFO - Script execution completed
+2025-05-28 01:04:48,699 - WARNING - win32api module not available, continuing without it
+2025-05-28 01:04:48,732 - INFO - Using mysql-connector-python
+2025-05-28 01:04:48,732 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-28 01:04:48,732 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-28 01:04:48,732 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-28 01:04:48,732 - INFO - Fetching data for siklus_id: 4
+2025-05-28 01:04:48,747 - INFO - Database connection established successfully
+2025-05-28 01:04:48,758 - INFO - Successfully fetched 3 records for siklus_id: 4
+2025-05-28 01:04:48,759 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-28 01:04:48,760 - INFO - Training model with 3 data points
+2025-05-28 01:04:48,782 - INFO - Model trained successfully. RMSE: 127705.12, MAPE: 40.02%
+2025-05-28 01:04:48,782 - INFO - Training model with 3 data points
+2025-05-28 01:04:48,791 - INFO - Model trained successfully. RMSE: 6341398.37, MAPE: 61.46%
+2025-05-28 01:04:48,792 - INFO - Training model with 3 data points
+2025-05-28 01:04:48,866 - INFO - Model trained successfully. RMSE: 5847591.63, MAPE: 92.60%
+2025-05-28 01:04:48,866 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-28 01:04:48,867 - INFO - Script execution completed
+2025-05-28 06:12:51,284 - WARNING - win32api module not available, continuing without it
+2025-05-28 06:12:51,586 - INFO - Using mysql-connector-python
+2025-05-28 06:12:51,586 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-28 06:12:51,586 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-28 06:12:51,586 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-28 06:12:51,586 - INFO - Fetching data for siklus_id: 4
+2025-05-28 06:12:51,702 - INFO - Database connection established successfully
+2025-05-28 06:12:51,754 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-28 06:12:51,762 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-28 06:12:51,762 - INFO - Training model with 4 data points
+2025-05-28 06:12:51,901 - INFO - Model trained successfully. RMSE: 153800.62, MAPE: 39.24%
+2025-05-28 06:12:51,902 - INFO - Training model with 4 data points
+2025-05-28 06:12:51,915 - INFO - Model trained successfully. RMSE: 4200000.00, MAPE: 25.00%
+2025-05-28 06:12:51,915 - INFO - Training model with 4 data points
+2025-05-28 06:12:51,936 - INFO - Model trained successfully. RMSE: 3881832.43, MAPE: 98.59%
+2025-05-28 06:12:51,936 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-28 06:12:51,936 - INFO - Script execution completed
+2025-05-28 15:48:28,678 - WARNING - win32api module not available, continuing without it
+2025-05-28 15:48:28,749 - INFO - Using mysql-connector-python
+2025-05-28 15:48:28,749 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-28 15:48:28,749 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-28 15:48:28,749 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-28 15:48:28,749 - INFO - Fetching data for siklus_id: 4
+2025-05-28 15:48:28,814 - INFO - Database connection established successfully
+2025-05-28 15:48:28,870 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-28 15:48:28,875 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-28 15:48:28,875 - INFO - Training model with 4 data points
+2025-05-28 15:48:28,967 - INFO - Model trained successfully. RMSE: 153800.62, MAPE: 39.24%
+2025-05-28 15:48:28,967 - INFO - Training model with 4 data points
+2025-05-28 15:48:28,977 - INFO - Model trained successfully. RMSE: 4200000.00, MAPE: 25.00%
+2025-05-28 15:48:28,977 - INFO - Training model with 4 data points
+2025-05-28 15:48:28,997 - INFO - Model trained successfully. RMSE: 3881832.43, MAPE: 98.59%
+2025-05-28 15:48:28,997 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-28 15:48:28,997 - INFO - Script execution completed
+2025-05-29 03:45:08,736 - WARNING - win32api module not available, continuing without it
+2025-05-29 03:45:09,174 - INFO - Using mysql-connector-python
+2025-05-29 03:45:09,174 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-29 03:45:09,175 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-29 03:45:09,175 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-29 03:45:09,175 - INFO - Fetching data for siklus_id: 4
+2025-05-29 03:45:09,299 - INFO - Database connection established successfully
+2025-05-29 03:45:09,360 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-29 03:45:09,368 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-29 03:45:09,369 - INFO - Training model with 4 data points
+2025-05-29 03:45:09,518 - INFO - Model trained successfully. RMSE: 153800.62, MAPE: 39.24%
+2025-05-29 03:45:09,519 - INFO - Training model with 4 data points
+2025-05-29 03:45:09,533 - INFO - Model trained successfully. RMSE: 2400000.00, MAPE: 25.00%
+2025-05-29 03:45:09,534 - INFO - Training model with 4 data points
+2025-05-29 03:45:09,575 - INFO - Model trained successfully. RMSE: 2097104.63, MAPE: 98.47%
+2025-05-29 03:45:09,575 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-29 03:45:09,576 - INFO - Script execution completed
+2025-05-30 19:41:17,245 - WARNING - win32api module not available, continuing without it
+2025-05-30 19:41:17,452 - INFO - Using mysql-connector-python
+2025-05-30 19:41:17,452 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-30 19:41:17,452 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-30 19:41:17,452 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-30 19:41:17,452 - INFO - Fetching data for siklus_id: 4
+2025-05-30 19:41:17,557 - INFO - Database connection established successfully
+2025-05-30 19:41:17,605 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-30 19:41:17,613 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-30 19:41:17,613 - INFO - Training model with 4 data points
+2025-05-30 19:41:17,751 - INFO - Model trained successfully. RMSE: 153800.62, MAPE: 39.24%
+2025-05-30 19:41:17,751 - INFO - Training model with 4 data points
+2025-05-30 19:41:17,768 - INFO - Model trained successfully. RMSE: 2700000.00, MAPE: 25.00%
+2025-05-30 19:41:17,768 - INFO - Training model with 4 data points
+2025-05-30 19:41:17,806 - INFO - Model trained successfully. RMSE: 2393038.15, MAPE: 98.50%
+2025-05-30 19:41:17,806 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-30 19:41:17,806 - INFO - Script execution completed
+2025-05-30 20:20:58,484 - WARNING - win32api module not available, continuing without it
+2025-05-30 20:20:58,545 - INFO - Using mysql-connector-python
+2025-05-30 20:20:58,545 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-30 20:20:58,545 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-30 20:20:58,545 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-30 20:20:58,545 - INFO - Fetching data for siklus_id: 4
+2025-05-30 20:20:58,600 - INFO - Database connection established successfully
+2025-05-30 20:20:58,629 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-30 20:20:58,633 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-30 20:20:58,634 - INFO - Training model with 4 data points
+2025-05-30 20:20:58,730 - INFO - Model trained successfully. RMSE: 153800.62, MAPE: 39.24%
+2025-05-30 20:20:58,731 - INFO - Training model with 4 data points
+2025-05-30 20:20:58,740 - INFO - Model trained successfully. RMSE: 2700000.00, MAPE: 25.00%
+2025-05-30 20:20:58,740 - INFO - Training model with 4 data points
+2025-05-30 20:20:58,764 - INFO - Model trained successfully. RMSE: 2393038.15, MAPE: 98.50%
+2025-05-30 20:20:58,765 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-30 20:20:58,765 - INFO - Script execution completed
+2025-05-30 21:43:20,529 - WARNING - win32api module not available, continuing without it
+2025-05-30 21:43:20,734 - INFO - Using mysql-connector-python
+2025-05-30 21:43:20,734 - INFO - Running ARIMA model with siklus_id: 4, steps: 7
+2025-05-30 21:43:20,734 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-05-30 21:43:20,734 - INFO - Starting prediction for siklus_id: 4, steps: 7
+2025-05-30 21:43:20,734 - INFO - Fetching data for siklus_id: 4
+2025-05-30 21:43:20,825 - INFO - Database connection established successfully
+2025-05-30 21:43:20,860 - INFO - Successfully fetched 4 records for siklus_id: 4
+2025-05-30 21:43:20,866 - INFO - Prepared 7 future dates starting from 2025-07-10 00:00:00
+2025-05-30 21:43:20,866 - INFO - Training model with 4 data points
+2025-05-30 21:43:20,960 - INFO - Model trained successfully. RMSE: 153800.62, MAPE: 39.24%
+2025-05-30 21:43:20,961 - INFO - Training model with 4 data points
+2025-05-30 21:43:20,970 - INFO - Model trained successfully. RMSE: 2700000.00, MAPE: 25.00%
+2025-05-30 21:43:20,970 - INFO - Training model with 4 data points
+2025-05-30 21:43:20,993 - INFO - Model trained successfully. RMSE: 2393038.15, MAPE: 98.50%
+2025-05-30 21:43:20,993 - INFO - Prediction completed successfully for siklus_id: 4
+2025-05-30 21:43:20,993 - INFO - Script execution completed
