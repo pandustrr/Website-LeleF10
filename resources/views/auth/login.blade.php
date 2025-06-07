@@ -6,7 +6,7 @@
 @endpush
 
 @section('content')
-    <div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div class="max-h-screen bg-black-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-md">
             <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
                 Masuk ke akun Anda
@@ -15,9 +15,8 @@
 
         <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-4xl">
             <div class="bg-white shadow-xl rounded-2xl overflow-hidden flex flex-col md:flex-row">
-                <!-- Ganti Ilustrasi SVG dengan Gambar Logo -->
-                <div
-                    class="hidden md:flex md:w-1/2 bg-gradient-to-br from-indigo-500 to-indigo-700 p-8 items-center justify-center">
+                <!-- Gambar Logo -->
+                <div class="hidden md:flex md:w-1/2 bg-gradient-to-br from-indigo-500 to-indigo-700 p-8 items-center justify-center">
                     <div class="text-center">
                         <img src="{{ asset('images/tanpa_bg.png') }}" alt="Logo Sistem" class="w-64 h-auto mx-auto">
                         <h3 class="mt-6 text-xl font-medium text-white">Sistem Manajemen Budidaya Ikan Lele</h3>
@@ -27,12 +26,6 @@
 
                 <!-- Form Login -->
                 <div class="w-full md:w-1/2 p-8 sm:p-10">
-                    @if (session('status'))
-                        <div class="mb-4 px-4 py-3 rounded text-green-700 bg-green-100">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
                     <form class="space-y-6" method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -47,9 +40,6 @@
                                     class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 @error('username') border-red-500 @enderror"
                                     placeholder="Masukkan username">
                             </div>
-                            @error('username')
-                                <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
-                            @enderror
                         </div>
 
                         <div>
@@ -62,9 +52,6 @@
                                     class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 @error('password') border-red-500 @enderror"
                                     placeholder="Masukkan password">
                             </div>
-                            @error('password')
-                                <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
-                            @enderror
                         </div>
 
                         <div class="flex items-center justify-between">
@@ -89,3 +76,37 @@
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        const popupOptions = {
+            customClass: {
+                popup: 'text-sm rounded-xl p-4'
+            },
+            confirmButtonColor: '#6366f1',
+            width: '320px'
+        };
+
+        @if ($errors->has('username') || $errors->has('password'))
+            Swal.fire({
+                icon: 'warning',
+                title: 'Data tidak boleh kosong',
+                text: 'Silakan isi semua kolom yang diperlukan',
+                ...popupOptions
+            });
+        @endif
+
+        @if ($errors->has('error'))
+            Swal.fire({
+                icon: 'error',
+                title: 'Data salah',
+                text: '{{ $errors->first('error') }}',
+                confirmButtonColor: '#ef4444',
+                ...popupOptions
+            });
+        @endif
+    </script>
+@endpush
+

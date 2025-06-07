@@ -6,7 +6,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('tittle', 'Lele') }}</title>
 
-    <!-- Styles and Scripts -->
     @vite(['resources/css/app.css', 'resources/css/custom.css', 'resources/js/app.js'])
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="icon" href="{{ asset('favicon.ico') }}">
@@ -28,20 +27,15 @@
 </head>
 
 <body class="bg-[#F5F6FA] flex">
-    <!-- Sidebar -->
     @include('components.sidebar')
 
-    <!-- Main Content -->
     <main id="mainContent" class="flex-1 transition-all duration-300 ml-0 md:ml-64">
         @yield('content')
     </main>
 
-    <!-- Flowbite JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-
-    <!-- Stack for additional scripts -->
     @stack('scripts')
 
-    
+
 </body>
 </html>

@@ -12,7 +12,7 @@
                 </div>
             </div>
 
-            <!-- Breadcrumb Navigation -->
+            {{-- <!-- Breadcrumb Navigation -->
             <nav class="flex mt-4 sm:mt-6" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
                     <li class="inline-flex items-center">
@@ -37,7 +37,7 @@
                         </div>
                     </li>
                 </ol>
-            </nav>
+            </nav> --}}
         </div>
 
         {{-- Bagian Error Handling --}}
@@ -62,147 +62,8 @@
                 </div>
             </div>
         @else
-            {{-- Bagian Summary Cards --}}
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-6 sm:mb-8">
-                <!-- Card Total Pakan -->
-                <div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-                    <div class="p-4 sm:p-6">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-xs sm:text-sm font-medium text-gray-500 truncate">Total Pakan</p>
-                                <p class="mt-1 text-2xl sm:text-3xl font-semibold text-gray-900">
-                                    {{ number_format($totalPakan) }} kg
-                                </p>
-                            </div>
-                            <div class="bg-orange-100 p-2 sm:p-3 rounded-md sm:rounded-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-orange-600"
-                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="mt-2 sm:mt-4">
-                            <p class="text-xs text-gray-500">Dari {{ count($historisData['pakan']) }} pencatatan</p>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Card Total Panen -->
-                <div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-                    <div class="p-4 sm:p-6">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-xs sm:text-sm font-medium text-gray-500 truncate">Total Panen</p>
-                                <p class="mt-1 text-2xl sm:text-3xl font-semibold text-gray-900">
-                                    {{ number_format($totalPanen) }} kg
-                                </p>
-                            </div>
-                            <div class="bg-green-100 p-2 sm:p-3 rounded-md sm:rounded-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-green-600"
-                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="mt-2 sm:mt-4">
-                            <p class="text-xs text-gray-500">Dari {{ count($historisData['panen']) }} pencatatan</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card FCR Progress -->
-                <div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-                    <div class="p-4 sm:p-6">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-xs sm:text-sm font-medium text-gray-500 truncate">FCR Progress</p>
-                                <p class="mt-1 text-2xl sm:text-3xl font-semibold text-gray-900">
-                                    @if (count($historisData['fcr']) > 0)
-                                        {{ number_format(array_sum($historisData['fcr']) / count($historisData['fcr']), 2) }}
-                                    @else
-                                        0.00
-                                    @endif
-                                </p>
-                                <div class="mt-1 sm:mt-2 text-xs sm:text-sm text-gray-500">
-                                    <span class="font-medium">Detail:</span>
-                                    <div class="flex flex-wrap gap-1 sm:gap-2 mt-1">
-                                        <span
-                                            class="text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-100 text-blue-800 rounded">
-                                            Data: {{ count($historisData['fcr']) }} siklus
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-blue-100 p-2 sm:p-3 rounded-md sm:rounded-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-blue-600"
-                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card FCR Prediksi -->
-                <div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-                    <div class="p-4 sm:p-6">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-xs sm:text-sm font-medium text-gray-500 truncate">FCR Prediksi (120 hari)</p>
-                                <p class="mt-1 text-2xl sm:text-3xl font-semibold text-gray-900">
-                                    @if (isset($analysis['predicted_fcr']))
-                                        {{ number_format($analysis['predicted_fcr'], 2) }}
-                                    @else
-                                        0.00
-                                    @endif
-                                </p>
-                                <div class="mt-1 sm:mt-2 text-xs sm:text-sm text-gray-500">
-                                    <span class="font-medium">Detail Prediksi:</span>
-                                    <div class="flex flex-wrap gap-1 sm:gap-2 mt-1">
-                                        @if (isset($analysis['chart_data']['datasets'][0]['data'][0]))
-                                            <span
-                                                class="text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-100 text-blue-800 rounded">
-                                                P1:
-                                                {{ number_format($analysis['chart_data']['datasets'][0]['data'][0], 2) }}
-                                            </span>
-                                        @endif
-                                        @if (isset($analysis['chart_data']['datasets'][0]['data'][1]))
-                                            <span
-                                                class="text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-200 text-blue-800 rounded">
-                                                P2:
-                                                {{ number_format($analysis['chart_data']['datasets'][0]['data'][1], 2) }}
-                                            </span>
-                                        @endif
-                                        @if (isset($analysis['chart_data']['datasets'][0]['data'][2]))
-                                            <span
-                                                class="text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-300 text-blue-800 rounded">
-                                                P3:
-                                                {{ number_format($analysis['chart_data']['datasets'][0]['data'][2], 2) }}
-                                            </span>
-                                        @endif
-                                    </div>
-                                    @if (isset($analysis['fuzzy_details']['prediction_method']))
-                                        <p class="mt-1 text-xs text-gray-400">
-                                            Metode:
-                                            {{ $analysis['fuzzy_details']['prediction_method'] == 'linear_regression' ? 'Regresi Linear' : 'Proyeksi Sederhana' }}
-                                        </p>
-                                    @endif
-                                </div>
-                            </div>
-                            <div class="bg-purple-100 p-2 sm:p-3 rounded-md sm:rounded-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-purple-600"
-                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @include('components.analisisPrediksi.cards.info-cards')
 
             {{-- Grafik Perkembangan FCR --}}
             <div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden mb-6 sm:mb-8">
@@ -245,195 +106,11 @@
                 </div>
             </div>
 
-            <!-- Tambahkan ini di bagian Summary Cards (setelah Card FCR Prediksi) -->
-<!-- Card FCR Saat Ini -->
-<div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-    <div class="p-4 sm:p-6">
-        <div class="flex items-center justify-between">
-            <div>
-                <p class="text-xs sm:text-sm font-medium text-gray-500 truncate">FCR Saat Ini</p>
-                <p class="mt-1 text-2xl sm:text-3xl font-semibold text-gray-900">
-                    @if (count($historisData['fcr']) > 0)
-                        {{ number_format(end($historisData['fcr']), 2) }}
-                    @else
-                        0.00
-                    @endif
-                </p>
-                <div class="mt-1 sm:mt-2 text-xs sm:text-sm text-gray-500">
-                    <span class="font-medium">Status:</span>
-                    @php
-                        $currentFcr = count($historisData['fcr']) > 0 ? end($historisData['fcr']) : 0;
-                        $currentStatus = 'tidak diketahui';
-                        $statusColor = 'bg-gray-100 text-gray-800';
-
-                        if ($currentFcr > 0) {
-                            if ($currentFcr <= $fcrStandar['baik']) {
-                                $currentStatus = 'Baik';
-                                $statusColor = 'bg-green-100 text-green-800';
-                            } elseif ($currentFcr <= $fcrStandar['sedang']) {
-                                $currentStatus = 'Sedang';
-                                $statusColor = 'bg-yellow-100 text-yellow-800';
-                            } else {
-                                $currentStatus = 'Buruk';
-                                $statusColor = 'bg-red-100 text-red-800';
-                            }
-                        }
-                    @endphp
-                    <span class="ml-2 px-2 py-1 text-xs font-semibold rounded-full {{ $statusColor }}">
-                        {{ $currentStatus }}
-                    </span>
-                </div>
-            </div>
-            <div class="bg-indigo-100 p-2 sm:p-3 rounded-md sm:rounded-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-indigo-600"
-                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                </svg>
-            </div>
-        </div>
-    </div>
-</div>
-
-            {{-- Rekomendasi Berdasarkan Prediksi --}}
-            <div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden mb-6 sm:mb-8">
-                <div class="p-4 sm:p-6">
-                    <div class="flex items-center justify-between">
-                        <div class="pr-2 w-full">
-                            <p class="text-xs sm:text-sm font-medium text-gray-500 truncate">Rekomendasi Berdasarkan
-                                Prediksi</p>
-                            <p class="mt-1 text-base sm:text-lg font-semibold text-gray-900">
-                                {{ $analysis['recommendation'] ?? 'Tidak tersedia' }}
-                            </p>
-
-                            {{-- Detail Prediksi --}}
-                            <div class="mt-4 text-sm sm:text-base text-gray-700 space-y-1">
-                                <p>
-                                    <span class="font-medium text-gray-600">Prediksi FCR:</span>
-                                    {{ number_format($analysis['predicted_fcr'] ?? 0, 2) }}
-                                    @php
-                                        $predictedFcr = $analysis['predicted_fcr'] ?? null;
-                                        $predictedStatus = 'tidak diketahui';
-                                        if ($predictedFcr !== null) {
-                                            $predictedStatus = match (true) {
-                                                $predictedFcr < 1.0 => 'baik',
-                                                $predictedFcr < 1.5 => 'sedang',
-                                                default => 'buruk',
-                                            };
-                                        }
-                                        $predictedColor = match ($predictedStatus) {
-                                            'baik' => 'text-green-600',
-                                            'sedang' => 'text-yellow-600',
-                                            'buruk' => 'text-red-600',
-                                            default => 'text-gray-600',
-                                        };
-                                    @endphp
-                                    <span class="ml-2 font-semibold {{ $predictedColor }}">
-                                        ({{ ucfirst($predictedStatus) }})
-                                    </span>
-                                </p>
-                            </div>
-
-                            {{-- Progress Bar Tren FCR --}}
-                            <div class="mt-4">
-                                <label class="text-sm text-gray-500 font-medium">Perkiraan Tren FCR (rendah lebih
-                                    baik)</label>
-                                @php
-                                    $progress = min(100, max(0, (($predictedFcr ?? 1.5) / 2.0) * 100));
-                                    $progressColor = match (true) {
-                                        $progress < 50 => 'bg-green-500',
-                                        $progress < 75 => 'bg-yellow-500',
-                                        default => 'bg-red-500',
-                                    };
-                                @endphp
-                                <div class="w-full h-3 bg-gray-200 rounded-full mt-1">
-                                    <div class="h-full rounded-full {{ $progressColor }}"
-                                        style="width: {{ $progress }}%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{-- Include Recommendation Cards --}}
+            @include('components.analisisPrediksi.cards.rekomendasi-cards')
 
             {{-- Tabel Data Historis --}}
-            <div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden mb-6 sm:mb-8">
-                <div class="p-4 sm:p-6 border-b border-gray-100">
-                    <h3 class="text-base sm:text-lg font-medium text-gray-900">Data Historis Siklus Budidaya</h3>
-                    <p class="mt-0.5 sm:mt-1 text-xs sm:text-sm text-gray-500">Detail pakan, panen, dan FCR per siklus</p>
-                </div>
-                <div class="overflow-x-auto">
-                    <table class="min-w-full divide-y divide-gray-200">
-                        <thead class="bg-gray-50">
-                            <tr>
-                                <th scope="col"
-                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Siklus</th>
-                                <th scope="col"
-                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Periode</th>
-                                <th scope="col"
-                                    class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Pakan (kg)</th>
-                                <th scope="col"
-                                    class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Panen (kg)</th>
-                                <th scope="col"
-                                    class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    FCR</th>
-                                <th scope="col"
-                                    class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Status</th>
-                            </tr>
-                        </thead>
-                        <tbody class="bg-white divide-y divide-gray-200">
-                            @foreach ($historisData['data_details'] as $data)
-                                @php
-                                    $fcrStatus = match (true) {
-                                        $data['fcr'] <= $fcrStandar['baik'] => 'Baik',
-                                        $data['fcr'] <= $fcrStandar['sedang'] => 'Sedang',
-                                        default => 'Buruk',
-                                    };
-                                    $statusColor = match ($fcrStatus) {
-                                        'Baik' => 'bg-green-100 text-green-800',
-                                        'Sedang' => 'bg-yellow-100 text-yellow-800',
-                                        default => 'bg-red-100 text-red-800',
-                                    };
-                                @endphp
-                                <tr class="hover:bg-gray-50">
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                        {{ $data['siklus_name'] }}</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                        {{ \Carbon\Carbon::parse($data['tanggal_mulai'])->format('d M Y') }} -
-                                        {{ \Carbon\Carbon::parse($data['tanggal_akhir'])->format('d M Y') }}
-                                    </td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-right text-gray-500">
-                                        {{ number_format($data['pakan'], 2) }}</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-right text-gray-500">
-                                        {{ number_format($data['panen'], 2) }}</td>
-                                    <td
-                                        class="px-6 py-4 whitespace-nowrap text-sm text-right font-medium {{ $data['fcr'] > 0 ? ($fcrStatus == 'Baik' ? 'text-green-600' : ($fcrStatus == 'Sedang' ? 'text-yellow-600' : 'text-red-600')) : 'text-gray-500' }}">
-                                        {{ $data['fcr'] > 0 ? number_format($data['fcr'], 2) : '-' }}
-                                    </td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-center">
-                                        @if ($data['fcr'] > 0)
-                                            <span
-                                                class="px-2 py-1 text-xs font-semibold rounded-full {{ $statusColor }}">
-                                                {{ $fcrStatus }}
-                                            </span>
-                                        @else
-                                            <span
-                                                class="px-2 py-1 text-xs font-semibold rounded-full bg-gray-100 text-gray-800">
-                                                Tidak Ada Data
-                                            </span>
-                                        @endif
-                                    </td>
-                                </tr>
-                            @endforeach
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+            @include('components.analisisPrediksi.tables.histori')
 
             {{-- Penjelasan Fuzzy Logic --}}
             <div class="bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 overflow-hidden">

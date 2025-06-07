@@ -10,6 +10,7 @@
     <div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
         @yield('content')
     </div>
+    @stack('scripts')
 
 </body>
 </html>

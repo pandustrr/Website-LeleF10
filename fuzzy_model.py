@@ -43,10 +43,10 @@ def main():
                 current_recommendation = "FCR saat ini sangat baik. Pertahankan pola pemberian pakan saat ini."
                 current_status = "baik"
             elif current_fcr < 1.5:
-                current_recommendation = "FCR saat ini normal. Perhatikan kualitas pakan dan kondisi ikan."
+                current_recommendation = "FCR saat ini normal. Perhatikan kualitas pakan    "
                 current_status = "sedang"
             else:
-                current_recommendation = "FCR saat ini buruk. Evaluasi segera pemberian pakan dan kondisi kolam."
+                current_recommendation = "FCR saat ini buruk. Evaluasi segera pemberian pakan."
                 current_status = "buruk"
 
         # Jika tidak ada data FCR untuk prediksi
@@ -180,6 +180,7 @@ def main():
                 "prediction_method": "linear_regression" if len(historical_fcr) >= 3 else "simple_projection"
             }
         }
+
 
         print(json.dumps(result))
 

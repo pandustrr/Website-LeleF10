@@ -27,7 +27,7 @@
                             <div class="flex justify-end gap-3">
                                 <!-- Tombol Edit - Membuka modal edit -->
                                 <button onclick="openEditModal('{{ route('panen.edit', $panen->id) }}', 'panen')"
-                                    class="text-blue-500 hover:text-blue-700">
+                                    class="text-blue-500 hover:text-blue-700 p-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20"
                                         fill="currentColor">
                                         <path
@@ -35,11 +35,12 @@
                                     </svg>
                                 </button>
 
-                                <form action="{{ route('panen.destroy', $panen->id) }}" method="POST" class="inline">
+                                <!-- Tombol Hapus -->
+                                <form action="{{ route('panen.destroy', $panen->id) }}" method="POST" class="inline delete-form">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="text-red-500 hover:text-red-700 p-1"
-                                        onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">
+                                    <button type="button" class="text-red-500 hover:text-red-700 p-1 delete-button"
+                                        data-id="{{ $panen->id }}">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20"
                                             fill="currentColor">
                                             <path fill-rule="evenodd"
@@ -81,6 +82,37 @@
 </div>
 
 <div id="editModalContainer"></div>
+
 @push('scripts')
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     @vite('resources/js/components/produksi/modal-table.js')
+
+    <!-- Konfirmasi hapus SweetAlert2 -->
+    <script>
+        document.querySelectorAll('.delete-button').forEach(button => {
+            button.addEventListener('click', function () {
+                const form = this.closest('form');
+
+                Swal.fire({
+                    title: 'Yakin ingin menghapus?',
+                    text: 'Data yang dihapus tidak bisa dikembalikan!',
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#6b7280',
+                    confirmButtonText: 'Ya, hapus!',
+                    cancelButtonText: 'Batal',
+                    width: '320px',
+                    customClass: {
+                        popup: 'text-sm rounded-xl'
+                    }
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        form.submit();
+                    }
+                });
+            });
+        });
+    </script>
 @endpush

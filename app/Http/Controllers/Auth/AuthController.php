@@ -3,47 +3,49 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Auth\LoginRequest;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\View\View;
-use App\Models\User;
 
 class AuthController extends Controller
 {
-    public function showLoginForm(): View
+    public function showLoginForm()
     {
         return view('auth.login');
     }
 
-    public function login(LoginRequest $request): RedirectResponse
+    public function login(Request $request)
     {
-        $credentials = $request->validated();
+        // Validasi input tidak boleh kosong
+        $request->validate([
+            'username' => 'required|string',
+            'password' => 'required|string',
+        ], [
+            'username.required' => 'Username tidak boleh kosong',
+            'password.required' => 'Password tidak boleh kosong',
+        ]);
 
-        // 1. Cari user berdasarkan username
-        $user = User::where('username', $credentials['username'])->first();
+        $credentials = $request->only('username', 'password');
 
-        // 2. Verifikasi password plain text
-        if ($user && $user->password === $credentials['password']) {
-            Auth::login($user);
-            $request->session()->regenerate();
+        // Cek credentials tanpa hashing
+        $user = \App\Models\User::where('username', $credentials['username'])
+            ->where('password', $credentials['password'])
+            ->first();
 
-            return redirect()->intended('dashboard');
+        if ($user) {
+            Auth::login($user, $request->filled('remember'));
+            return redirect()->intended('/');
         }
 
-        return back()->withErrors([
-            'username' => 'Username atau password salah.',
-        ])->onlyInput('username');
+        return back()->withInput()->withErrors([
+            'error' => 'Username atau password salah',
+        ]);
     }
 
-    public function logout(Request $request): RedirectResponse
+    public function logout(Request $request)
     {
         Auth::logout();
-
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-
         return redirect('/login');
     }
 }

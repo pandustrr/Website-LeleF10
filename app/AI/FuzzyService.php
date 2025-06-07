@@ -1,4 +1,5 @@
 <?php
+
 namespace App\AI;
 
 use Illuminate\Support\Facades\Log;
@@ -88,7 +89,7 @@ class FuzzyService
     protected function normalizeFcrValue(float $fcr): string
     {
         // Pastikan FCR dalam range yang wajar (0.5 - 3.0)
-        return (string)max(0.5, min($fcr, 3.0));
+        return (string)max(0.01, min($fcr, 3.0));
     }
 
     protected function createProcess(array $command): Process
@@ -119,8 +120,8 @@ class FuzzyService
             $venvPath = base_path('venv');
             $env['VIRTUAL_ENV'] = $venvPath;
             $env['PYTHONPATH'] = PHP_OS_FAMILY === 'Windows'
-                ? $venvPath.'/lib/site-packages'
-                : $venvPath.'/lib/python*/site-packages';
+                ? $venvPath . '/lib/site-packages'
+                : $venvPath . '/lib/python*/site-packages';
         }
 
         return $env;
@@ -148,7 +149,7 @@ class FuzzyService
         $result = json_decode($output, true);
 
         if (json_last_error() !== JSON_ERROR_NONE) {
-            throw new \Exception('Invalid JSON: '.json_last_error_msg());
+            throw new \Exception('Invalid JSON: ' . json_last_error_msg());
         }
 
         if (isset($result['error'])) {
@@ -168,6 +169,7 @@ class FuzzyService
         return [
             'siklus_id' => $siklusId,
             'current_fcr' => $result['current_fcr'] ?? 0,
+            'current_recommendation' => $result['current_recommendation'] ?? 'Tidak tersedia', // ✅ Tambahkan ini
             'predicted_fcr' => $result['predicted_fcr'] ?? 0,
             'recommendation' => $result['recommendation'] ?? 'Tidak dapat menghasilkan rekomendasi',
             'status' => $result['status'] ?? 'unknown',
@@ -178,12 +180,12 @@ class FuzzyService
                 'current_fcr_category' => $this->categorizeFcr($result['current_fcr'] ?? 0),
                 'predicted_fcr_category' => $this->categorizeFcr($result['predicted_fcr'] ?? 0),
                 'recommendation_score' => $result['recommendation_value'] ?? 0,
-                'historical_data_used' => $result['historical_data_used'] ?? false
+                'historical_data_used' => $result['historical_data_used'] ?? false,
+                'prediction_method' => $result['prediction_method'] ?? null
             ],
             'service_version' => '2.1.0'
         ];
     }
-
     protected function categorizeFcr(float $fcr): string
     {
         if ($fcr <= 0) return 'invalid';
@@ -233,7 +235,7 @@ class FuzzyService
             'error_output' => $e->getProcess()->getErrorOutput()
         ]);
 
-        return $this->getFallbackResponse($siklusId, 'Process failed: '.$e->getMessage());
+        return $this->getFallbackResponse($siklusId, 'Process failed: ' . $e->getMessage());
     }
 
     protected function handleGenericError(\Exception $e, int $siklusId, ?float $fcr): array
@@ -298,7 +300,7 @@ class FuzzyService
 
     public function analyzeBatch(array $siklusData): array
     {
-        return array_map(function($data) {
+        return array_map(function ($data) {
             try {
                 return $this->analyze(
                     $data['siklus_id'],
