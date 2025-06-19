@@ -27,7 +27,7 @@ class ARIMAService
         }
     }
 
-    public function predict(int $siklusId, int $steps = 7)
+    public function predict(int $siklusId, int $steps = 14)
     {
         try {
             $command = [

@@ -1,0 +1,795 @@
+2025-06-08 23:13:31,063 - INFO - Using mysql-connector-python
+2025-06-08 23:13:31,063 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-08 23:13:31,064 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-08 23:13:31,064 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-08 23:13:31,064 - INFO - Fetching data for siklus_id: 1
+2025-06-08 23:13:31,165 - INFO - Database connection established successfully
+2025-06-08 23:13:31,212 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-08 23:13:31,218 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-08 23:13:31,218 - INFO - Training model with 6 data points
+2025-06-08 23:13:31,290 - INFO - Model trained successfully. RMSE: 74885924.59, MAPE: 37.11%
+2025-06-08 23:13:31,290 - INFO - Training model with 6 data points
+2025-06-08 23:13:31,303 - INFO - Model trained successfully. RMSE: 4082482904.64, MAPE: 16.67%
+2025-06-08 23:13:31,303 - INFO - Training model with 6 data points
+2025-06-08 23:13:31,345 - INFO - Model trained successfully. RMSE: 4083169735.09, MAPE: 54.09%
+2025-06-08 23:13:31,345 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-08 23:13:31,346 - INFO - Script execution completed
+2025-06-08 23:23:27,059 - INFO - Using mysql-connector-python
+2025-06-08 23:23:27,060 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-08 23:23:27,060 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-08 23:23:27,060 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-08 23:23:27,060 - INFO - Fetching data for siklus_id: 1
+2025-06-08 23:23:27,116 - INFO - Database connection established successfully
+2025-06-08 23:23:27,138 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-08 23:23:27,143 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-08 23:23:27,144 - INFO - Training model with 6 data points
+2025-06-08 23:23:27,202 - INFO - Model trained successfully. RMSE: 74885924.59, MAPE: 37.11%
+2025-06-08 23:23:27,202 - INFO - Training model with 6 data points
+2025-06-08 23:23:27,212 - INFO - Model trained successfully. RMSE: 4082482904.64, MAPE: 16.67%
+2025-06-08 23:23:27,213 - INFO - Training model with 6 data points
+2025-06-08 23:23:27,243 - INFO - Model trained successfully. RMSE: 4083169735.09, MAPE: 54.09%
+2025-06-08 23:23:27,243 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-08 23:23:27,243 - INFO - Script execution completed
+2025-06-08 23:53:41,816 - INFO - Using mysql-connector-python
+2025-06-08 23:53:41,817 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-08 23:53:41,817 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-08 23:53:41,817 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-08 23:53:41,817 - INFO - Fetching data for siklus_id: 1
+2025-06-08 23:53:41,889 - INFO - Database connection established successfully
+2025-06-08 23:53:41,917 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-08 23:53:41,923 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-08 23:53:41,924 - INFO - Training model with 6 data points
+2025-06-08 23:53:41,981 - INFO - Model trained successfully. RMSE: 74885924.59, MAPE: 37.11%
+2025-06-08 23:53:41,981 - INFO - Training model with 6 data points
+2025-06-08 23:53:41,990 - INFO - Model trained successfully. RMSE: 4082482904.64, MAPE: 16.67%
+2025-06-08 23:53:41,991 - INFO - Training model with 6 data points
+2025-06-08 23:53:42,028 - INFO - Model trained successfully. RMSE: 4083169735.09, MAPE: 54.09%
+2025-06-08 23:53:42,028 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-08 23:53:42,028 - INFO - Script execution completed
+2025-06-08 23:54:10,838 - INFO - Using mysql-connector-python
+2025-06-08 23:54:10,839 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-08 23:54:10,839 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-08 23:54:10,839 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-08 23:54:10,839 - INFO - Fetching data for siklus_id: 1
+2025-06-08 23:54:10,855 - INFO - Database connection established successfully
+2025-06-08 23:54:10,869 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-08 23:54:10,870 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-08 23:54:10,870 - INFO - Training model with 6 data points
+2025-06-08 23:54:10,901 - INFO - Model trained successfully. RMSE: 74885924.59, MAPE: 37.11%
+2025-06-08 23:54:10,901 - INFO - Training model with 6 data points
+2025-06-08 23:54:10,912 - INFO - Model trained successfully. RMSE: 4082482904.64, MAPE: 16.67%
+2025-06-08 23:54:10,912 - INFO - Training model with 6 data points
+2025-06-08 23:54:10,962 - INFO - Model trained successfully. RMSE: 4083169735.09, MAPE: 54.09%
+2025-06-08 23:54:10,962 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-08 23:54:10,963 - INFO - Script execution completed
+2025-06-08 23:54:27,759 - INFO - Using mysql-connector-python
+2025-06-08 23:54:27,759 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-08 23:54:27,759 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-08 23:54:27,759 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-08 23:54:27,759 - INFO - Fetching data for siklus_id: 1
+2025-06-08 23:54:27,775 - INFO - Database connection established successfully
+2025-06-08 23:54:27,789 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-08 23:54:27,791 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-08 23:54:27,791 - INFO - Training model with 6 data points
+2025-06-08 23:54:27,820 - INFO - Model trained successfully. RMSE: 74885924.59, MAPE: 37.11%
+2025-06-08 23:54:27,820 - INFO - Training model with 6 data points
+2025-06-08 23:54:27,845 - INFO - Model trained successfully. RMSE: 4122296539.58, MAPE: 31.29%
+2025-06-08 23:54:27,845 - INFO - Training model with 6 data points
+2025-06-08 23:54:27,871 - INFO - Model trained successfully. RMSE: 4112582723.23, MAPE: 52.09%
+2025-06-08 23:54:27,871 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-08 23:54:27,871 - INFO - Script execution completed
+2025-06-08 23:54:47,054 - INFO - Using mysql-connector-python
+2025-06-08 23:54:47,054 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-08 23:54:47,054 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-08 23:54:47,054 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-08 23:54:47,054 - INFO - Fetching data for siklus_id: 1
+2025-06-08 23:54:47,069 - INFO - Database connection established successfully
+2025-06-08 23:54:47,084 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-08 23:54:47,086 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-08 23:54:47,086 - INFO - Training model with 6 data points
+2025-06-08 23:54:47,116 - INFO - Model trained successfully. RMSE: 74885924.59, MAPE: 37.11%
+2025-06-08 23:54:47,116 - INFO - Training model with 6 data points
+2025-06-08 23:54:47,142 - INFO - Model trained successfully. RMSE: 4122296539.58, MAPE: 31.29%
+2025-06-08 23:54:47,142 - INFO - Training model with 6 data points
+2025-06-08 23:54:47,167 - INFO - Model trained successfully. RMSE: 4112582723.23, MAPE: 52.09%
+2025-06-08 23:54:47,167 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-08 23:54:47,168 - INFO - Script execution completed
+2025-06-09 00:32:08,386 - INFO - Using mysql-connector-python
+2025-06-09 00:32:08,387 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 00:32:08,387 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 00:32:08,387 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 00:32:08,387 - INFO - Fetching data for siklus_id: 1
+2025-06-09 00:32:08,436 - INFO - Database connection established successfully
+2025-06-09 00:32:08,464 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-09 00:32:08,471 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-09 00:32:08,471 - INFO - Training model with 6 data points
+2025-06-09 00:32:08,526 - INFO - Model trained successfully. RMSE: 74885924.59, MAPE: 37.11%
+2025-06-09 00:32:08,526 - INFO - Training model with 6 data points
+2025-06-09 00:32:08,554 - INFO - Model trained successfully. RMSE: 4122296539.58, MAPE: 31.29%
+2025-06-09 00:32:08,554 - INFO - Training model with 6 data points
+2025-06-09 00:32:08,579 - INFO - Model trained successfully. RMSE: 4112582723.23, MAPE: 52.09%
+2025-06-09 00:32:08,579 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 00:32:08,580 - INFO - Script execution completed
+2025-06-09 19:21:42,241 - INFO - Using mysql-connector-python
+2025-06-09 19:21:42,241 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 19:21:42,241 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 19:21:42,241 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 19:21:42,241 - INFO - Fetching data for siklus_id: 1
+2025-06-09 19:21:42,334 - INFO - Database connection established successfully
+2025-06-09 19:21:42,361 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-09 19:21:42,368 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-09 19:21:42,369 - INFO - Training model with 6 data points
+2025-06-09 19:21:42,424 - INFO - Model trained successfully. RMSE: 74885924.59, MAPE: 37.11%
+2025-06-09 19:21:42,425 - INFO - Training model with 6 data points
+2025-06-09 19:21:42,449 - INFO - Model trained successfully. RMSE: 4122296539.58, MAPE: 31.29%
+2025-06-09 19:21:42,449 - INFO - Training model with 6 data points
+2025-06-09 19:21:42,474 - INFO - Model trained successfully. RMSE: 4112582723.23, MAPE: 52.09%
+2025-06-09 19:21:42,474 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 19:21:42,475 - INFO - Script execution completed
+2025-06-09 19:30:27,574 - INFO - Using mysql-connector-python
+2025-06-09 19:30:27,574 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 19:30:27,574 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 19:30:27,575 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 19:30:27,575 - INFO - Fetching data for siklus_id: 1
+2025-06-09 19:30:27,631 - INFO - Database connection established successfully
+2025-06-09 19:30:27,657 - WARNING - No data found for siklus_id: 1
+2025-06-09 19:30:27,657 - ERROR - Tidak ada data transaksi untuk siklus ini
+2025-06-09 19:30:27,658 - INFO - Script execution completed
+2025-06-09 19:52:04,266 - INFO - Using mysql-connector-python
+2025-06-09 19:52:04,266 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 19:52:04,267 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 19:52:04,267 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 19:52:04,267 - INFO - Fetching data for siklus_id: 1
+2025-06-09 19:52:04,321 - INFO - Database connection established successfully
+2025-06-09 19:52:04,348 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 19:52:04,354 - INFO - Prepared 7 future dates starting from 2025-07-18 00:00:00
+2025-06-09 19:52:04,355 - INFO - Training model with 2 data points
+2025-06-09 19:52:04,355 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:04,355 - INFO - Training model with 2 data points
+2025-06-09 19:52:04,355 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:04,355 - INFO - Training model with 2 data points
+2025-06-09 19:52:04,355 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:04,355 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 19:52:04,356 - INFO - Script execution completed
+2025-06-09 19:52:12,278 - INFO - Using mysql-connector-python
+2025-06-09 19:52:12,279 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 19:52:12,279 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 19:52:12,279 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 19:52:12,279 - INFO - Fetching data for siklus_id: 1
+2025-06-09 19:52:12,294 - INFO - Database connection established successfully
+2025-06-09 19:52:12,305 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 19:52:12,307 - INFO - Prepared 7 future dates starting from 2025-07-18 00:00:00
+2025-06-09 19:52:12,307 - INFO - Training model with 2 data points
+2025-06-09 19:52:12,307 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:12,307 - INFO - Training model with 2 data points
+2025-06-09 19:52:12,307 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:12,307 - INFO - Training model with 2 data points
+2025-06-09 19:52:12,307 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:12,307 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 19:52:12,308 - INFO - Script execution completed
+2025-06-09 19:52:21,419 - INFO - Using mysql-connector-python
+2025-06-09 19:52:21,419 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 19:52:21,420 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 19:52:21,420 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 19:52:21,420 - INFO - Fetching data for siklus_id: 1
+2025-06-09 19:52:21,435 - INFO - Database connection established successfully
+2025-06-09 19:52:21,444 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 19:52:21,445 - INFO - Prepared 7 future dates starting from 2025-07-18 00:00:00
+2025-06-09 19:52:21,445 - INFO - Training model with 2 data points
+2025-06-09 19:52:21,445 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:21,445 - INFO - Training model with 2 data points
+2025-06-09 19:52:21,445 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:21,446 - INFO - Training model with 2 data points
+2025-06-09 19:52:21,446 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:21,446 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 19:52:21,446 - INFO - Script execution completed
+2025-06-09 19:52:46,154 - INFO - Using mysql-connector-python
+2025-06-09 19:52:46,155 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 19:52:46,155 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 19:52:46,155 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 19:52:46,155 - INFO - Fetching data for siklus_id: 1
+2025-06-09 19:52:46,170 - INFO - Database connection established successfully
+2025-06-09 19:52:46,182 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 19:52:46,183 - INFO - Prepared 7 future dates starting from 2025-07-18 00:00:00
+2025-06-09 19:52:46,183 - INFO - Training model with 2 data points
+2025-06-09 19:52:46,184 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:46,184 - INFO - Training model with 2 data points
+2025-06-09 19:52:46,184 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:46,184 - INFO - Training model with 2 data points
+2025-06-09 19:52:46,184 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:46,184 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 19:52:46,184 - INFO - Script execution completed
+2025-06-09 19:52:48,234 - INFO - Using mysql-connector-python
+2025-06-09 19:52:48,234 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 19:52:48,234 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 19:52:48,234 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 19:52:48,234 - INFO - Fetching data for siklus_id: 1
+2025-06-09 19:52:48,255 - INFO - Database connection established successfully
+2025-06-09 19:52:48,272 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 19:52:48,274 - INFO - Prepared 7 future dates starting from 2025-07-18 00:00:00
+2025-06-09 19:52:48,275 - INFO - Training model with 2 data points
+2025-06-09 19:52:48,275 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:48,275 - INFO - Training model with 2 data points
+2025-06-09 19:52:48,275 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:48,275 - INFO - Training model with 2 data points
+2025-06-09 19:52:48,275 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 19:52:48,275 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 19:52:48,276 - INFO - Script execution completed
+2025-06-09 20:29:33,585 - INFO - Using mysql-connector-python
+2025-06-09 20:29:33,586 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 20:29:33,586 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 20:29:33,586 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 20:29:33,586 - INFO - Fetching data for siklus_id: 1
+2025-06-09 20:29:33,642 - INFO - Database connection established successfully
+2025-06-09 20:29:33,665 - INFO - Successfully fetched 1 records for siklus_id: 1
+2025-06-09 20:29:33,670 - INFO - Prepared 7 future dates starting from 2025-06-09 00:00:00
+2025-06-09 20:29:33,670 - INFO - Training model with 1 data points
+2025-06-09 20:29:33,670 - WARNING - Only 1 data point, returning flat predictions
+2025-06-09 20:29:33,670 - INFO - Training model with 1 data points
+2025-06-09 20:29:33,670 - WARNING - Only 1 data point, returning flat predictions
+2025-06-09 20:29:33,670 - INFO - Training model with 1 data points
+2025-06-09 20:29:33,670 - WARNING - Only 1 data point, returning flat predictions
+2025-06-09 20:29:33,670 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 20:29:33,671 - INFO - Script execution completed
+2025-06-09 20:29:38,006 - INFO - Using mysql-connector-python
+2025-06-09 20:29:38,007 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 20:29:38,007 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 20:29:38,007 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 20:29:38,007 - INFO - Fetching data for siklus_id: 1
+2025-06-09 20:29:38,023 - INFO - Database connection established successfully
+2025-06-09 20:29:38,035 - INFO - Successfully fetched 1 records for siklus_id: 1
+2025-06-09 20:29:38,037 - INFO - Prepared 7 future dates starting from 2025-06-09 00:00:00
+2025-06-09 20:29:38,037 - INFO - Training model with 1 data points
+2025-06-09 20:29:38,037 - WARNING - Only 1 data point, returning flat predictions
+2025-06-09 20:29:38,037 - INFO - Training model with 1 data points
+2025-06-09 20:29:38,037 - WARNING - Only 1 data point, returning flat predictions
+2025-06-09 20:29:38,037 - INFO - Training model with 1 data points
+2025-06-09 20:29:38,037 - WARNING - Only 1 data point, returning flat predictions
+2025-06-09 20:29:38,037 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 20:29:38,038 - INFO - Script execution completed
+2025-06-09 20:29:46,619 - INFO - Using mysql-connector-python
+2025-06-09 20:29:46,620 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 20:29:46,620 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 20:29:46,620 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 20:29:46,620 - INFO - Fetching data for siklus_id: 1
+2025-06-09 20:29:46,635 - INFO - Database connection established successfully
+2025-06-09 20:29:46,648 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 20:29:46,650 - INFO - Prepared 7 future dates starting from 2222-02-22 00:00:00
+2025-06-09 20:29:46,650 - INFO - Training model with 2 data points
+2025-06-09 20:29:46,650 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 20:29:46,650 - INFO - Training model with 2 data points
+2025-06-09 20:29:46,650 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 20:29:46,650 - INFO - Training model with 2 data points
+2025-06-09 20:29:46,650 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 20:29:46,650 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 20:29:46,651 - INFO - Script execution completed
+2025-06-09 21:04:02,112 - INFO - Using mysql-connector-python
+2025-06-09 21:04:02,112 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 21:04:02,113 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 21:04:02,113 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 21:04:02,113 - INFO - Fetching data for siklus_id: 1
+2025-06-09 21:04:02,158 - INFO - Database connection established successfully
+2025-06-09 21:04:02,184 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 21:04:02,190 - INFO - Prepared 7 future dates starting from 2222-02-22 00:00:00
+2025-06-09 21:04:02,191 - INFO - Training model with 2 data points
+2025-06-09 21:04:02,191 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:04:02,191 - INFO - Training model with 2 data points
+2025-06-09 21:04:02,191 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:04:02,191 - INFO - Training model with 2 data points
+2025-06-09 21:04:02,191 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:04:02,191 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 21:04:02,192 - INFO - Script execution completed
+2025-06-09 21:12:40,515 - INFO - Using mysql-connector-python
+2025-06-09 21:12:40,515 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 21:12:40,515 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 21:12:40,515 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 21:12:40,515 - INFO - Fetching data for siklus_id: 1
+2025-06-09 21:12:40,563 - INFO - Database connection established successfully
+2025-06-09 21:12:40,586 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 21:12:40,593 - INFO - Prepared 7 future dates starting from 2222-02-22 00:00:00
+2025-06-09 21:12:40,594 - INFO - Training model with 2 data points
+2025-06-09 21:12:40,594 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:12:40,594 - INFO - Training model with 2 data points
+2025-06-09 21:12:40,594 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:12:40,594 - INFO - Training model with 2 data points
+2025-06-09 21:12:40,594 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:12:40,594 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 21:12:40,594 - INFO - Script execution completed
+2025-06-09 21:12:46,092 - INFO - Using mysql-connector-python
+2025-06-09 21:12:46,093 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 21:12:46,093 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 21:12:46,093 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 21:12:46,093 - INFO - Fetching data for siklus_id: 1
+2025-06-09 21:12:46,108 - INFO - Database connection established successfully
+2025-06-09 21:12:46,118 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 21:12:46,119 - INFO - Prepared 7 future dates starting from 2222-02-22 00:00:00
+2025-06-09 21:12:46,119 - INFO - Training model with 2 data points
+2025-06-09 21:12:46,119 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:12:46,119 - INFO - Training model with 2 data points
+2025-06-09 21:12:46,119 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:12:46,119 - INFO - Training model with 2 data points
+2025-06-09 21:12:46,119 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:12:46,119 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 21:12:46,120 - INFO - Script execution completed
+2025-06-09 21:43:09,266 - INFO - Using mysql-connector-python
+2025-06-09 21:43:09,268 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-09 21:43:09,268 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-09 21:43:09,268 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-09 21:43:09,268 - INFO - Fetching data for siklus_id: 1
+2025-06-09 21:43:09,339 - INFO - Database connection established successfully
+2025-06-09 21:43:09,380 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-09 21:43:09,387 - INFO - Prepared 7 future dates starting from 2222-02-22 00:00:00
+2025-06-09 21:43:09,388 - INFO - Training model with 2 data points
+2025-06-09 21:43:09,388 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:43:09,388 - INFO - Training model with 2 data points
+2025-06-09 21:43:09,388 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:43:09,388 - INFO - Training model with 2 data points
+2025-06-09 21:43:09,388 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-09 21:43:09,388 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-09 21:43:09,389 - INFO - Script execution completed
+2025-06-13 15:19:01,072 - INFO - Using mysql-connector-python
+2025-06-13 15:19:01,073 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-13 15:19:01,074 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-13 15:19:01,074 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-13 15:19:01,074 - INFO - Fetching data for siklus_id: 1
+2025-06-13 15:19:01,180 - INFO - Database connection established successfully
+2025-06-13 15:19:01,213 - WARNING - No data found for siklus_id: 1
+2025-06-13 15:19:01,213 - ERROR - Tidak ada data transaksi untuk siklus ini
+2025-06-13 15:19:01,213 - INFO - Script execution completed
+2025-06-13 15:37:29,492 - INFO - Using mysql-connector-python
+2025-06-13 15:37:29,493 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-13 15:37:29,493 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-13 15:37:29,493 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-13 15:37:29,494 - INFO - Fetching data for siklus_id: 1
+2025-06-13 15:37:29,549 - INFO - Database connection established successfully
+2025-06-13 15:37:29,573 - WARNING - No data found for siklus_id: 1
+2025-06-13 15:37:29,573 - ERROR - Tidak ada data transaksi untuk siklus ini
+2025-06-13 15:37:29,573 - INFO - Script execution completed
+2025-06-13 15:40:56,062 - INFO - Using mysql-connector-python
+2025-06-13 15:40:56,063 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-13 15:40:56,063 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-13 15:40:56,063 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-13 15:40:56,063 - INFO - Fetching data for siklus_id: 1
+2025-06-13 15:40:56,083 - INFO - Database connection established successfully
+2025-06-13 15:40:56,101 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-13 15:40:56,106 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-13 15:40:56,106 - INFO - Training model with 2 data points
+2025-06-13 15:40:56,107 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:40:56,107 - INFO - Training model with 2 data points
+2025-06-13 15:40:56,107 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:40:56,107 - INFO - Training model with 2 data points
+2025-06-13 15:40:56,107 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:40:56,108 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-13 15:40:56,108 - INFO - Script execution completed
+2025-06-13 15:41:28,733 - INFO - Using mysql-connector-python
+2025-06-13 15:41:28,733 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-13 15:41:28,733 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-13 15:41:28,733 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-13 15:41:28,733 - INFO - Fetching data for siklus_id: 1
+2025-06-13 15:41:28,754 - INFO - Database connection established successfully
+2025-06-13 15:41:28,768 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-13 15:41:28,769 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-13 15:41:28,769 - INFO - Training model with 2 data points
+2025-06-13 15:41:28,770 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:41:28,770 - INFO - Training model with 2 data points
+2025-06-13 15:41:28,770 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:41:28,770 - INFO - Training model with 2 data points
+2025-06-13 15:41:28,770 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:41:28,770 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-13 15:41:28,770 - INFO - Script execution completed
+2025-06-13 15:41:51,631 - INFO - Using mysql-connector-python
+2025-06-13 15:41:51,631 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-13 15:41:51,631 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-13 15:41:51,632 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-13 15:41:51,632 - INFO - Fetching data for siklus_id: 1
+2025-06-13 15:41:51,650 - INFO - Database connection established successfully
+2025-06-13 15:41:51,662 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-13 15:41:51,663 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-13 15:41:51,664 - INFO - Training model with 2 data points
+2025-06-13 15:41:51,664 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:41:51,664 - INFO - Training model with 2 data points
+2025-06-13 15:41:51,664 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:41:51,664 - INFO - Training model with 2 data points
+2025-06-13 15:41:51,664 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:41:51,664 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-13 15:41:51,664 - INFO - Script execution completed
+2025-06-13 15:43:21,458 - INFO - Using mysql-connector-python
+2025-06-13 15:43:21,458 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-13 15:43:21,458 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-13 15:43:21,458 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-13 15:43:21,458 - INFO - Fetching data for siklus_id: 1
+2025-06-13 15:43:21,481 - INFO - Database connection established successfully
+2025-06-13 15:43:21,496 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-13 15:43:21,498 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-13 15:43:21,498 - INFO - Training model with 2 data points
+2025-06-13 15:43:21,498 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:43:21,498 - INFO - Training model with 2 data points
+2025-06-13 15:43:21,498 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:43:21,498 - INFO - Training model with 2 data points
+2025-06-13 15:43:21,498 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:43:21,498 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-13 15:43:21,499 - INFO - Script execution completed
+2025-06-13 15:55:16,952 - INFO - Using mysql-connector-python
+2025-06-13 15:55:16,953 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-13 15:55:16,953 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-13 15:55:16,953 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-13 15:55:16,953 - INFO - Fetching data for siklus_id: 1
+2025-06-13 15:55:17,050 - INFO - Database connection established successfully
+2025-06-13 15:55:17,077 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-13 15:55:17,085 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-13 15:55:17,086 - INFO - Training model with 2 data points
+2025-06-13 15:55:17,086 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:55:17,086 - INFO - Training model with 2 data points
+2025-06-13 15:55:17,086 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:55:17,086 - INFO - Training model with 2 data points
+2025-06-13 15:55:17,086 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-13 15:55:17,087 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-13 15:55:17,087 - INFO - Script execution completed
+2025-06-16 23:38:28,642 - INFO - Using mysql-connector-python
+2025-06-16 23:38:28,642 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-16 23:38:28,642 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-16 23:38:28,642 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-16 23:38:28,642 - INFO - Fetching data for siklus_id: 1
+2025-06-16 23:38:28,727 - INFO - Database connection established successfully
+2025-06-16 23:38:28,747 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-16 23:38:28,752 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-16 23:38:28,752 - INFO - Training model with 2 data points
+2025-06-16 23:38:28,752 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-16 23:38:28,752 - INFO - Training model with 2 data points
+2025-06-16 23:38:28,752 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-16 23:38:28,752 - INFO - Training model with 2 data points
+2025-06-16 23:38:28,752 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-16 23:38:28,752 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-16 23:38:28,753 - INFO - Script execution completed
+2025-06-16 23:53:21,086 - INFO - Using mysql-connector-python
+2025-06-16 23:53:21,086 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-16 23:53:21,086 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-16 23:53:21,086 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-16 23:53:21,087 - INFO - Fetching data for siklus_id: 1
+2025-06-16 23:53:21,131 - INFO - Database connection established successfully
+2025-06-16 23:53:21,157 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-16 23:53:21,161 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-16 23:53:21,161 - INFO - Training model with 2 data points
+2025-06-16 23:53:21,161 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-16 23:53:21,162 - INFO - Training model with 2 data points
+2025-06-16 23:53:21,162 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-16 23:53:21,162 - INFO - Training model with 2 data points
+2025-06-16 23:53:21,162 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-16 23:53:21,162 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-16 23:53:21,162 - INFO - Script execution completed
+2025-06-18 21:40:39,367 - INFO - Using mysql-connector-python
+2025-06-18 21:40:39,369 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-18 21:40:39,369 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-18 21:40:39,369 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-18 21:40:39,369 - INFO - Fetching data for siklus_id: 1
+2025-06-18 21:40:39,482 - INFO - Database connection established successfully
+2025-06-18 21:40:39,516 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-18 21:40:39,522 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-18 21:40:39,522 - INFO - Training model with 2 data points
+2025-06-18 21:40:39,522 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 21:40:39,522 - INFO - Training model with 2 data points
+2025-06-18 21:40:39,523 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 21:40:39,523 - INFO - Training model with 2 data points
+2025-06-18 21:40:39,523 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 21:40:39,523 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-18 21:40:39,523 - INFO - Script execution completed
+2025-06-18 22:39:00,634 - INFO - Using mysql-connector-python
+2025-06-18 22:39:00,635 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-18 22:39:00,635 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-18 22:39:00,635 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-18 22:39:00,635 - INFO - Fetching data for siklus_id: 1
+2025-06-18 22:39:00,690 - INFO - Database connection established successfully
+2025-06-18 22:39:00,718 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-18 22:39:00,723 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-18 22:39:00,724 - INFO - Training model with 2 data points
+2025-06-18 22:39:00,724 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 22:39:00,724 - INFO - Training model with 2 data points
+2025-06-18 22:39:00,724 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 22:39:00,724 - INFO - Training model with 2 data points
+2025-06-18 22:39:00,724 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 22:39:00,724 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-18 22:39:00,725 - INFO - Script execution completed
+2025-06-18 22:39:43,420 - INFO - Using mysql-connector-python
+2025-06-18 22:39:43,420 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-18 22:39:43,420 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-18 22:39:43,420 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-18 22:39:43,421 - INFO - Fetching data for siklus_id: 1
+2025-06-18 22:39:43,439 - INFO - Database connection established successfully
+2025-06-18 22:39:43,453 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-18 22:39:43,454 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-18 22:39:43,455 - INFO - Training model with 2 data points
+2025-06-18 22:39:43,455 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 22:39:43,455 - INFO - Training model with 2 data points
+2025-06-18 22:39:43,455 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 22:39:43,455 - INFO - Training model with 2 data points
+2025-06-18 22:39:43,455 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-18 22:39:43,455 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-18 22:39:43,456 - INFO - Script execution completed
+2025-06-19 11:48:35,582 - INFO - Using mysql-connector-python
+2025-06-19 11:48:35,583 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 11:48:35,583 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 11:48:35,583 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 11:48:35,583 - INFO - Fetching data for siklus_id: 1
+2025-06-19 11:48:35,673 - INFO - Database connection established successfully
+2025-06-19 11:48:35,705 - INFO - Successfully fetched 2 records for siklus_id: 1
+2025-06-19 11:48:35,711 - INFO - Prepared 7 future dates starting from 2025-07-23 00:00:00
+2025-06-19 11:48:35,712 - INFO - Training model with 2 data points
+2025-06-19 11:48:35,712 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-19 11:48:35,712 - INFO - Training model with 2 data points
+2025-06-19 11:48:35,712 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-19 11:48:35,712 - INFO - Training model with 2 data points
+2025-06-19 11:48:35,712 - WARNING - Only 2 data points, using simple growth rate model
+2025-06-19 11:48:35,712 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 11:48:35,712 - INFO - Script execution completed
+2025-06-19 12:00:58,230 - INFO - Using mysql-connector-python
+2025-06-19 12:00:58,230 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:00:58,230 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:00:58,230 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:00:58,230 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:00:58,274 - INFO - Database connection established successfully
+2025-06-19 12:00:58,292 - INFO - Successfully fetched 5 records for siklus_id: 1
+2025-06-19 12:00:58,296 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:00:58,296 - INFO - Training model with 5 data points
+2025-06-19 12:00:58,404 - INFO - Model trained successfully. RMSE: 120075.26, MAPE: 22.61%
+2025-06-19 12:00:58,404 - INFO - Training model with 5 data points
+2025-06-19 12:00:58,487 - INFO - Model trained successfully. RMSE: 0.00, MAPE: 0.00%
+2025-06-19 12:00:58,488 - INFO - Training model with 5 data points
+2025-06-19 12:00:58,559 - INFO - Model trained successfully. RMSE: 120075.26, MAPE: 22.61%
+2025-06-19 12:00:58,559 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:00:58,560 - INFO - Script execution completed
+2025-06-19 12:01:12,539 - INFO - Using mysql-connector-python
+2025-06-19 12:01:12,539 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:01:12,540 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:01:12,540 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:01:12,540 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:01:12,559 - INFO - Database connection established successfully
+2025-06-19 12:01:12,571 - INFO - Successfully fetched 5 records for siklus_id: 1
+2025-06-19 12:01:12,573 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:01:12,574 - INFO - Training model with 5 data points
+2025-06-19 12:01:12,651 - INFO - Model trained successfully. RMSE: 120075.26, MAPE: 22.61%
+2025-06-19 12:01:12,651 - INFO - Training model with 5 data points
+2025-06-19 12:01:12,661 - INFO - Model trained successfully. RMSE: 167705.10, MAPE: 20.00%
+2025-06-19 12:01:12,662 - INFO - Training model with 5 data points
+2025-06-19 12:01:12,716 - INFO - Model trained successfully. RMSE: 199604.12, MAPE: 355.92%
+2025-06-19 12:01:12,717 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:01:12,717 - INFO - Script execution completed
+2025-06-19 12:01:21,560 - INFO - Using mysql-connector-python
+2025-06-19 12:01:21,560 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:01:21,560 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:01:21,560 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:01:21,560 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:01:21,576 - INFO - Database connection established successfully
+2025-06-19 12:01:21,587 - INFO - Successfully fetched 5 records for siklus_id: 1
+2025-06-19 12:01:21,588 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:01:21,588 - INFO - Training model with 5 data points
+2025-06-19 12:01:21,670 - INFO - Model trained successfully. RMSE: 120075.26, MAPE: 22.61%
+2025-06-19 12:01:21,671 - INFO - Training model with 5 data points
+2025-06-19 12:01:21,683 - INFO - Model trained successfully. RMSE: 190065.78, MAPE: 20.00%
+2025-06-19 12:01:21,683 - INFO - Training model with 5 data points
+2025-06-19 12:01:21,741 - INFO - Model trained successfully. RMSE: 217351.67, MAPE: 299.20%
+2025-06-19 12:01:21,741 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:01:21,741 - INFO - Script execution completed
+2025-06-19 12:01:24,091 - INFO - Using mysql-connector-python
+2025-06-19 12:01:24,091 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:01:24,091 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:01:24,091 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:01:24,091 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:01:24,108 - INFO - Database connection established successfully
+2025-06-19 12:01:24,117 - INFO - Successfully fetched 5 records for siklus_id: 1
+2025-06-19 12:01:24,119 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:01:24,119 - INFO - Training model with 5 data points
+2025-06-19 12:01:24,203 - INFO - Model trained successfully. RMSE: 120075.26, MAPE: 22.61%
+2025-06-19 12:01:24,203 - INFO - Training model with 5 data points
+2025-06-19 12:01:24,214 - INFO - Model trained successfully. RMSE: 190065.78, MAPE: 20.00%
+2025-06-19 12:01:24,214 - INFO - Training model with 5 data points
+2025-06-19 12:01:24,267 - INFO - Model trained successfully. RMSE: 217351.67, MAPE: 299.20%
+2025-06-19 12:01:24,267 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:01:24,268 - INFO - Script execution completed
+2025-06-19 12:02:02,751 - INFO - Using mysql-connector-python
+2025-06-19 12:02:02,751 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:02:02,751 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:02:02,751 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:02:02,751 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:02:02,768 - INFO - Database connection established successfully
+2025-06-19 12:02:02,779 - INFO - Successfully fetched 5 records for siklus_id: 1
+2025-06-19 12:02:02,780 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:02:02,781 - INFO - Training model with 5 data points
+2025-06-19 12:02:02,862 - INFO - Model trained successfully. RMSE: 120075.26, MAPE: 22.61%
+2025-06-19 12:02:02,863 - INFO - Training model with 5 data points
+2025-06-19 12:02:02,872 - INFO - Model trained successfully. RMSE: 532184.18, MAPE: 20.00%
+2025-06-19 12:02:02,873 - INFO - Training model with 5 data points
+2025-06-19 12:02:02,918 - INFO - Model trained successfully. RMSE: 509727.93, MAPE: 74.60%
+2025-06-19 12:02:02,918 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:02:02,919 - INFO - Script execution completed
+2025-06-19 12:03:23,761 - INFO - Using mysql-connector-python
+2025-06-19 12:03:23,762 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:03:23,762 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:03:23,762 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:03:23,762 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:03:23,779 - INFO - Database connection established successfully
+2025-06-19 12:03:23,790 - INFO - Successfully fetched 5 records for siklus_id: 1
+2025-06-19 12:03:23,791 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:03:23,791 - INFO - Training model with 5 data points
+2025-06-19 12:03:23,869 - INFO - Model trained successfully. RMSE: 120075.26, MAPE: 22.61%
+2025-06-19 12:03:23,869 - INFO - Training model with 5 data points
+2025-06-19 12:03:23,879 - INFO - Model trained successfully. RMSE: 532184.18, MAPE: 20.00%
+2025-06-19 12:03:23,879 - INFO - Training model with 5 data points
+2025-06-19 12:03:23,923 - INFO - Model trained successfully. RMSE: 509727.93, MAPE: 74.60%
+2025-06-19 12:03:23,923 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:03:23,924 - INFO - Script execution completed
+2025-06-19 12:04:29,747 - INFO - Using mysql-connector-python
+2025-06-19 12:04:29,747 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:04:29,747 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:04:29,747 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:04:29,747 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:04:29,764 - INFO - Database connection established successfully
+2025-06-19 12:04:29,779 - INFO - Successfully fetched 5 records for siklus_id: 1
+2025-06-19 12:04:29,781 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:04:29,781 - INFO - Training model with 5 data points
+2025-06-19 12:04:29,844 - INFO - Model trained successfully. RMSE: 323116.28, MAPE: 21.17%
+2025-06-19 12:04:29,845 - INFO - Training model with 5 data points
+2025-06-19 12:04:29,857 - INFO - Model trained successfully. RMSE: 532184.18, MAPE: 20.00%
+2025-06-19 12:04:29,858 - INFO - Training model with 5 data points
+2025-06-19 12:04:29,930 - INFO - Model trained successfully. RMSE: 597202.62, MAPE: 93.45%
+2025-06-19 12:04:29,930 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:04:29,931 - INFO - Script execution completed
+2025-06-19 12:05:16,786 - INFO - Using mysql-connector-python
+2025-06-19 12:05:16,786 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:05:16,786 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:05:16,786 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:05:16,786 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:05:16,803 - INFO - Database connection established successfully
+2025-06-19 12:05:16,813 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-19 12:05:16,814 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:05:16,814 - INFO - Training model with 6 data points
+2025-06-19 12:05:16,924 - INFO - Model trained successfully. RMSE: 138019.80, MAPE: 20.40%
+2025-06-19 12:05:16,924 - INFO - Training model with 6 data points
+2025-06-19 12:05:16,936 - INFO - Model trained successfully. RMSE: 485815.47, MAPE: 16.67%
+2025-06-19 12:05:16,936 - INFO - Training model with 6 data points
+2025-06-19 12:05:17,043 - INFO - Model trained successfully. RMSE: 453300.13, MAPE: 71.85%
+2025-06-19 12:05:17,044 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:05:17,044 - INFO - Script execution completed
+2025-06-19 12:05:43,300 - INFO - Using mysql-connector-python
+2025-06-19 12:05:43,301 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:05:43,301 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:05:43,301 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:05:43,301 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:05:43,318 - INFO - Database connection established successfully
+2025-06-19 12:05:43,327 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-19 12:05:43,328 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:05:43,328 - INFO - Training model with 6 data points
+2025-06-19 12:05:43,437 - INFO - Model trained successfully. RMSE: 138019.80, MAPE: 20.40%
+2025-06-19 12:05:43,437 - INFO - Training model with 6 data points
+2025-06-19 12:05:43,446 - INFO - Model trained successfully. RMSE: 6001249.87, MAPE: 16.67%
+2025-06-19 12:05:43,447 - INFO - Training model with 6 data points
+2025-06-19 12:05:43,480 - INFO - Model trained successfully. RMSE: 6002939.44, MAPE: 41.46%
+2025-06-19 12:05:43,480 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:05:43,481 - INFO - Script execution completed
+2025-06-19 12:05:56,637 - INFO - Using mysql-connector-python
+2025-06-19 12:05:56,638 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:05:56,638 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:05:56,638 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:05:56,638 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:05:56,655 - INFO - Database connection established successfully
+2025-06-19 12:05:56,665 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-19 12:05:56,667 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:05:56,667 - INFO - Training model with 6 data points
+2025-06-19 12:05:56,773 - INFO - Model trained successfully. RMSE: 138019.80, MAPE: 20.40%
+2025-06-19 12:05:56,773 - INFO - Training model with 6 data points
+2025-06-19 12:05:56,782 - INFO - Model trained successfully. RMSE: 600124.99, MAPE: 16.67%
+2025-06-19 12:05:56,783 - INFO - Training model with 6 data points
+2025-06-19 12:05:56,888 - INFO - Model trained successfully. RMSE: 555784.44, MAPE: 69.53%
+2025-06-19 12:05:56,888 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:05:56,888 - INFO - Script execution completed
+2025-06-19 12:06:27,644 - INFO - Using mysql-connector-python
+2025-06-19 12:06:27,645 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:06:27,645 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:06:27,645 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:06:27,645 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:06:27,663 - INFO - Database connection established successfully
+2025-06-19 12:06:27,673 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-19 12:06:27,674 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:06:27,674 - INFO - Training model with 6 data points
+2025-06-19 12:06:27,785 - INFO - Model trained successfully. RMSE: 295897.33, MAPE: 18.78%
+2025-06-19 12:06:27,785 - INFO - Training model with 6 data points
+2025-06-19 12:06:27,795 - INFO - Model trained successfully. RMSE: 728723.20, MAPE: 16.67%
+2025-06-19 12:06:27,796 - INFO - Training model with 6 data points
+2025-06-19 12:06:27,899 - INFO - Model trained successfully. RMSE: 762609.10, MAPE: 70.57%
+2025-06-19 12:06:27,899 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:06:27,900 - INFO - Script execution completed
+2025-06-19 12:06:37,087 - INFO - Using mysql-connector-python
+2025-06-19 12:06:37,087 - INFO - Running ARIMA model with siklus_id: 2, steps: 7
+2025-06-19 12:06:37,087 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:06:37,087 - INFO - Starting prediction for siklus_id: 2, steps: 7
+2025-06-19 12:06:37,087 - INFO - Fetching data for siklus_id: 2
+2025-06-19 12:06:37,104 - INFO - Database connection established successfully
+2025-06-19 12:06:37,115 - INFO - Successfully fetched 3 records for siklus_id: 2
+2025-06-19 12:06:37,116 - INFO - Prepared 7 future dates starting from 2025-08-27 00:00:00
+2025-06-19 12:06:37,117 - INFO - Training model with 3 data points
+2025-06-19 12:06:37,164 - INFO - Model trained successfully. RMSE: 2450851.98, MAPE: 33.34%
+2025-06-19 12:06:37,165 - INFO - Training model with 3 data points
+2025-06-19 12:06:37,263 - INFO - Model trained successfully. RMSE: 0.00, MAPE: 0.00%
+2025-06-19 12:06:37,264 - INFO - Training model with 3 data points
+2025-06-19 12:06:37,309 - INFO - Model trained successfully. RMSE: 2450851.98, MAPE: 33.34%
+2025-06-19 12:06:37,310 - INFO - Prediction completed successfully for siklus_id: 2
+2025-06-19 12:06:37,310 - INFO - Script execution completed
+2025-06-19 12:06:48,468 - INFO - Using mysql-connector-python
+2025-06-19 12:06:48,468 - INFO - Running ARIMA model with siklus_id: 2, steps: 7
+2025-06-19 12:06:48,468 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:06:48,468 - INFO - Starting prediction for siklus_id: 2, steps: 7
+2025-06-19 12:06:48,468 - INFO - Fetching data for siklus_id: 2
+2025-06-19 12:06:48,485 - INFO - Database connection established successfully
+2025-06-19 12:06:48,497 - INFO - Successfully fetched 3 records for siklus_id: 2
+2025-06-19 12:06:48,498 - INFO - Prepared 7 future dates starting from 2025-08-27 00:00:00
+2025-06-19 12:06:48,498 - INFO - Training model with 3 data points
+2025-06-19 12:06:48,543 - INFO - Model trained successfully. RMSE: 2450851.98, MAPE: 33.34%
+2025-06-19 12:06:48,543 - INFO - Training model with 3 data points
+2025-06-19 12:06:48,553 - INFO - Model trained successfully. RMSE: 3031088.91, MAPE: 33.33%
+2025-06-19 12:06:48,554 - INFO - Training model with 3 data points
+2025-06-19 12:06:48,594 - INFO - Model trained successfully. RMSE: 3518015.71, MAPE: 196.26%
+2025-06-19 12:06:48,594 - INFO - Prediction completed successfully for siklus_id: 2
+2025-06-19 12:06:48,595 - INFO - Script execution completed
+2025-06-19 12:07:16,139 - INFO - Using mysql-connector-python
+2025-06-19 12:07:16,139 - INFO - Running ARIMA model with siklus_id: 1, steps: 7
+2025-06-19 12:07:16,139 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:07:16,139 - INFO - Starting prediction for siklus_id: 1, steps: 7
+2025-06-19 12:07:16,139 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:07:16,155 - INFO - Database connection established successfully
+2025-06-19 12:07:16,165 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-19 12:07:16,166 - INFO - Prepared 7 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:07:16,167 - INFO - Training model with 6 data points
+2025-06-19 12:07:16,272 - INFO - Model trained successfully. RMSE: 295897.33, MAPE: 18.78%
+2025-06-19 12:07:16,273 - INFO - Training model with 6 data points
+2025-06-19 12:07:16,283 - INFO - Model trained successfully. RMSE: 728723.20, MAPE: 16.67%
+2025-06-19 12:07:16,283 - INFO - Training model with 6 data points
+2025-06-19 12:07:16,387 - INFO - Model trained successfully. RMSE: 762609.10, MAPE: 70.57%
+2025-06-19 12:07:16,387 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:07:16,388 - INFO - Script execution completed
+2025-06-19 12:08:50,760 - INFO - Using mysql-connector-python
+2025-06-19 12:08:50,760 - INFO - Running ARIMA model with siklus_id: 1, steps: 40
+2025-06-19 12:08:50,760 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:08:50,760 - INFO - Starting prediction for siklus_id: 1, steps: 40
+2025-06-19 12:08:50,760 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:08:50,778 - INFO - Database connection established successfully
+2025-06-19 12:08:50,787 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-19 12:08:50,789 - INFO - Prepared 40 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:08:50,789 - INFO - Training model with 6 data points
+2025-06-19 12:08:50,899 - INFO - Model trained successfully. RMSE: 295897.33, MAPE: 18.78%
+2025-06-19 12:08:50,899 - INFO - Training model with 6 data points
+2025-06-19 12:08:50,911 - INFO - Model trained successfully. RMSE: 728723.20, MAPE: 16.67%
+2025-06-19 12:08:50,911 - INFO - Training model with 6 data points
+2025-06-19 12:08:51,022 - INFO - Model trained successfully. RMSE: 762609.10, MAPE: 70.57%
+2025-06-19 12:08:51,022 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:08:51,023 - INFO - Script execution completed
+2025-06-19 12:09:10,344 - INFO - Using mysql-connector-python
+2025-06-19 12:09:10,344 - INFO - Running ARIMA model with siklus_id: 1, steps: 14
+2025-06-19 12:09:10,345 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:09:10,345 - INFO - Starting prediction for siklus_id: 1, steps: 14
+2025-06-19 12:09:10,345 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:09:10,361 - INFO - Database connection established successfully
+2025-06-19 12:09:10,371 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-19 12:09:10,373 - INFO - Prepared 14 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:09:10,373 - INFO - Training model with 6 data points
+2025-06-19 12:09:10,480 - INFO - Model trained successfully. RMSE: 295897.33, MAPE: 18.78%
+2025-06-19 12:09:10,480 - INFO - Training model with 6 data points
+2025-06-19 12:09:10,492 - INFO - Model trained successfully. RMSE: 728723.20, MAPE: 16.67%
+2025-06-19 12:09:10,492 - INFO - Training model with 6 data points
+2025-06-19 12:09:10,598 - INFO - Model trained successfully. RMSE: 762609.10, MAPE: 70.57%
+2025-06-19 12:09:10,598 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:09:10,599 - INFO - Script execution completed
+2025-06-19 12:18:16,216 - INFO - Using mysql-connector-python
+2025-06-19 12:18:16,217 - INFO - Running ARIMA model with siklus_id: 1, steps: 14
+2025-06-19 12:18:16,217 - INFO - ARIMAModel initialized with database config: {'host': 'localhost', 'user': 'root', 'password': '', 'database': 'lelef10'}
+2025-06-19 12:18:16,217 - INFO - Starting prediction for siklus_id: 1, steps: 14
+2025-06-19 12:18:16,217 - INFO - Fetching data for siklus_id: 1
+2025-06-19 12:18:16,261 - INFO - Database connection established successfully
+2025-06-19 12:18:16,277 - INFO - Successfully fetched 6 records for siklus_id: 1
+2025-06-19 12:18:16,281 - INFO - Prepared 14 future dates starting from 2025-06-06 00:00:00
+2025-06-19 12:18:16,282 - INFO - Training model with 6 data points
+2025-06-19 12:18:16,421 - INFO - Model trained successfully. RMSE: 295897.33, MAPE: 18.78%
+2025-06-19 12:18:16,421 - INFO - Training model with 6 data points
+2025-06-19 12:18:16,433 - INFO - Model trained successfully. RMSE: 728723.20, MAPE: 16.67%
+2025-06-19 12:18:16,434 - INFO - Training model with 6 data points
+2025-06-19 12:18:16,542 - INFO - Model trained successfully. RMSE: 762609.10, MAPE: 70.57%
+2025-06-19 12:18:16,542 - INFO - Prediction completed successfully for siklus_id: 1
+2025-06-19 12:18:16,542 - INFO - Script execution completed

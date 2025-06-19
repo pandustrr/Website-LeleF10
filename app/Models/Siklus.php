@@ -46,7 +46,6 @@ class Siklus extends Model
     {
         $transactions = collect();
 
-        // Gabungkan semua transaksi dengan tipe yang benar
         $transactions = $transactions->merge(
             $this->bibits->map(function ($item) {
                 return [

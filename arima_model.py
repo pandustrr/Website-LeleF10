@@ -142,7 +142,6 @@ class ARIMAModel:
                 logging.error("No database connection available")
                 return None
 
-            # Gunakan pandas untuk membaca data dengan parse_dates
             df = pd.read_sql(query, conn, parse_dates=['tanggal'])
             conn.close()
 
@@ -150,7 +149,6 @@ class ARIMAModel:
                 logging.warning("No data found for siklus_id: %d", siklus_id)
                 return None
 
-            # Pastikan kolom tanggal dalam format datetime
             if not pd.api.types.is_datetime64_any_dtype(df['tanggal']):
                 df['tanggal'] = pd.to_datetime(df['tanggal'], errors='coerce')
                 df = df.dropna(subset=['tanggal'])
@@ -317,7 +315,7 @@ def main():
         print(json.dumps({'error': error_msg}))
 
 if __name__ == "__main__":
-    # Cleanup function when script exits
+
     def cleanup():
         logging.info("Script execution completed")
 

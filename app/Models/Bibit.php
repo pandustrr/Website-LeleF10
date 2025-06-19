@@ -12,13 +12,11 @@ class Bibit extends Model
     protected $fillable = ['tanggal', 'kuantitas', 'type', 'siklus_id'];
     protected $dates = ['tanggal'];
 
-    // Daftar harga tetap per tipe bibit (dalam rupiah per kg)
     public const HARGA_BIBIT = [
         'Bibit Standar' => 43000,
         'Bibit Premium' => 65000,
     ];
 
-    // Relasi ke siklus
     public function siklus()
     {
         return $this->belongsTo(Siklus::class);

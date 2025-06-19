@@ -78,7 +78,6 @@ class FuzzyService
             $command[] = $this->normalizeFcrValue($currentFcr);
         }
 
-        // Tambahkan data historis jika ada
         if (!empty($historicalFcr)) {
             $command[] = escapeshellarg(json_encode($historicalFcr));
         }

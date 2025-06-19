@@ -39,7 +39,7 @@ def main():
             current_recommendation = "Tidak ada data FCR saat ini. Monitor perkembangan secara manual."
             current_status = "warning"
         else:
-            if current_fcr < 1.0:
+            if current_fcr < 1.0:   
                 current_recommendation = "FCR saat ini sangat baik. Pertahankan pola pemberian pakan saat ini."
                 current_status = "baik"
             elif current_fcr < 1.5:
@@ -123,13 +123,13 @@ def main():
                 periode3 = np.linspace(future_pred[0], future_pred[1], 40)
             else:
                 # Jika data tidak cukup, gunakan proyeksi sederhana
-                if predicted_value < 1:  # Tren bagus
+                if predicted_value < 1:
                     periode2 = np.linspace(predicted_value, predicted_value * 0.98, 40)
                     periode3 = np.linspace(predicted_value * 0.98, predicted_value * 0.96, 40)
-                elif predicted_value < 1.5:  # Tren sedang
+                elif predicted_value < 1.5:
                     periode2 = np.linspace(predicted_value, predicted_value * 1.02, 40)
                     periode3 = np.linspace(predicted_value * 1.02, predicted_value * 1.04, 40)
-                else:  # Tren buruk
+                else:
                     periode2 = np.linspace(predicted_value, predicted_value * 1.05, 40)
                     periode3 = np.linspace(predicted_value * 1.05, predicted_value * 1.1, 40)
 
@@ -185,7 +185,6 @@ def main():
         print(json.dumps(result))
 
     except Exception as e:
-        # Tangani error jika terjadi
         error_result = {
             "error": str(e),
             "siklus_id": siklus_id if 'siklus_id' in locals() else 0,

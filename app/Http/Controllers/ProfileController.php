@@ -55,7 +55,7 @@ class ProfileController extends Controller
 
             case 'password':
                 $rules = [
-                    'new_password' => ['confirmed', Password::min(8)],
+                    'new_password' => ['required', Password::min(8)],
                 ];
                 $updateData = ['password' => $request->new_password];
                 break;

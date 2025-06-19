@@ -7,13 +7,11 @@ use App\Models\Panen;
 
 class PanenController extends Controller
 {
-    // Menampilkan form input
     public function create()
     {
         return view('components.produksi.modals.panen-edit');
     }
 
-    // Menyimpan data baru
     public function store(Request $request)
     {
         $request->validate([
@@ -29,7 +27,6 @@ class PanenController extends Controller
             ->with('success', 'Data panen berhasil disimpan!');
     }
 
-    // Hapus data
     public function destroy($id)
     {
         $panen = Panen::findOrFail($id);

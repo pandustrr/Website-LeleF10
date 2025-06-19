@@ -13,7 +13,6 @@ class PakanController extends Controller
         return view('components.produksi.modals.pakan-edit');
     }
 
-    // Menyimpan data baru
     public function store(Request $request)
     {
         $request->validate([
@@ -30,7 +29,6 @@ class PakanController extends Controller
     }
 
 
-    // Hapus data
     public function destroy($id)
     {
         $pakan = Pakan::findOrFail($id);

@@ -22,17 +22,13 @@
                     @method('PUT')
                     <div class="space-y-4">
                         <div>
-                            <label for="new_password" class="block mb-2 text-sm font-medium text-gray-700">Password Baru</label>
-                            <input type="password" id="new_password" name="new_password"
-                                class="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                            <label for="new_password" class="block mb-2 text-sm font-medium text-gray-700">Password Baru (minimal 8 karakter)</label>
+                            <input type="password" id="new_password" name="new_password" required
+                                class="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                placeholder="Masukkan password baru">
                             @error('new_password')
                                 <p class="mt-2 text-sm text-red-600">{{ $message }}</p>
                             @enderror
-                        </div>
-                        <div>
-                            <label for="new_password_confirmation" class="block mb-2 text-sm font-medium text-gray-700">Konfirmasi Password Baru</label>
-                            <input type="password" id="new_password_confirmation" name="new_password_confirmation"
-                                class="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                         </div>
                     </div>
             </div>
@@ -48,4 +44,4 @@
             </div>
         </div>
     </div>
-</div>
+</div>  
